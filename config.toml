@@ -1,0 +1,15 @@
+baseURL = "https://tylerrhodes.net/"
+languageCode = "en-us"
+title = "Tyler Rhodes Online"
+
+googleAnalytics = "UA-116483631-1"
+
+pygmentsCodeFences = true
+pygmentsStyle = "colorful"
+
+[taxonomies]
+tag = "tags"
+
+[params.info]
+Description = "Tyler Rhodes Online"
+

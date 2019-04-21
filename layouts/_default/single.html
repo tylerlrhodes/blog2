@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>
+      {{ .Title }}
+    </title>
+    <link rel="stylesheet" type="text/css" href="/site.css" />
+  </head>
+  <body>
+    <article>
+      <div id="post-container" style="text-align:left">
+      <a href="/">Home</a>
+      <a href="/posts">All Posts</a>
+      <header>
+        <h1> {{ .Title }} </h1>
+        {{ .Date.Format "2006-01-02" }}
+      </header>
+      {{ .Content }}
+      </div>
+
+    </article>
+  </body>
+</html>

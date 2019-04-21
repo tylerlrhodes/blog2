@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      All Posts
+    </title>
+    <link rel="stylesheet" type="text/css" href="/site.css" />
+  </head>
+  <body>
+
+    <div id="main-container">
+    <a href="/">Home</a>
+    <h1>All Posts</h1>
+
+    {{ range .Pages.GroupByDate "2006-01" }}
+
+    <h3> {{ .Key }} </h3>
+
+
+      {{ range .Pages }}
+
+        <a href="{{.Permalink}}">{{.Title}}</a> <br />
+
+      {{ end }}
+
+
+	{{ end }}
+    </div>
+
+  </body>
+</html>

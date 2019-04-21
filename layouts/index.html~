@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>
+      Tyler Rhodes Online
+    </title>
+    <link rel="stylesheet" type="text/css" href="/site.css" />
+  </head>
+
+  <body>
+    <div id="main-container">
+        <img id="mypic" src="/mypic.jpg" />
+   
+        <h1>Tyler Rhodes</h1>
+	<p>
+	Software Engineer located in Norwalk, CT.  <br /> <br />
+	Focused on .NET, SQL Server and learning Clojure with some Python and JavaScript scattered about. <br /><br />
+	I like napping in the afternoon and pizza.  <br /> <br />
+	I think America should adopt an after lunch nap time.  I'll vote for
+	a political candidate who advocates for afternoon nap time.
+	</p>
+	<h3>
+	  Recent Blog Entries:
+	</h3>
+	{{ range first 5 .Data.Pages }}
+	   <a href="{{ .Permalink }}">{{ .Title }}</a> <br />
+	   {{ end }} <br />
+	   <a>RSS (Coming)</a> - <a href="/posts">All Posts</a>
+	<h3>Find me on Social Media:</h3>
+	<a href="mailto:tylerlrhodes@gmail.com">Email Me</a> <br />
+	<a href="https://github.com/tylerlrhodes/">Github</a> <br />
+	<a href="https://twitter.com/itcheeze">Twitter</a> <br />
+	<a href="https://www.facebook.com/tyler.rhodes.5648">Facebook</a> <br />
+	<a href="https://linkedin.com/in/rhodest">Linkedin</a> <br />
+    </div>
+  </body>
+</html>
+

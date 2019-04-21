@@ -1,0 +1,41 @@
+
+* {
+    line-height: 1.4;
+}
+
+p,a {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-device-width: 812px) {
+    #main-container {
+	margin: auto;
+	width: 600px;
+	padding: 15px;
+	text-align: center;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    #main-container {
+	margin: 10px;
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+    }
+}
+
+.left-text {
+    text-align: left;
+}
+
+#mypic {
+    border-radius: 25px;
+    margin: 15px 0px 15px 0px;
+}
