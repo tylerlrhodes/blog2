@@ -43,19 +43,20 @@ accessing the data the order the pages were allocated.
 
 SQL Server can read data from an index in three different ways.
 
-An ordered scan is when SQL server accesses the data based upon the
-order of the index key.  This is displayed in the execution plan
-properties window as a clustered index scan with the ordered property
-set to true.  It is not necessary for an order by clause to be used to
-trigger this type of scan.
+One way is by nn ordered scan, which is when SQL server accesses the
+data based upon the order of the index key.  This is displayed in the
+execution plan properties window as a clustered index scan with the
+ordered property set to true.  It is not necessary for an order by
+clause to be used to trigger this type of scan.
 
-Also available, although typically only used on large tables and when
+Another way, although typically only used on large tables and when
 the data is read in READ UNCOMMITTED or SERIALIZABLE
 transaction-isolation levels, is an allocation order scan.  Here, SQL
 Server accesses the data through the IAM pages, similar to a heap
 table.  This type of scan can be faster for larger tables, however it
 can produce inconsistent results, as rows can be skipped or read
 multiple times due to page splits.
+
 
 
 
