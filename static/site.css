@@ -4,11 +4,23 @@ html {
 }
 
 * {
+    font-family: arial;
+}
+                     
+body, input, button {
     font-size: 1.3rem;
 }
 
 p,a,ul,li {
     line-height: 1.4;
+}
+
+.fp-post-link {
+    display: inline-block;
+    width: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 h1 {
@@ -75,4 +87,20 @@ code, code > * {
 #mypic {
     border-radius: 25px;
     margin: 15px 0px 15px 0px;
+}
+
+/* Gist formatting */
+
+body .gist {
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+body .gist .highlight {
+    font-size: inherit;
+}
+
+body .gist .highlight td {
+    font-family: inherit;
+    font-size: inherit;
 }

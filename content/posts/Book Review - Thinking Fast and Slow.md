@@ -1,7 +1,7 @@
 ---
 title: "Book Review - Thinking Fast and Slow"
 date: 2019-06-15T11:07:27-04:00
-draft: true
+draft: false
 tags: [
       "book-review"
 ]
