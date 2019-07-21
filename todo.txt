@@ -1,0 +1,38 @@
+
+
+Basic Meta Keywords
+
+
+Open Graph meta
+
+Twitter meta
+
+
+LD+Json
+
+
+opensearch.xml "application/opensearchdescription+xml"
+
+
+openid
+
+
+
+link rel=me
+
+
+canonical links
+
+
+base href
+
+
+Include all content in RSS/Atom feed
+
+
+
+
+
+
+
+

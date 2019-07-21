@@ -3,11 +3,51 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+
+    <meta name="title" content="{{ .Title }}" />
+    <meta name="description" content="{{ .Description }}" />
+    <meta name="author" content="{{ .Site.Params.Info.Author }}" />
+    <meta name="copyright" content="{{ .Site.Params.Info.Author }}" />
+    <meta name="keywords" content="{{ delimit .Keywords ", " }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{ .Site.Params.Info.TwitterHandle }}" />
+    <meta name="twitter:creator" content="{{ .Site.Params.Info.TwitterHandle }}" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
+    <meta name="twitter:image" content= "{{ .Site.Params.Info.Image | absURL }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    
+    <meta name="og:url" content="{{ .Permalink }}" />
+    <meta name="og:title" content="{{ .Title }}" />
+    <meta name="og:image" content="{{ .Site.Params.Info.Image | absURL }}" />
+    <meta name="og:description" content="{{ .Description }}" />
+    <meta name="og:type" content="blog" />
+
+    <script type="application/ld+json"> 
+      {
+          "@context": "http://schema.org",
+          "@type": "BlogPosting",
+          "inLanguage": "en-US",
+          "author": "{{ .Site.Params.Info.Author }}",
+          "url": {{ .Permalink }},
+          "name": "{{ .Title }}",
+          "headline": "{{ .Title }}",
+          "datePublished": "{{ .Date.Format "2006-01-02" }}",
+          "description": " {{ .Description }}",
+          "image": [{{ .Site.Params.Info.Image | absURL }} ],
+          "wordCount": "{{ .WordCount }}",
+          "keywords": "{{ delimit .Keywords ", " }}"
+      }
+    </script>
+    
     <title>
       {{ .Title }}
     </title>
+    
     <link rel="stylesheet" type="text/css" href="/site.css" />
   </head>
+  
   <body>
     <article>
       <div id="post-container" style="text-align:left">

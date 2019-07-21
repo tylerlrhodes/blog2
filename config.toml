@@ -12,4 +12,6 @@ tag = "tags"
 
 [params.info]
 Description = "Tyler Rhodes Online"
-
+Author = "Tyler Rhodes"
+TwitterHandle = "@itcheeze"
+Image = "mypic.jpg"
