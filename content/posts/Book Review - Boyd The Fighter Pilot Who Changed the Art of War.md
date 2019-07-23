@@ -5,10 +5,10 @@ draft: false
 description: "My review of the book Boyd: The Fighter Pilot Who
 Changed the Art of War -- you should read it!"
 tags: [
-      "Book Review"
+      "Book-Review"
 ]
-keywords: [ "Book Review, John Boyd, Figher Pilot, Air Force,
-Pentagon, History" ]
+keywords: [ "Book Review", "John Boyd", "Figher Pilot", "Air Force",
+"Pentagon", "History" ]
 
 ---
 
@@ -61,8 +61,6 @@ Boyd was a warrior and this book shows that.  Despite his many
 enemies, his dedication and the fact that he was usually right,
 resulted in him being able to pull some powerful strings and move the
 largest bureaucracy in the world to occasionally do the right thing.
-
-The story of Boyd is one of dedication to a cause.
 
 Unfortunately while he tirelessly worked to improve the armed forces,
 he was basically negligent to his wife and children, and his

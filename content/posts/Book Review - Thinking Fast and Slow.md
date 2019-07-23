@@ -5,7 +5,8 @@ draft: false
 tags: [
       "book-review"
 ]
-
+description: "My review of Thinking Fast and Slow by Daniel Kahneman"
+keywords: [ "Book Review, Thinking, Psychology"]
 ---
 
 Thinking, Fast and Slow, by Daniel Kahneman is a book that is worth

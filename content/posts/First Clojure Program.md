@@ -6,7 +6,9 @@ tags: [
       "clojure",
       "emacs"
 ]
-
+description: "I wrote my first Clojure program, which is a clone of
+Tetris.  The post covers my experience developing it. "
+keywords: [ "Clojure, Tetris, Programming, Emacs" ]
 ---
 
 My first Clojure program is basically done.  It's a bare bones working

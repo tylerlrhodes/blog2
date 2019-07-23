@@ -2,6 +2,12 @@
 title: "2019 Goals - Updated Learning Plan"
 date: 2019-04-24T08:16:40-04:00
 draft: false
+tags: [
+      "Personal", "coding"
+]      
+description: "My learning plan always changes, so chances are this
+post will be obsolete by now.  But I'll outline it here anyway..."
+keywords: [ "Learning" ]
 ---
 
 So this post probably should have been written sometime back in
