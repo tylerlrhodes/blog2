@@ -2,8 +2,8 @@
 title: "Book Review - Boyd: The Fighter Pilot Who Changed the Art of War"
 date: 2019-07-17T18:58:33-04:00
 draft: false
-description: "My review of the book Boyd: The Fighter Pilot Who
-Changed the Art of War -- you should read it!"
+description: "My review of the book Boyd: 'The Fighter Pilot Who
+Changed the Art of War' -- you should read it!"
 tags: [
       "Book-Review"
 ]
