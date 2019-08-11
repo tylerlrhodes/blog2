@@ -1,12 +1,10 @@
 ---
-title: "Planning to Build a Blog Commenting System with Lambda and DynamoDB, part 1"
-date: 2018-04-04T19:08:41-04:00
+title: Planning to Build a Blog Commenting System with Lambda and DynamoDB, part 1
+date: 2018-04-04T23:08:41Z
 draft: false
-tags: [
-    "aws",
-    "lambda",
-    "dynamodb"
-]
+tags: [programming]
+description: I write about planning to develop a commenting system utilizing AWS Lambda and DynamoDB.
+keywords: [AWS, Lambda, DynamoDB]
 ---
 
 Adding comments to your blog is easy for the most part.  You sign up for Disqus either for free or pay them a monthly fee and you

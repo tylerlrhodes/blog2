@@ -1,12 +1,10 @@
 ---
-title: "Planning to Build a Blog Commenting System with Lambda and DynamoDB, part 2"
-date: 2018-04-08T11:10:06-04:00
+title: Planning to Build a Blog Commenting System with Lambda and DynamoDB, part 2
+date: 2018-04-08T15:10:06Z
 draft: false
-tags: [
-    "aws",
-    "lambda",
-    "dynamodb"
-]
+tags: [programming]
+description: After planning I decide not to implement a custom commenting system using Lambda and DynamoDB.  It would be a lot of work.
+keywords: [AWS, Lambda, DynamoDB]
 ---
 
 Well during the last post I said that I didn't think long enough or hard enough before deciding to build

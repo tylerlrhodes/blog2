@@ -1,10 +1,10 @@
 ---
-title: "Bagombo Deprecated"
-date: 2018-03-11T14:21:52-04:00
+title: Bagombo Deprecated
+date: 2018-03-11T18:21:52Z
 draft: false
-tags: [
-    "meta"
-]
+tags: [personal]
+description: Bagombo is deprecated but remains available on GitHub.  Moving my blog to Hugo and S3.
+keywords: [bagombo, hugo, s3, aws]
 ---
 Before I get into why I'm deprecating Bagombo, I think it's more important for me to reflect on why I want to blog and how I got sidetracked.
 
