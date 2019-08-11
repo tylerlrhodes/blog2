@@ -1,11 +1,10 @@
 ---
-title: "Back to SICP"
-date: 2018-09-29T14:26:56-04:00
+title: Back to SICP
+date: 2018-09-29T18:26:56Z
 draft: false
-tags: [
-      "SICP",
-      "musings"
-]      
+tags: [personal]
+description: A return to SICP after being sidetracked.
+keywords: [SICP, Scheme]
 ---
 
 I meant for September to be a month to rest a little from SICP and to
