@@ -1,6 +1,8 @@
 
 Push-Location
 
+Import-Module AWSPowerShell.NetCore
+        
 Remove-Item "public" -Recurse
 
 hugo 
