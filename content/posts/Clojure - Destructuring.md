@@ -10,7 +10,27 @@ keywords: [Clojure, destructuring]
 tags: [programming]
 ---
 
-Imagine you have a map, or a vector, or some composite object to
+I'm pretty lazy and even though writing code isn't physically taxing,
+I still like to write as little of it as possible to accomplish what I
+want.  I also like code that is easy to read and shows what it does in
+as simple a way as possible.  I think this is one of the reasons the
+more I use Clojure the more I like it.
+
+Destructuring let's me be even lazier than I already am, and even
+though the first few times I saw it I struggled to see what it was
+doing, after working through it a bit I think it shows what it does
+fairly elegantly.
+
+In this blog post I'm going to go over how to use destructuring with
+Clojure with a few examples.  I'll also show how you can use it to
+pass optional arguments to functions.
+
+## Destructuring
+
+Destructuring allows you to easily bind symbols to values from a data
+structure.
+
+Imagine you have a map, or a vector, or some data structure to
 represent something in your application.  Then imagine you would like
 to refer to a property which is represented by an element in that map
 or vector to easily reference it.  Destructuring allows you to do this
@@ -168,9 +188,78 @@ This makes possible doing something like this:
 
 
 The other destructuring in Clojure is known as associative
-destructuring, 
+destructuring and applies to associative strucutres.  Associative
+structures include things like maps, records, and vectors.
 
+```clojure
+(def PC
+  {:cpu "i7"
+   :ram "64gb"
+   :os "windows 10"
+   :hard-drive "ssd"})
 
+(let [{cpu :cup
+       ram :ram
+       os :os
+       hard-drive :hard-drive} PC]
+  (printf "CPU: %s\tRAM: %s\nOS: %s\tHard-drive: %s"
+          cpu ram os hard-drive))
+```
 
+The example above is a simple one, and shows how associative
+destructuring works.  The destructuring is a map instead of a vector
+and the keys are placed after the symbols to be bound to.  In this
+case the keys are keywords, but the can be any key value.
 
+Here are some more examples of associative destructuring:
+
+```clojure
+;; ex 8
+(let [{has-virus? :has-virus?} PC]
+  (println "PC has virus? " has-virus?))
+;; PC has virus? nil
+
+;; ex 9
+(let [{has-virus? :has-virus? :or {has-virus? "Unknown"}} PC]
+  (println "PC has virus? " has-virus?))
+;; PC has virus? Unknown
+
+;; ex 10
+(let [{:keys [cpu ram os hard-drive has-virus?]
+       :or {has-virus? "Unknown"}} PC]
+  (printf "CPU: %s\tRAM: %s\nOS: %s\tHard-drive: %s\nHas virus? %s\n"
+          cpu ram os hard-drive has-virus?))
+;; CPU: i7	RAM: 64gb
+;; OS: windows 10	Hard-drive: ssd
+;; Has virus? Unknown
+
+;; ex 11
+(let [{:keys [cpu ram os hard-drive has-virus?]
+       :or {has-virus? "Unknown"}
+       :as all} PC]
+  (printf "CPU: %s\tRAM: %s\nOS: %s\tHard-drive: %s\nHas virus? %s\n"
+          cpu ram os hard-drive has-virus?)
+  (printf "PC: %s" all))
+;; CPU: i7	RAM: 64gb
+;; OS: windows 10	Hard-drive: ssd
+;; Has virus? Unknown
+;; PC: {:cpu "i7", :ram "64gb", :os "windows 10", :hard-drive "ssd"}
+```
+
+These examples are pretty self explanatory.  Example nine shows how
+the :or key can be used to supply a default value.
+
+Example 10 shows the :keys shortcut, which allows you to not have to
+specifiy the individual keywords.  There are also :strs and :syms
+keywords which do the same as :keys, but for strings and symbols
+respectively.
+
+Example 11 shows how to bind the entire map to a symbol in addition to
+destructuring individual values.
+
+It's possible of course to combine sequential and associative
+destructurings, and both forms of destructuring can be nested as
+needed.
+
+## Optional Arguments
 
