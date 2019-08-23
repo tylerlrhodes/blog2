@@ -70,6 +70,8 @@ Clojure](https://clojure.org/guides/destructuring).
 Clojure's destructuring is broken up into two categories, sequential
 and associative.
 
+### Sequential Destructuring
+
 The above was an example of sequential destructuring, where a vector
 was destructured.  This type of destructuring can be applied to
 anything that can produce a sequence.
@@ -185,10 +187,10 @@ This makes possible doing something like this:
   (println "Rest of diet: " (clojure.string/join ", " foods)))
 ```
 
-
+### Associative Destructuring
 
 The other destructuring in Clojure is known as associative
-destructuring and applies to associative strucutres.  Associative
+destructuring and applies to associative structures.  Associative
 structures include things like maps, records, and vectors.
 
 ```clojure
@@ -262,4 +264,40 @@ destructurings, and both forms of destructuring can be nested as
 needed.
 
 ## Optional Arguments
+
+Functions in Clojure allow for you to specify mulitple definitions for
+different arities.  It also allows for variadic definitions of
+functions, where you can pass any number of arguments.
+
+This gives us a few options for writing functions to accept optional
+arguments.
+
+For example:
+
+```clojure
+(defn manage-pc
+  ([pc]
+   (manage-pc pc {}))
+  ([pc options]
+   (let [{:keys [os]} pc
+         {:keys [scan] :or {scan false}} options]
+     (printf "os: %s\nscan? %s\n" os scan))))
+```
+
+In this implementation we utilize a multi-arity function definition so
+that we can optionally pass a map to "scan" the PC.  This works fine
+and is a simple way to support optional arguments.
+
+Another way to accomplish this which doesn't require a multi-arity
+definition is to define a variadic function, such as:
+
+```clojure
+(defn manage-pc
+  [pc & options]
+  (let [{:keys [os]} pc
+        {:keys [scan] :or {scan false}} (first options)]
+    (printf "os: %s\nscan? %s\n" os scan)))
+```
+
+Either way works fine and accomplishes the same thing.
 
