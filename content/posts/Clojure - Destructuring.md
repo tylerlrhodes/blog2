@@ -1,7 +1,7 @@
 ---
 title: "Clojure: Destructuring and Optional Arguments"
-date: 2019-08-17T19:04:14-04:00
-draft: true
+date: 2019-08-24T12:04:14-04:00
+draft: false
 description: "Destructuring in Clojure is something that shows up
 frequently in code, and to the beginner Clojurist can be difficult to
 decipher.  Being a beginner Clojurist myself, and getting tired of
@@ -285,7 +285,7 @@ For example:
 ```
 
 In this implementation we utilize a multi-arity function definition so
-that we can optionally pass a map to "scan" the PC.  This works fine
+that we can optionally pass a map to scan the PC.  This works fine
 and is a simple way to support optional arguments.
 
 Another way to accomplish this which doesn't require a multi-arity
@@ -299,5 +299,50 @@ definition is to define a variadic function, such as:
     (printf "os: %s\nscan? %s\n" os scan)))
 ```
 
-Either way works fine and accomplishes the same thing.
+Either way works fine and accomplishes the same thing.  The variadic
+approach allows for a little less typing, but just by a bit.  
+
+Another technique available is to pass keyword arguments.  These
+function as optional arguments as well.
+
+```clojure
+(defn manage-pc
+  [{os :os} & {:keys [scan upgrade]
+               :or {scan true upgrade false}}]
+  (printf "os: %s\nscan: %s\nupgrade: %s\n"
+          os scan upgrade))
+
+(manage-pc {:os "windows"} :scan true :upgrade "maybe")
+;; os: windows
+;; scan: true
+;; upgrade: maybe
+```
+
+The prior example also shows that you can specify destructurings on
+incoming parameters of functions as well.  Wherever there is an
+implicit or explicit let binding destructuring can be used.
+
+## Summary
+
+Destructuring allows us to add some brevity to our code, and I think
+enhances readability.  I'm sure that in my Tetris clone it could have
+been used a number of times, and when I refactor it I plan on
+introducing it there.
+
+One of the oft touted benefits of Clojure is how expressive a language
+it is, and how small the core language is.  Destructuring is one of
+the ways to keep code short and readable.
+
+Destructuring isn't unique to Clojure.  Languages like Python and
+JavaScript have it, and even C# has added it recently.
+
+Coming from an object oriented language I find that in the Clojure
+I've written so far, my data structures are generally simple maps and
+vectors and destructuring obviouslly works well with these.  Perhaps
+thankfully there are no more getters and setters to be found all over
+the place.
+
+This post is basically just a reference for myself.  More depth can be
+found at [Destructuring in
+Clojure](https://clojure.org/guides/destructuring).
 

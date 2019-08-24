@@ -5,7 +5,7 @@ title = "Tyler Rhodes Online"
 googleAnalytics = "UA-116483631-1"
 
 pygmentsCodeFences = true
-pygmentsStyle = "colorful"
+pygmentsStyle = "emacs"
 
 [taxonomies]
 tag = "tags"
