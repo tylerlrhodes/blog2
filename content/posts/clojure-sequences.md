@@ -154,7 +154,7 @@ interface as being only composed of *first, rest,* and *cons*.
 
 Going by the docs here, the immediate thing to be concerned with is
 the potential difference in the return value between *rest* and
-*next*, even though the appear to do the same thing.
+*next*, even though they appear to do the same thing.
 
 The roots of this are explored at [Making Clojure
 Lazier](https://clojure.org/reference/lazy), and is a sort of
@@ -180,6 +180,225 @@ Clojure provides all of the structures that you'll typically need in
 general development, such as *maps, vectors,* and *lists.*  With the
 *Seq* interface, we also have a large common set of functions that we
 can perform on these and other collection types.
+
+While *seqs* may commonly be thought of as sequential orderings over
+general data structures such as lists and vectors, the abstraction can
+be extended and utilized over a number of input sources which can
+conform to the abstraction.
+
+For example, the *Seq* interface allows us to do something like this:
+
+```clojure
+(with-open [rdr (io/reader file-name)]
+  (doseq [line (map #(string/upper-case %) (line-seq rdr))]
+    (println line)))
+```    
+
+This short snippet of code opens a file, reads it line by line, and
+transforms each line to upper case and prints it.
+
+The *Seq* interface also extends to structures such as XML and trees.
+
+For example:
+
+```clojure
+(let [xml "<?xml version=\"1.0\" encoding=\"UTF-8\"?><top attr1=\"one\"><middle>hello</middle></top>"]
+  (let [root (xml/parse (java.io.ByteArrayInputStream. (.getBytes xml)))]
+    (doseq [node (xml-seq root)]
+      (println node))))
+```      
+
+The *Seq* interface also allows us to perform these operations on Java
+collection types, and use them in the same way we would use any other
+Clojure collection.
+
+```clojure
+(let [stack (java.util.Stack.)]
+  (doto stack
+    (.push 10)
+    (.push 20)
+    (.push 30))
+  (reduce + stack))
+```
+
+This is possible because Java's *Stack* collection implements
+*Iterable*, from which *seq* is able to produce an implementation of
+*ISeq* for the sequence.
+
+It's important to be aware however, that when the underlying
+collection isn't one of the immutable persistent types provided by
+Clojure, it's possible to run into your common concurrency issues with
+mutable state.
+
+For a simple demonstration, lets look at the following examples:
+
+```clojure
+(let [signal (atom false)
+      array (int-array 5)]
+  (println "initial:")
+  (doseq [val array] (println val))
+  (async/thread
+    (Thread/sleep 500)
+    (println "...starting thread...")
+    (loop [stop @signal]
+      (when-not stop
+        (do
+          (dotimes [n 5]
+            (aset array n (+ 1 (rand-int 100))))
+          (Thread/sleep 100)
+          (recur @signal)))))
+  (println "next:")
+  (doseq [val array]
+    (println val)
+    (Thread/sleep 1000))
+  (compare-and-set! signal false true)
+  (println "final:")
+  (doseq [val array]
+    (println val)))
+```    
+
+If you were to run this (you need core.async for thread) you would see
+the following output (values would be different):
+```
+initial:
+0
+0
+0
+0
+0
+next:
+0
+...starting thread...
+92
+87
+63
+36
+final:
+25
+58
+51
+41
+43
+```
+
+You can see here that the values of the sequence can change out from
+under you depending upon the underlying type.  In this case the
+modifications to the array show up while the sequence is iterated and
+the values are printed.
+
+The next example is a little trickier:
+
+```clojure
+(defn seq-test [count]
+  (let [signal (atom false)
+        stack (java.util.Stack.)]
+    (dotimes [n count]
+      (.push stack 0))
+    (println "initial:")
+    (doseq [val stack] (println val))
+    (async/thread
+      (loop [stop @signal]
+        (when-not stop
+          (do
+            (.push stack (+ 1 (rand-int 10)))
+            (Thread/sleep 100)
+            (recur @signal)))))
+    (println "next: ")
+    (doseq [i stack]
+      (println i)
+      (Thread/sleep 1000))
+    (compare-and-set! signal false true)))
+(seq-test 10)
+```
+
+What would you expect the output from this to be?  Or maybe it should
+generate a ConcurrentModifiedException?  This is what prints out:
+
+```
+initial:
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+next: 
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+```
+
+Let's see what the output is when we call *(seq-test 35)*:
+
+```
+initial:
+0
+.
+. (33 zeros)
+0
+next:
+0
+.
+. (30 zeros)
+0 
+Execution error (ConcurrentModificationException) at java.util.Vector$Itr/checkForComodification (Vector.java:1320).
+null
+```
+
+This time we get the exception. We also see that despite the fact we
+are pushing values onto the stack, and it is being obviously modified
+while we are iterating over it and printing the values, we're still
+getting the 0's we put on first.  Not very stack like.
+
+The reason for this is in the way Clojure creates the *seq*, and this
+method in particular:
+
+```java
+public static ISeq chunkIteratorSeq(final Iterator iter) {
+        if (iter.hasNext()) {
+            return new LazySeq(new AFn() {
+                public Object invoke() {
+                    Object[] arr = new Object[CHUNK_SIZE];
+                    int n = 0;
+                    while (iter.hasNext() && n < CHUNK_SIZE)
+                        arr[n++] = iter.next();
+                    return new ChunkedCons(new ArrayChunk(arr, 0, n), chunkIteratorSeq(iter));
+                }
+            });
+        }
+        return null;
+    }
+```    
+
+Without digging any further, you can see that when returning the
+*LazySeq*, when it's first invoked, it iterates through the *Iterator*
+retrieving CHUNK_SIZE elements.  The reason for this has to do with
+the implementation of Clojure's persistent immutable types, and
+performance.
+
+So it's important to remember that even though you can utilize the
+*Seq* interface with Java collections, if you're dealing with
+concurrency, you have to be careful.  This is in contrast to Clojure's
+*vector, map*, and *list*, which are immutable and persistent and can
+safely be used by any threads without synchronization.
+
+
+
+The *Seq* interface is a powerful abstraction which is useful in many
+instances, especially in Clojure.  It lends itself to a declarative
+style of programming, which, coming from an iterative/OOP style can
+take a little getting used to.
 
 
 
