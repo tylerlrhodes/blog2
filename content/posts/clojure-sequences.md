@@ -15,10 +15,11 @@ common set of operations across any number of data structures which
 provide an implementation of the necessary interface.
 
 Scheme, as shown in the book 'The Structure and Interpretation of
-Computer Programs,' provides *cons*, *car* and *cdr* to compose pairs,
-which can be combined to build data structures.  In fact these
-primitives are used to build all of the data structures represented in
-SICP.
+Computer Programs' (SICP), provides *cons* to build up pairs, which
+can be combined to build data structures.  It then provides *car* and
+*cdr* to access the first and second items in the pair
+respectively. These primitives are used to build all of the
+data structures represented in SICP.
 
 One of the structures which can be built in Scheme with pairs is that
 of a sequence -- an ordered collection of objects.  SICP goes on to
@@ -37,8 +38,9 @@ allows for a common set of operations to be performed.
 ## Exploring the Seq "interface"
 
 Clojure's *Seq* interface functions as a conventional interface in
-much the same way as described in SICP.  *Seqs* are persistent and
-immutable, and much of the sequence library is lazy in nature.
+much the same way as described in SICP.  At it's core is a simple
+interface for traversing a sequence, which allows for functionality to
+be built from this base.
 
 The core of Clojure's *Seq* interface is exposed by exploring it's
 Java implementation.  By examining a few functions and interfaces we
@@ -109,7 +111,7 @@ public interface ISeq extends IPersistentCollection {
 }
 ```
 
-And the Clojure *Seq Interface*:
+And the Clojure *Seq* Interface*:
 
 ```clojure
 (def
@@ -180,6 +182,13 @@ Clojure provides all of the structures that you'll typically need in
 general development, such as *maps, vectors,* and *lists.*  With the
 *Seq* interface, we also have a large common set of functions that we
 can perform on these and other collection types.
+
+The [sequence documentation](https://clojure.org/reference/sequences)
+has a list of a number of the functions which operate on *Seqs* in
+Clojure, such as *map*, *reduce*, *filter*, *distinct*, and many
+others.  The *Seq* abstraction allows us to share a significant amount
+of functionality across different underlying types, and provides a
+common framework for composing operations.
 
 While *seqs* may commonly be thought of as sequential orderings over
 general data structures such as lists and vectors, the abstraction can
@@ -311,7 +320,7 @@ The next example is a little trickier:
 (seq-test 10)
 ```
 
-What would you expect the output from this to be?  Or maybe it should
+What would you expect the output from this to be? Maybe it should
 generate a ConcurrentModifiedException?  This is what prints out:
 
 ```
@@ -381,11 +390,14 @@ public static ISeq chunkIteratorSeq(final Iterator iter) {
     }
 ```    
 
-Without digging any further, you can see that when returning the
-*LazySeq*, when it's first invoked, it iterates through the *Iterator*
-retrieving CHUNK_SIZE elements.  The reason for this has to do with
-the implementation of Clojure's persistent immutable types, and
-performance.
+When the *seq* function is used to provide an implementation of *ISeq*
+for Java's *Stack* structure, it uses this *chunkIteratorSeq* method
+to provide the implementation.  You can see that this method, while
+providing a *LazySeq*, grabs chunks of the provided Iterator in
+increments of *CHUNK_SIZE*.  This is why we don't see the new values
+of the *Stack* while iterating over the sequence, and is also why we
+don't get a *ConcurrentModificationException* while we called our test
+function with a count of only 10.
 
 So it's important to remember that even though you can utilize the
 *Seq* interface with Java collections, if you're dealing with
@@ -393,7 +405,7 @@ concurrency, you have to be careful.  This is in contrast to Clojure's
 *vector, map*, and *list*, which are immutable and persistent and can
 safely be used by any threads without synchronization.
 
-
+## Summary
 
 The *Seq* interface is a powerful abstraction which is useful in many
 instances, especially in Clojure.  It lends itself to a declarative
