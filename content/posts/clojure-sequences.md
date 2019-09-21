@@ -1,7 +1,7 @@
 ---
 title: "Clojure: Sequences, part 1"
-date: 2019-08-28T21:01:22-04:00
-draft: true
+date: 2019-09-15T21:01:22-04:00
+draft: false
 keywords: [Clojure, sequences, lazy-seq, chunking, map, reduce]
 tags: [programming]
 description: "Sequences are a key abstraction in Clojure, and
@@ -42,21 +42,24 @@ much the same way as described in SICP.  At it's core is a simple
 interface for traversing a sequence, which allows for functionality to
 be built from this base.
 
+Clojure's *Seq* interface is made of *first*, *rest*, and *cons*.
+These functions allow for the traversal of sequences and their
+creation.  This is basically the same interface which is used in
+Scheme, and SICP, which used *cons*, *car*, and *cdr*.
+
 The core of Clojure's *Seq* interface is exposed by exploring it's
-Java implementation.  By examining a few functions and interfaces we
-can see how the *seq* function allows for *seqs* to be produced for a
-number of collection types.
+Java implementation.  By exploring a few functions and the *ISeq*
+interface we can see how Clojure allows different collection types to
+be used as sequences.
 
-The *ISeq* interface allows for data structures to provide access to
-their elements as sequences.  The *seq* function is used to provide an
-implementation of *ISeq* for the given collection.
+The key functions are *seq* and *seqFrom*, which are used to return an
+implementation of *ISeq* for a given collection type.
 
-Below is the Java code which shows the implementation of how the *seq*
-function provides an implementation of *ISeq* for a given collection:
+The following code shows these key elements:
 
 *(This is from the Clojure source code on Github, specifically [this
 file](https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/RT.java). The
-licenense and copyright can be seen there).*
+license and copyright can be seen there).*
 
 ```java
 static public ISeq seq(Object coll){
@@ -111,7 +114,7 @@ public interface ISeq extends IPersistentCollection {
 }
 ```
 
-And the Clojure *Seq* Interface*:
+And the Clojure *Seq* Interface:
 
 ```clojure
 (def
@@ -186,9 +189,7 @@ can perform on these and other collection types.
 The [sequence documentation](https://clojure.org/reference/sequences)
 has a list of a number of the functions which operate on *Seqs* in
 Clojure, such as *map*, *reduce*, *filter*, *distinct*, and many
-others.  The *Seq* abstraction allows us to share a significant amount
-of functionality across different underlying types, and provides a
-common framework for composing operations.
+others.
 
 While *seqs* may commonly be thought of as sequential orderings over
 general data structures such as lists and vectors, the abstraction can
@@ -232,7 +233,7 @@ Clojure collection.
 
 This is possible because Java's *Stack* collection implements
 *Iterable*, from which *seq* is able to produce an implementation of
-*ISeq* for the sequence.
+*ISeq*.
 
 It's important to be aware however, that when the underlying
 collection isn't one of the immutable persistent types provided by
@@ -268,7 +269,7 @@ For a simple demonstration, lets look at the following examples:
 
 If you were to run this (you need core.async for thread) you would see
 the following output (values would be different):
-```
+```text
 initial:
 0
 0
@@ -323,7 +324,7 @@ The next example is a little trickier:
 What would you expect the output from this to be? Maybe it should
 generate a ConcurrentModifiedException?  This is what prints out:
 
-```
+```text
 initial:
 0
 0
@@ -348,9 +349,13 @@ next:
 0
 ```
 
+
+
+
+
 Let's see what the output is when we call *(seq-test 35)*:
 
-```
+```text
 initial:
 0
 .
@@ -412,15 +417,10 @@ instances, especially in Clojure.  It lends itself to a declarative
 style of programming, which, coming from an iterative/OOP style can
 take a little getting used to.
 
+Clojure's *Seq* interface functions as a conventional interface in the
+same manner as is explored in SICP.  While Clojure's sequences aren't
+built using *pairs*, in the end we get the same simple traversal and
+the wide range of common operations which can be built from the *Seq*
+interface and used with multiple underlying collection types.
 
-
-- differences between clojure and lisp(s) - cons cells vs ISeq
-- abstraction of collections
-- th Seq interface
-- immutability
-- lazy sequences, chunking
-- concurrency - iterables and ConcurrentModificationException
-- lazy-seq vs lazy-cons
-- java collections and sequences
-- iterable
 
