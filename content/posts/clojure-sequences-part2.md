@@ -8,9 +8,31 @@ tags: [programming]
 keywords: [clojure, sequences, lazy-seq]
 ---
 
-In the first part of this series, I took a look at sequences in
+In the first part of this series I took a look at sequences in
 Clojure.  I reviewed how the *Seq* interface functions as a
 conventional interface, how *seqs* are implemented and exposed in
-Clojure, and how to use them.
+Clojure, and how they may be used.  I also looked at using standard
+Java collection classes, and some of the things to watch out for in
+concurrent code.
+
+In this post I'll take a look at how Clojure works with lazy
+sequences - both how to use them, and how they are implemented by the
+runtime.  I'll also explore the behavior of sequences when using the
+REPL, and why they don't seem to behave lazily.
+
+Lazy sequences in Clojure allow for functions that return *seqs* to do
+so incrementally, thus delaying potential computation or I/O, and only
+performing the operation to produce an item as elements are consumed.
+Most of the functions in the sequence library in Clojure are lazy,
+including *map*, *filter*, *cycle*, *take* etc.
+
+
+
+
+
+
+* How the REPL evaluates expressions
+* How lazy-seq is implemented by the runtime
+* 
 
 
