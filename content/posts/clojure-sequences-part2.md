@@ -26,8 +26,14 @@ performing the operation to produce an item as elements are consumed.
 Most of the functions in the sequence library in Clojure are lazy,
 including *map*, *filter*, *cycle*, *take* etc.
 
+Lazy sequences in Clojure are similar to *Streams* as demonstrated in
+*The Structure and Interpretation of Computer Programs*, in section
+3.5.  Both allow for values in a sequence to be produced on demand,
+allowing for sequence manipulations to be performed without the need
+for the entire sequence to be copied at each step.
 
-
+Clojure goes even further than Lazy Sequences and offers another tool
+called *Transducers*, 
 
 
 
