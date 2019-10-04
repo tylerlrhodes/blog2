@@ -32,8 +32,52 @@ Lazy sequences in Clojure are similar to *Streams* as demonstrated in
 allowing for sequence manipulations to be performed without the need
 for the entire sequence to be copied at each step.
 
+* verify above statement
+
 Clojure goes even further than Lazy Sequences and offers another tool
-called *Transducers*, 
+called *Transducers*, which allow for the composition of
+transformations, reducing further the number of sequences needed to
+perform composed operations.  I'm not going to cover *Transducers* in
+this blog post.
+
+## Using Lazy Sequences
+
+
+
+
+## Lazy Sequence Implementation
+
+
+```Clojure
+(defmacro lazy-seq
+  "Takes a body of expressions that returns an ISeq or nil, and yields
+  a Seqable object that will invoke the body only the first time seq
+  is called, and will cache the result and return it on all subsequent
+  seq calls. See also - realized?"
+  {:added "1.0"}
+  [& body]
+  (list 'new 'clojure.lang.LazySeq (list* '^{:once true} fn* []
+  body)))
+
+(def
+ ^{:arglists '([coll])
+   :doc "Returns the first item in the collection. Calls seq on its
+    argument. If coll is nil, returns nil."
+   :added "1.0"
+   :static true}
+ first (fn ^:static first [coll] (. clojure.lang.RT (first coll))))
+
+(def
+ ^{:arglists '([coll])
+   :tag clojure.lang.ISeq
+   :doc "Returns a possibly empty seq of the items after the first. Calls seq on its
+  argument."
+   :added "1.0"
+   :static true}  
+ rest (fn ^:static rest [x] (. clojure.lang.RT (more x))))
+ 
+
+```  
 
 
 
