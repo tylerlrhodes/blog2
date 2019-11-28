@@ -372,7 +372,9 @@ null
 This time we get the exception. We also see that despite the fact we
 are pushing values onto the stack, and it is being obviously modified
 while we are iterating over it and printing the values, we're still
-getting the 0's we put on first.  Not very stack like.
+getting the 0's we put on first.  Not very stack like (of note is that
+iterating over a Stack in Java does not necessarily give the items in
+the order you would expect a stack to).
 
 The reason for this is in the way Clojure creates the *seq*, and this
 method in particular:
