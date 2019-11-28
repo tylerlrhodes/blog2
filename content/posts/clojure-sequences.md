@@ -307,6 +307,7 @@ The next example is a little trickier:
     (println "initial:")
     (doseq [val stack] (println val))
     (async/thread
+      (Thread/sleep 200)
       (loop [stop @signal]
         (when-not stop
           (do
@@ -322,7 +323,9 @@ The next example is a little trickier:
 ```
 
 What would you expect the output from this to be? Maybe it should
-generate a ConcurrentModifiedException?  This is what prints out:
+generate a ConcurrentModifiedException?  This is what it *probably*
+prints out (depending upon the timing it may through a
+ConcurrentModifiedException, or it may not):
 
 ```text
 initial:
@@ -348,10 +351,6 @@ next:
 0
 0
 ```
-
-
-
-
 
 Let's see what the output is when we call *(seq-test 35)*:
 

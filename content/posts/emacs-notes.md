@@ -23,19 +23,19 @@ to be dislayed in a window.<br/>
 
 ### Windows & Frames
 
-*C-x o* : switch to another window
+Switch to another window: *C-x o*
 
-*C-x 5 o* : switch to the window on other frame
+Switch to the window on other frame: *C-x 5 o*
 
-*C-x 5 2* : create a new frame
+Create a new frame: *C-x 5 2*
 
-*C-x 5 0* : delete the frame
+Delete the frame: *C-x 5 0*
 
-*C-x 3* : create a new window on the right
+Create a new window on the right: *C-x 3*
 
-*C-x 2* : create a new window below
+Create a new window below: *C-x 2*
 
-*C-x 0* : close current window
+Close the current window: *C-x 0*
 
 
 ### Motion
