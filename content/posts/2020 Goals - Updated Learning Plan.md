@@ -42,6 +42,38 @@ this year.  I probably won't even read many of them, but I kind of
 like to buy books.  And I like to plan on reading them.  And I do like
 to read them too.
 
+But I also like to finish things on occassion that I had planned to
+finish.  Looking back, for example, I started SICP almost a year and a
+half ago, and I'm still not done!  I haven't even really worked on it
+since November of 2018 it looks like.  So it's definitely time to
+finish SICP.
+
+This year I'll break up my learning plan and goals into three
+sections: Books to Read, Posts to Write, and Things to Do.
+
+### Books to Read
+* Finish Structure and Interpretation of Computer Programs (The Wizard
+Book)
+* Discrete Math and Functional Programming
+* Operating Systems: Three Easy Pieces
+* Code: The Hidden Language of Computer Hardware and Software
+
+### Posts to Write
+* Book Reviews:
+ * Anger, Madness and the Daimonic: The Psychological Genesis of
+ Violence, Evil and Creativity
+ * The Organization Man
+ * Violence and the Sacred
+ * The One by Whom Scandal Comes
+ * The Scapegoat
+ * Skin in the Game: Hidden Asymmetries in Daily Life
+ * The Black Swan
+ * The Tipping Point: How Little Things Can Make a Big Difference
+ * Deceit, Desire, and the Novel: Self and Other in Literary Structure
+ * Any other books I read etc.
+* Technical Posts
+ * 
+
 
 
 
