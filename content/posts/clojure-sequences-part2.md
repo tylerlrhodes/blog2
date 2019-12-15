@@ -86,3 +86,17 @@ this blog post.
 * 
 
 
+Streams are a clever idea that allows one to use sequence manipulations without incurring the costs of manipulating sequences as lists
+
+ - sicp - are lazy sequences the same?
+
+
+Streams / Lazy Sequences allow us to achieve in the declarative style using sequence manipulations while maintaining the efficiency of an iterative implementation.
+
+With streams the implementation evalutes the cdr, or next element, at selection time instead of when the stream is constructed.
+
+In SICP delayed streams are built using delay and force:
+
+Clojure's delay and forced vs SICP delay and force (memo-proc)
+
+
