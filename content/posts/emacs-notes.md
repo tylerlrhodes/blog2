@@ -56,6 +56,12 @@ Display previous full screen of file : *M-v*
 
 Go to line number : *M-x goto-line*
 
+Move back to previous paragraph beginning (backward-paragraph): *M-{*
+
+Move forward to next paragram end (forward-paragraph): *M-}*
+
+Put a point and mark around this or next paragraph (mark-paragraph): *M-h*
+
 
 ### CIDER
 
