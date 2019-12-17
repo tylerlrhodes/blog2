@@ -34,6 +34,96 @@ for the entire sequence to be copied at each step.
 
 * verify above statement
 
+In Scheme, as show in in SICP, it's possible to create streams which
+produce the next value when its needed, instead of all at once.  This
+is explored in section 3.5 of SICP, and implemented using *delay* and
+*force*.
+
+Can we do the same thing in Clojure using the built in *cons*?
+
+Let's look at how *cons* is implemented in Clojure.  First, the
+definition in *clojure.core*:
+
+```Clojure
+(def
+ ^{:arglists '([x seq])
+    :doc "Returns a new seq where x is the first element and seq is
+    the rest."
+   :added "1.0"
+   :static true}
+
+ cons (fn* ^:static cons [x seq] (. clojure.lang.RT (cons x seq))))
+```
+
+And digging a little deeper into the Java implementation in *RT.java*:
+
+```Java
+    static public ISeq cons(Object x, Object coll) {
+        //ISeq y = seq(coll);
+        if (coll == null)
+            return new PersistentList(x);
+        else if (coll instanceof ISeq)
+            return new Cons(x, (ISeq) coll);
+        else
+            return new Cons(x, seq(coll));
+    }
+```
+
+So we should probably look at the *Cons* class it's handing back in
+two of the cases:
+
+```Java
+final public class Cons extends ASeq implements Serializable {
+
+    private final Object _first;
+    private final ISeq _more;
+
+    public Cons(Object first, ISeq _more) {
+        this._first = first;
+        this._more = _more;
+    }
+
+
+    public Cons(IPersistentMap meta, Object _first, ISeq _more) {
+        super(meta);
+        this._first = _first;
+        this._more = _more;
+    }
+
+    public Object first() {
+        return _first;
+    }
+
+    public ISeq next() {
+        return more().seq();
+    }
+
+    public ISeq more() {
+        if (_more == null)
+            return PersistentList.EMPTY;
+        return _more;
+    }
+
+    public int count() {
+        return 1 + RT.count(_more);
+    }
+
+    public Cons withMeta(IPersistentMap meta) {
+        if (meta() == meta)
+            return this;
+        return new Cons(meta, _first, _more);
+    }
+}
+```
+
+Ok so without copying all the source code into this post, lets just
+trace through what the following code would do:
+
+```Clojure
+;; Cons example
+```
+
+
 Clojure goes even further than Lazy Sequences and offers another tool
 called *Transducers*, which allow for the composition of
 transformations, reducing further the number of sequences needed to
