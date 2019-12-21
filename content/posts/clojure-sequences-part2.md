@@ -1,6 +1,6 @@
 ---
 title: "Clojure: Sequences, part 2"
-date: 2019-09-21T10:39:46-04:00
+date: 2019-12-21T08:39:46-04:00
 draft: true
 description: "An in depth look at lazy sequences in Clojure: how to
 use them, and how they work."
@@ -40,6 +40,33 @@ is explored in section 3.5 of SICP, and implemented using *delay* and
 *force*.
 
 Can we do the same thing in Clojure using the built in *cons*?
+
+I don't think it's possible due to the way that Clojure's *cons* is
+different from *cons* in Scheme.  In Scheme *cons* is used to create
+*cons cells*, which can be combined into lists.  In SICP *cons-stream*
+is defined which produces the *cdr* lazily, by using *delay* and
+*force*, and a custom *cdr-stream* function.
+
+Clojure's *cons* on the other hand accepts a value as its first
+parameter and then a sequence where the value becomes the first
+element and the given sequence the rest.  In Clojure, *cons cells*
+aren't the primitive structure used to build everything else that they
+are in Scheme.
+
+We can of course define our own *cons* using a *closure* and use
+Clojure's *delay* and *force* to create the lazy streams shown in
+SICP.  This is the approach I've taken while working through 3.5 in
+SICP using Clojure.
+
+However, really there is no nead to do this when programming in
+Clojure, because sequences in Clojure are already lazyily produced.
+The underlying mechanism of this production is hidden in Clojure's
+runtime, and depending upon the actual data structure the sequence is
+constructed from, it functions slightly differently.
+
+
+
+
 
 Let's look at how *cons* is implemented in Clojure.  First, the
 definition in *clojure.core*:
