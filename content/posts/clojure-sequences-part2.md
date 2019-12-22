@@ -51,7 +51,8 @@ Clojure's *cons* on the other hand accepts a value as its first
 parameter and then a sequence where the value becomes the first
 element and the given sequence the rest.  In Clojure, *cons cells*
 aren't the primitive structure used to build everything else that they
-are in Scheme.
+are in Scheme, and *cons* in Clojure does not produce the same
+structure as *cons* in Scheme.
 
 We can of course define our own *cons* using a *closure* and use
 Clojure's *delay* and *force* to create the lazy streams shown in
@@ -64,105 +65,10 @@ The underlying mechanism of this production is hidden in Clojure's
 runtime, and depending upon the actual data structure the sequence is
 constructed from, it functions slightly differently.
 
-
-
-
-
-Let's look at how *cons* is implemented in Clojure.  First, the
-definition in *clojure.core*:
-
-```Clojure
-(def
- ^{:arglists '([x seq])
-    :doc "Returns a new seq where x is the first element and seq is
-    the rest."
-   :added "1.0"
-   :static true}
-
- cons (fn* ^:static cons [x seq] (. clojure.lang.RT (cons x seq))))
-```
-
-And digging a little deeper into the Java implementation in *RT.java*:
-
-```Java
-    static public ISeq cons(Object x, Object coll) {
-        //ISeq y = seq(coll);
-        if (coll == null)
-            return new PersistentList(x);
-        else if (coll instanceof ISeq)
-            return new Cons(x, (ISeq) coll);
-        else
-            return new Cons(x, seq(coll));
-    }
-```
-
-So we should probably look at the *Cons* class it's handing back in
-two of the cases:
-
-```Java
-final public class Cons extends ASeq implements Serializable {
-
-    private final Object _first;
-    private final ISeq _more;
-
-    public Cons(Object first, ISeq _more) {
-        this._first = first;
-        this._more = _more;
-    }
-
-
-    public Cons(IPersistentMap meta, Object _first, ISeq _more) {
-        super(meta);
-        this._first = _first;
-        this._more = _more;
-    }
-
-    public Object first() {
-        return _first;
-    }
-
-    public ISeq next() {
-        return more().seq();
-    }
-
-    public ISeq more() {
-        if (_more == null)
-            return PersistentList.EMPTY;
-        return _more;
-    }
-
-    public int count() {
-        return 1 + RT.count(_more);
-    }
-
-    public Cons withMeta(IPersistentMap meta) {
-        if (meta() == meta)
-            return this;
-        return new Cons(meta, _first, _more);
-    }
-}
-```
-
-Ok so without copying all the source code into this post, lets just
-trace through what the following code would do:
-
-```Clojure
-;; Cons example
-```
-
-
-Clojure goes even further than Lazy Sequences and offers another tool
-called *Transducers*, which allow for the composition of
-transformations, reducing further the number of sequences needed to
-perform composed operations.  I'm not going to cover *Transducers* in
-this blog post.
-
-## Using Lazy Sequences
-
-
-
-
-## Lazy Sequence Implementation
+While we can't directly mimic the streams approach of SICP using
+Clojure's *cons* due to the differences, we don't need to.  Clojure
+provides *lazy-seq* which does the same thing with the help of the
+runtime.
 
 
 ```Clojure
@@ -173,9 +79,59 @@ this blog post.
   seq calls. See also - realized?"
   {:added "1.0"}
   [& body]
-  (list 'new 'clojure.lang.LazySeq (list* '^{:once true} fn* []
-  body)))
+  (list 'new 'clojure.lang.LazySeq (list* '^{:once true} fn* [] body)))
+```
 
+This allows us to produce code like the following:
+
+```Clojure
+(defn inf-seq
+  ([] (inf-seq 1))
+  ([n]
+   (lazy-seq (cons n (inf-seq (inc n))))))
+```
+
+Which looks very similiar to the definition of *cons-stream* given by
+SICP:
+```Scheme
+(cons-stream <a> <b>)
+
+;; defined as:
+
+(cons <a> (delay <b>))
+
+;; and used like:
+
+(define (integers-starting-from n)
+  (cons-stream n (integers-starting-from (+ n 1))))
+
+(define integers (integers-starting-from 1))
+
+```
+
+So we can see here that we're basically doing the same thing in
+Clojure as SICP demonstrates with Scheme, but in Clojure's case we're
+aided by the runtime in the background.
+
+Clojure's implementation also provides the cacheing of produced items
+which is also shown in SICP.
+
+Now that we see how lazy sequences in Clojure are created manually
+using *lazy-seq*, let's take a look at how items are produced.  For
+instance, what actually happens if we run the following code:
+
+```Clojure
+
+(first (inf-seq))
+
+(first (rest (inf-seq)))
+```
+
+
+
+* Show and incorporate why holding onto the head of a seq is bad generally
+
+```Clojure
 (def
  ^{:arglists '([coll])
    :doc "Returns the first item in the collection. Calls seq on its
