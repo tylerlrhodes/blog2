@@ -75,7 +75,7 @@ Indent the selected region : <i>C-M-\\</i>
 
 Format the entire buffer : *M-x cider-format-buffer*
 
-
+Restart sesman: C-c C-s C-r 'sesman-restart
 
 ### CIDER Debugging / Evaluation
 
