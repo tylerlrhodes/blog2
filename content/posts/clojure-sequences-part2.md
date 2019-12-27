@@ -127,6 +127,177 @@ instance, what actually happens if we run the following code:
 (first (rest (inf-seq)))
 ```
 
+Aided by the ability to look at Clojure's source code (and run it
+through a debugger while it evaluates the code), we can peek under the
+hood and see exactly how it works (we'll skip the part about how the
+code is compiled on the fly and executed -- looking at the source for
+RT.java and LazySeq.java provides enough details for our purposes).
+
+In the first case, we can trace the code a bit from *first* in RT.java
+through LazySeq.java and see what's going on:
+
+```Java
+static public Object first(Object x) {
+        if (x instanceof ISeq)
+            return ((ISeq) x).first();
+        ISeq seq = seq(x);
+        if (seq == null)
+            return null;
+        return seq.first();
+    }
+```
+
+So *first* is pretty straight forward.  We can see that we're going to
+be running the *first* method of *x* in our case, since a *LazySeq* is
+an *ISeq*.
+
+We won't look at the entire source for *LazySeq*, though you can, but
+we'll look at a few methods and the constructor to get a bit of an
+idea.
+
+First, the constructor:
+
+```Java
+public LazySeq(IFn fn) {
+        this.fn = fn;
+    }
+```
+
+Pretty straight forward again, it takes a function, which it will use
+to produce a value eventually.
+
+So let's look at the code that actually does the work.
+
+```Java
+// from LazySeq.java
+public Object first() {
+        seq();
+        if (s == null)
+            return null;
+        return s.first();
+    }
+
+final synchronized public ISeq seq() {
+        sval();
+        if (sv != null) {
+            Object ls = sv;
+            sv = null;
+            while (ls instanceof LazySeq) {
+                ls = ((LazySeq) ls).sval();
+            }
+            s = RT.seq(ls);
+        }
+        return s;
+    }    
+
+final synchronized Object sval() {
+        if (fn != null) {
+            sv = fn.invoke();
+            fn = null;
+        }
+        if (sv != null)
+            return sv;
+        return s;
+    }
+```
+
+So originally I was going to say we could easily debug this in
+IntelliJ and step through and see what was going on.  And then I tried
+to do this, and my IntelliJ debugger seems to lose track of itself
+pretty regularly and becomes useless debugging Clojure.
+
+My guess is that this has something to do with the on demand compiling
+of code and IntelliJ is getting lost somehow.  But really I don't
+know.  But I do know that debugging the code in *jdb* on the command
+line works much better than doing it in IntelliJ.  The problem is that
+you're debugging from the command line, which is, well, not terribly
+fun.
+
+But it works then!
+
+I'll just kind of gloss over this and leave getting the debugging in
+IntelliJ to work for another day.
+
+It's not terribly complicated, and you can actually step through it
+using *jdb* (hopefully also IntelliJ with some settings tweaks or
+something).
+
+So the first thing that happens is we hit the *first* method, which
+calls the *seq* method, which calls the *sval* method, which does
+things.
+
+*sval* (short for seq val?) checks *fn*, and if it's not null, invokes
+*fn* and sets *sv* to the result (these are member fields of the
+*LazySeq*).  Then, if *sv* isn't null, it returns that, and we're
+back in *seq*.  Or it returns *s* if *sv* is null.
+
+This is kind of the root of the caching, once *fn* has been run once,
+*seq* is going to set *s*, and the next time we hit *sval*, it's just
+going to return *s*.  But the first time through there is more work to
+do.
+
+*LazySeq's* *seq* method looks a little more complicated than it is,
+but it's basically producing a sequence that is no longer lazy, so
+there is a value there.  It's not immediately obvious why this would
+be done, until you realize you can write code like this:
+
+```Clojure
+(defn inf-nuts [n] (lazy-seq (lazy-seq (lazy-seq (cons n (inf-nuts (inc n)))))))
+```
+
+Eventually *seq* is going to run into a *Cons* here, and *s* will be a
+*Cons*, and then *first* is going to get the value of *n*.  
+
+So it's actually pretty simple how it works.  Let's trace through the
+second sample I had put, where we get the first of the rest.
+
+This time we call *rest*, which is defined in RT.java as:
+
+```Java
+static public ISeq more(Object x) {
+        if (x instanceof ISeq)
+            return ((ISeq) x).more();
+        ISeq seq = seq(x);
+        if (seq == null)
+            return PersistentList.EMPTY;
+        return seq.more();
+    }
+```
+
+So we're going to hit *more* in *LazySeq*, which looks like:
+
+```Java
+public ISeq more() {
+        seq();
+        if (s == null)
+            return PersistentList.EMPTY;
+        return s.more();
+    }
+```
+
+Now it's pretty clear that this works almost exactly the same way as
+when we called *first*, just the method names have changed.
+
+So the call to *rest* is going to essentially end up calling *more* on
+the *Cons* object, which is going to return -- you guessed it -- a
+*LazySeq*.
+
+Then we call *first*, which does what we did last time, and again
+we'll run into the *Cons*, and it's *first* is going to have the value
+of 2.
+
+And this is basically how *LazySeqs* work.  It's slightly more complex
+than the implementation given in SICP, but not much, and it only seems
+that way because we're dealing with more than just *cons cells*.
+
+So *LazySeqs* are pretty lazy.  They only produce the value when its
+called for, and they only do it one time.
+
+You can put in some printf debugging into your *lazy-seq* to see that
+this is in fact the case.  The second time to you go get a value which
+has already been produced, the cached value is returned.
+
+
 
 
 * Show and incorporate why holding onto the head of a seq is bad generally
