@@ -32,7 +32,30 @@ Lazy sequences in Clojure are similar to *Streams* as demonstrated in
 allowing for sequence manipulations to be performed without the need
 for the entire sequence to be copied at each step.
 
-* verify above statement
+Let's take a look at how we use lazy sequences in Clojure.
+
+## Using Lazy Sequences
+
+If you're been programming in Clojure and using sequences, then you
+have already been using lazy sequences.  Most of the functions in
+Clojure which produce a sequence do so lazily, and you don't really
+have to do anything special for this to happen.
+
+Looking through the source code of many of Clojure's sequence related
+functions you can see that they return *lazy seqs*.
+
+So basically you just use sequences in Clojure, and they are lazy.
+It's not like SICP where we coded all of the sequence functions
+ourselves and then later went back and made them lazy.  In Clojure
+they're already lazy and we don't have to do anything.
+
+* use lazy-seq example
+* don't hold onto head
+
+Now that we know we don't have to do anything special to use them,
+let's look at how they work.
+
+## Lazy Sequences in the Runtime
 
 In Scheme, as show in in SICP, it's possible to create streams which
 produce the next value when its needed, instead of all at once.  This
@@ -48,11 +71,12 @@ is defined which produces the *cdr* lazily, by using *delay* and
 *force*, and a custom *cdr-stream* function.
 
 Clojure's *cons* on the other hand accepts a value as its first
-parameter and then a sequence where the value becomes the first
-element and the given sequence the rest.  In Clojure, *cons cells*
-aren't the primitive structure used to build everything else that they
-are in Scheme, and *cons* in Clojure does not produce the same
-structure as *cons* in Scheme.
+parameter and then a sequence for its second parameter, where the
+value becomes the first element of a new sequence, and the provided
+sequence the rest.  In Clojure, *cons cells* aren't the primitive
+structure used to build everything else that they are in Scheme, and
+*cons* in Clojure does not produce the same structure as *cons* in
+Scheme.
 
 We can of course define our own *cons* using a *closure* and use
 Clojure's *delay* and *force* to create the lazy streams shown in
@@ -279,8 +303,7 @@ Now it's pretty clear that this works almost exactly the same way as
 when we called *first*, just the method names have changed.
 
 So the call to *rest* is going to essentially end up calling *more* on
-the *Cons* object, which is going to return -- you guessed it -- a
-*LazySeq*.
+the *Cons* object, which is going to return a *LazySeq*.
 
 Then we call *first*, which does what we did last time, and again
 we'll run into the *Cons*, and it's *first* is going to have the value
@@ -296,6 +319,7 @@ called for, and they only do it one time.
 You can put in some printf debugging into your *lazy-seq* to see that
 this is in fact the case.  The second time to you go get a value which
 has already been produced, the cached value is returned.
+
 
 
 
