@@ -38,6 +38,7 @@ Create a new window below: *C-x 2*
 Close the current window: *C-x 0*
 
 
+
 ### Motion
 
 Re-center window: *C-l*
@@ -92,9 +93,10 @@ Debug : *C-u C-M-x* <br />
 
 ### Searching
 
+Search: C-s
 
 
 
+### To Investigate
 
-
-
+Helm
