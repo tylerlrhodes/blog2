@@ -49,8 +49,36 @@ It's not like SICP where we coded all of the sequence functions
 ourselves and then later went back and made them lazy.  In Clojure
 they're already lazy and we don't have to do anything.
 
-* use lazy-seq example
-* don't hold onto head
+It is possible to create our own lazy sequences when necessary.
+Clojure provides the *lazy-seq* macro which plugs into the runtime
+behind the scenes and allows us to make our own lazy sequences.
+
+```Clojure
+(defn inf [n]
+ (do
+  (print \.)
+  (lazy-seq
+   (cons
+    n
+    (inf (inc n))))))
+
+(take 2 (take 10 (inf 1)))
+```
+
+This is a simple example of how lazy sequences work.  Running the
+above code will show clearly that the elements are produced on demand.
+
+One thing to note is that it's possible to basically create infinite
+sequences using *lazy-seq*.  If you do this, and hold onto a reference
+to the head of the sequence, you run into the possibility of running
+out of memory.
+
+Clojure relies on the JVM for garbage collection, and if you hold onto
+the head of lazy sequence and go on to produce a large number of
+items, it won't be able to garbage collect those items as it goes.
+Bad things could happen.  If you run into an out of memory
+exception, it may be because you're holding onto the head of a large
+lazy sequence somewhere.
 
 Now that we know we don't have to do anything special to use them,
 let's look at how they work.
@@ -62,38 +90,18 @@ produce the next value when its needed, instead of all at once.  This
 is explored in section 3.5 of SICP, and implemented using *delay* and
 *force*.
 
-Can we do the same thing in Clojure using the built in *cons*?
+It SICP we build *cons-stream*, coupled with *car-stream* and
+*cdr-stream* to make use of streams, which are basically the SICP
+equivalant of Clojure's lazy sequences.
 
-I don't think it's possible due to the way that Clojure's *cons* is
-different from *cons* in Scheme.  In Scheme *cons* is used to create
-*cons cells*, which can be combined into lists.  In SICP *cons-stream*
-is defined which produces the *cdr* lazily, by using *delay* and
-*force*, and a custom *cdr-stream* function.
+Clojure's lazy sequences are implemented in the Clojure runtime, and
+the clearest example of how they work is by looking at the use of
+*lazy-seq*.
 
-Clojure's *cons* on the other hand accepts a value as its first
-parameter and then a sequence for its second parameter, where the
-value becomes the first element of a new sequence, and the provided
-sequence the rest.  In Clojure, *cons cells* aren't the primitive
-structure used to build everything else that they are in Scheme, and
-*cons* in Clojure does not produce the same structure as *cons* in
-Scheme.
+First we'll look at just using the macro, and then we'll explore some
+of the code behind the scenes in Clojure's Java implementation code.
 
-We can of course define our own *cons* using a *closure* and use
-Clojure's *delay* and *force* to create the lazy streams shown in
-SICP.  This is the approach I've taken while working through 3.5 in
-SICP using Clojure.
-
-However, really there is no nead to do this when programming in
-Clojure, because sequences in Clojure are already lazyily produced.
-The underlying mechanism of this production is hidden in Clojure's
-runtime, and depending upon the actual data structure the sequence is
-constructed from, it functions slightly differently.
-
-While we can't directly mimic the streams approach of SICP using
-Clojure's *cons* due to the differences, we don't need to.  Clojure
-provides *lazy-seq* which does the same thing with the help of the
-runtime.
-
+Below is the defintion of the *lazy-seq* macro:
 
 ```Clojure
 (defmacro lazy-seq
@@ -225,30 +233,8 @@ final synchronized Object sval() {
     }
 ```
 
-So originally I was going to say we could easily debug this in
-IntelliJ and step through and see what was going on.  And then I tried
-to do this, and my IntelliJ debugger seems to lose track of itself
-pretty regularly and becomes useless debugging Clojure.
-
-My guess is that this has something to do with the on demand compiling
-of code and IntelliJ is getting lost somehow.  But really I don't
-know.  But I do know that debugging the code in *jdb* on the command
-line works much better than doing it in IntelliJ.  The problem is that
-you're debugging from the command line, which is, well, not terribly
-fun.
-
-But it works then!
-
-I'll just kind of gloss over this and leave getting the debugging in
-IntelliJ to work for another day.
-
-It's not terribly complicated, and you can actually step through it
-using *jdb* (hopefully also IntelliJ with some settings tweaks or
-something).
-
 So the first thing that happens is we hit the *first* method, which
-calls the *seq* method, which calls the *sval* method, which does
-things.
+calls the *seq* method, which calls the *sval* method.
 
 *sval* (short for seq val?) checks *fn*, and if it's not null, invokes
 *fn* and sets *sv* to the result (these are member fields of the
@@ -257,8 +243,7 @@ back in *seq*.  Or it returns *s* if *sv* is null.
 
 This is kind of the root of the caching, once *fn* has been run once,
 *seq* is going to set *s*, and the next time we hit *sval*, it's just
-going to return *s*.  But the first time through there is more work to
-do.
+going to return *s*.
 
 *LazySeq's* *seq* method looks a little more complicated than it is,
 but it's basically producing a sequence that is no longer lazy, so
@@ -313,58 +298,99 @@ And this is basically how *LazySeqs* work.  It's slightly more complex
 than the implementation given in SICP, but not much, and it only seems
 that way because we're dealing with more than just *cons cells*.
 
-So *LazySeqs* are pretty lazy.  They only produce the value when its
-called for, and they only do it one time.
+It's interesting to examine the implementation of lazy sequences in
+Clojure's runtime and basically see that it's the same thing that is
+done in SICP.  It's also interesting to see how depending upon the
+backing data structure of the sequence, how it is lazily produced may
+be different than another type, but basically its doing the same
+thing.
 
-You can put in some printf debugging into your *lazy-seq* to see that
-this is in fact the case.  The second time to you go get a value which
-has already been produced, the cached value is returned.
+I didn't show any of the code besides *LazySeq*, but if you remember
+from the first post on sequences, we ran into the code that produces a
+*chunked iterator*, for instance with a map, and it wraps it up in a
+*LazySeq*.
 
+Another example might be *range*.  If you look at the definition of
+the *range* function, you'll see it uses some Java types behind the
+scenes.  These types implement *ISeq*, and produce their values
+lazily, even if they don't use the *LazySeq* type.
 
+## Lazy Sequences and the REPL
 
-
-
-* Show and incorporate why holding onto the head of a seq is bad generally
+Let's put together some code which we'll run at the REPL to show that
+lazy sequences are in fact lazy, even if the REPL makes it look like
+they aren't on occasion.
 
 ```Clojure
-(def
- ^{:arglists '([coll])
-   :doc "Returns the first item in the collection. Calls seq on its
-    argument. If coll is nil, returns nil."
-   :added "1.0"
-   :static true}
- first (fn ^:static first [coll] (. clojure.lang.RT (first coll))))
+(defn up-to-10
+  ([] (up-to-10 1))
+  ([n]
+   (lazy-seq
+    (when (> 10 n)
+      (print \.)
+      (cons n (up-to-10 (inc n)))))))
 
-(def
- ^{:arglists '([coll])
-   :tag clojure.lang.ISeq
-   :doc "Returns a possibly empty seq of the items after the first. Calls seq on its
-  argument."
-   :added "1.0"
-   :static true}  
- rest (fn ^:static rest [x] (. clojure.lang.RT (more x))))
- 
+(up-to-10)
 
-```  
+(take 3 (up-to-10))
+```
+
+What's going on when we run this code?  Why does evaluating (up-to-10)
+at the REPL cause the entire sequence to be produced, but evaluating
+(take 3 (up-to-10)) doesn't?
+
+The answer to this lies once again, of course, in Clojure's source
+code.  Hidden deep within the bowel's of the REPL.  Actually not that
+deep.
+
+This is from the *repl* function in clojure.main:
+
+```Clojure
+read-eval-print
+(fn []
+  (try
+    (let [read-eval *read-eval*
+          input (try
+                  (with-read-known (read request-prompt request-exit))
+                  (catch LispReader$ReaderException e
+                    (throw (ex-info nil {:clojure.error/phase :read-source} e))))]
+      (or (#{request-prompt request-exit} input)
+          (let [value (binding [*read-eval* read-eval] (eval input))]
+            (set! *3 *2)
+            (set! *2 *1)
+            (set! *1 value)
+            (try
+              (print value)
+              (catch Throwable e
+                (throw (ex-info nil {:clojure.error/phase :print-eval-result} e)))))))
+    (catch Throwable e
+      (caught e)
+      (set! *e e))))
+```
+
+And the reason that our lazy sequences get printed in their totality
+if you evaluate them by themselves at the REPL, is because of the line
+*(print value)*, which results in some code running which iterates the
+sequence provided.  If it's our lazy sequence *up-to-10* then it
+prints out all the values.  If it's an infinite sequence it just keeps
+printing until it throws an error.
+
+## Summary
+
+In the first post on sequences I went over how to use them, and tried
+to show the versatility of sequences in Clojure.  *Seqs* allow us to
+use a common set of functions across a number of underlying types, and
+to write our code in a declarative, easy to follow style.
+
+The runtime hides a lot of the details of how this works and lets us
+just use functions like *map* and *reduce* against anything that can
+be turned into a *seq*.
+
+Not only are *seqs* thread-safe while using Clojure's persistent data
+structures, but they are also lazy, allowing us to be thrifty with our
+resources and processing power.  And they do this by default, without
+even generally needing to be aware of this.
 
 
-
-* How the REPL evaluates expressions
-* How lazy-seq is implemented by the runtime
-* 
-
-
-Streams are a clever idea that allows one to use sequence manipulations without incurring the costs of manipulating sequences as lists
-
- - sicp - are lazy sequences the same?
-
-
-Streams / Lazy Sequences allow us to achieve in the declarative style using sequence manipulations while maintaining the efficiency of an iterative implementation.
-
-With streams the implementation evalutes the cdr, or next element, at selection time instead of when the stream is constructed.
-
-In SICP delayed streams are built using delay and force:
-
-Clojure's delay and forced vs SICP delay and force (memo-proc)
 
 
