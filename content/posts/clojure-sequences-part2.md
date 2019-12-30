@@ -85,14 +85,14 @@ let's look at how they work.
 
 ## Lazy Sequences in the Runtime
 
-In Scheme, as show in in SICP, it's possible to create streams which
-produce the next value when its needed, instead of all at once.  This
+In Scheme, as shown in in SICP, it's possible to create streams which
+produce the next value when needed, instead of all at once.  This
 is explored in section 3.5 of SICP, and implemented using *delay* and
 *force*.
 
-It SICP we build *cons-stream*, coupled with *car-stream* and
-*cdr-stream* to make use of streams, which are basically the SICP
-equivalant of Clojure's lazy sequences.
+In SICP we build *cons-stream*, coupled with *car-stream* and
+*cdr-stream* to make use of streams. These constructs function in much
+the same way as lazy sequences in Clojure.
 
 Clojure's lazy sequences are implemented in the Clojure runtime, and
 the clearest example of how they work is by looking at the use of
@@ -101,7 +101,7 @@ the clearest example of how they work is by looking at the use of
 First we'll look at just using the macro, and then we'll explore some
 of the code behind the scenes in Clojure's Java implementation code.
 
-Below is the defintion of the *lazy-seq* macro:
+Below is the definition of the *lazy-seq* macro:
 
 ```Clojure
 (defmacro lazy-seq
@@ -123,7 +123,7 @@ This allows us to produce code like the following:
    (lazy-seq (cons n (inf-seq (inc n))))))
 ```
 
-Which looks very similiar to the definition of *cons-stream* given by
+Which looks very similar to the definition of *cons-stream* given by
 SICP:
 ```Scheme
 (cons-stream <a> <b>)
@@ -145,7 +145,7 @@ So we can see here that we're basically doing the same thing in
 Clojure as SICP demonstrates with Scheme, but in Clojure's case we're
 aided by the runtime in the background.
 
-Clojure's implementation also provides the cacheing of produced items
+Clojure's implementation also provides the caching of produced items
 which is also shown in SICP.
 
 Now that we see how lazy sequences in Clojure are created manually
