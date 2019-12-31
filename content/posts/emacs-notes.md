@@ -37,6 +37,7 @@ Create a new window below: *C-x 2*
 
 Close the current window: *C-x 0*
 
+*add (windmove-default-keybindings) to init.el, then Shift + arrow switches to different windows*
 
 
 ### Motion
