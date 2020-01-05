@@ -51,3 +51,13 @@ But I would like to show once you figure out how the pieces go
 together a little bit just how easily you can get a simple page up and
 running with a few of the bells and whistles.
 
+Following along here will give you the bare bones of a single page
+application using Pedestal on the backend, and React and Rum on the
+frontend using ClojureScript.  It's actually really easy to get this
+setup, and if you're running Linux or on the Mac I think it's even
+easier than Windows.
+
+The only short-cut I'll take is using the figwheel-main lein template
+to save some time, but it's definitely not necessary and adding
+figwheel-main and ClojureScript to an existing Clojure project is
+pretty easy to do.
