@@ -25,10 +25,12 @@ is deeply thought provoking and relevant.
 
 * expand and make this paragraph below mean something
 
-While the analysis can at times appear complex, at it's core it's
-driven once again by mimetic theory, which at its core, is fairly
-simple.  Girard explains the process here using the term *triangular
-desire*, which is basically mimetic theory.
+Girards analysis of these author's work through the lens of
+*triangular desire* offers a treasure trove of thought, and a
+seemingly never ending source of interpretive power.  *Triangular
+desire*, a model of sorts, or as Girard puts it, "a systematic metaphor,
+systematically pursued," offers up at once something essentially
+simple and powerful.
 
 * and lead into this paragraph
 
@@ -50,24 +52,34 @@ the impact of gravity on all things.
 
 The difference of course is that we can prove in a material sense the
 effects and reality of gravity.  Gravity isn't open to interpretation,
-human relations, are.  Girard's interpretations and analysis is
-somewhat akin to looking at the same set of texts we've always looked
-at, but now, we know about gravity.
+the nature of desire, and with it, the essense of individuality and
+free will, kind of are.
+
+However, in an effort to keep this book review about the book at hand,
+I'll simply gloss over the small issue of whether or not *triangular
+desire*, or mimetic theory, is actually correct.  I will say however
+that reading Rene Girard's analysis of literature and culture, and in
+later works, religion, myth, and psychology, is super fun and
+interesting.
+
+Besides, if mimetic theory is actually the humanities equivalant of
+gravity, eventually we'll have quantum mimetic theory, and then just
+fuck it.
+
+Keeping to this book and not falling into defending or attacking
+mimetic theory, I'll say that maybe you should read it.
+
+Maybe you should read it if you've ever been left wanting with regards
+to the question of why we want what we want, and do what we do.  Does
+it offer a mathematical proof to validate its veracity and
+correctness?  No.  Does it however begin to offer a framework and
+model which just maybe explains the course of events of life,
+individually and collectively, in a way that actually seems to make
+sense?  This is what it promises to do.  And in this book Girard
+delivers on that promise, using his model.
 
 
-Mimetic theory, however, despite its subjective nature, provides a
-coherent framework for interpreting relationships between people, and
-societies, in a manner which is compelling, and strikes me as being
-the most promising way for interpreting events, literature, and life,
-within a framework 
 
-
-he
-triangle here, as Girard states, is not essentially real, rather it is
-a systematic metaphor, one which can be bent and shaped continuously
-to the works under analysis.  Girard uses it as a model, or family of
-models, which allude to, as he says, the mystery, transparent yet
-opaque, of human relations.
 
 * internal vs external mediation
 
