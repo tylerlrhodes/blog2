@@ -15,24 +15,17 @@ not so much due to the fact that it has anything to do with
 Christianity (which it does), but because it offers a new framework
 for understanding violence.
 
-But this review is about *Deceit, Desire, and the Novel,* another book
-by Girard, which takes a look some key novels, and again performs an
-analysis drawing on mimetic theory.  Girard reviews works by a number
-of the masters of literature: Cervantes, Stendhal, Flaubert, Proust
-and Dostoevsky.  Through the lens of mimetic theory, here termed
-*triangular desire*, Girard offers up an analysis of these books which
-is deeply thought provoking and relevant.
+But this review is about *Deceit, Desire, and the Novel (DDATN)*,
+another book by Girard, which takes a look some key novels, and again
+performs an analysis drawing on mimetic theory.  Girard reviews works
+by a number of the masters of literature: Cervantes, Stendhal,
+Flaubert, Proust and Dostoevsky.  Through the lens of mimetic theory,
+here termed *triangular desire*, Girard offers up an analysis of these
+books which is deeply thought provoking and relevant.
 
-* expand and make this paragraph below mean something
-
-Girards analysis of these author's work through the lens of
-*triangular desire* offers a treasure trove of thought, and a
-seemingly never ending source of interpretive power.  *Triangular
-desire*, a model of sorts, or as Girard puts it, "a systematic metaphor,
-systematically pursued," offers up at once something essentially
-simple and powerful.
-
-* and lead into this paragraph
+*Triangular desire*, described in the book as a model of sorts, or, as
+Girard puts it: "a systematic metaphor, systematically pursued,"
+offers a simple and powerful tool for analysis.
 
 The triangle of *triangular desire* is made up of the mediator (or
 model), the subject, and the object.  Girard hypothosizes that humans
@@ -42,7 +35,14 @@ triangle of *triangular desire*, the subject's desires are mediated
 via the model, and the object of the subject's desire is in effect
 learned through the model.
 
-* integrate the following paragrahs better
+DDATN explores a number of ideas and themes with regards to
+*triangular desire* which are present in varying forms through the
+novels analysed, including: vanity, metaphysical desire, politics, and
+interpersonal relationships.  Girard's explanations and analysis of
+the texts offers a lot of ground for review and study, and despite
+being published in 1961 is certainly still relevant.  Reading his
+explanations and reasonings about the texts in question begs for
+further thought on any number of topics.
 
 Girard is obviously a master at interpreting just about everything
 through mimetic theory, or in this book *triangular desire*.  One of
@@ -75,21 +75,23 @@ it offer a mathematical proof to validate its veracity and
 correctness?  No.  Does it however begin to offer a framework and
 model which just maybe explains the course of events of life,
 individually and collectively, in a way that actually seems to make
-sense?  This is what it promises to do.  And in this book Girard
-delivers on that promise, using his model.
+sense?  This is what it promises to do.  Whether it does or not is of
+course up to the reader.
+
+DDATN is a giant treasure chest of thought and analysis, and reading
+Girard's interpretation of these author's works shows just how
+powerful a model *triangular desire* (mimetic theory) can be.  If
+anything it is a tool which is a never ending source of interpretive
+power, one which can be wielded far and wide across any number of
+subjects.
+
+By reading DDATN Girard will make you want to read the novels and
+authors he talks about (speaking as a newly proud owner of Don
+Quixote).  It seems like most people agree that the works he looks at
+are some of the best, and are probably worth reading anyway.
+
+Is *Deceit, Desire, and the Novel* worth reading? Undoubtedly.
 
 
 
-
-* internal vs external mediation
-
-* vanity and snobbism
-
-* less obvious forms of triangular desire -
-
-* metaphysical desire
-
-* the double
-
-* 
 
