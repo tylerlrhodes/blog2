@@ -1,8 +1,11 @@
 ---
 title: "Book Review - Deceit, Desire, and the Novel"
 date: 2020-01-02T12:34:26-05:00
-draft: true
-
+draft: false
+tags: [book-review]
+keywords: [book-review, rene girard, mimetic theory]
+description: "Review of Deceit, Desire, and the Novel.  Rene Girard's
+analyis and exposition of novels of mediated desire"
 ---
 
 Back in August I stumbled across a summary of Rene Girard's mimetic
@@ -15,8 +18,14 @@ not so much due to the fact that it has anything to do with
 Christianity (which it does), but because it offers a new framework
 for understanding violence.
 
-But this review is about *Deceit, Desire, and the Novel (DDATN)*,
-another book by Girard, which takes a look some key novels, and again
+I was so taken by the theory that I now own a number of Girard's
+books, and have read a number of them now.  His all encompassing
+mimetic theory is developed throughout all of his work, or more so
+used and proved, in his own way, to reveal aspects of culture and
+life.
+
+His first book, *Deceit, Desire, and the Novel (DDATN)*, which is the
+subject of this review, takes a look some key novels, and again
 performs an analysis drawing on mimetic theory.  Girard reviews works
 by a number of the masters of literature: Cervantes, Stendhal,
 Flaubert, Proust and Dostoevsky.  Through the lens of mimetic theory,
@@ -69,15 +78,6 @@ fuck it.
 Keeping to this book and not falling into defending or attacking
 mimetic theory, I'll say that maybe you should read it.
 
-Maybe you should read it if you've ever been left wanting with regards
-to the question of why we want what we want, and do what we do.  Does
-it offer a mathematical proof to validate its veracity and
-correctness?  No.  Does it however begin to offer a framework and
-model which just maybe explains the course of events of life,
-individually and collectively, in a way that actually seems to make
-sense?  This is what it promises to do.  Whether it does or not is of
-course up to the reader.
-
 DDATN is a giant treasure chest of thought and analysis, and reading
 Girard's interpretation of these author's works shows just how
 powerful a model *triangular desire* (mimetic theory) can be.  If
@@ -85,12 +85,38 @@ anything it is a tool which is a never ending source of interpretive
 power, one which can be wielded far and wide across any number of
 subjects.
 
-By reading DDATN Girard will make you want to read the novels and
+Girard's *triangular desire*, here used perhaps more humbly than it is
+in his later works (he explains a lot, but it's not this book where he
+deduces the founding mechanism of religion with it), is so strikingly
+simple and used in such an interesting way by Girard, that something
+about it makes me want to study it and see how it may apply to other
+subjects.
+
+Of Girard's works that I've read DDATN is the one that offers the
+most so far on non-religious aspects of his theory, touching more on
+character development and the potential psychological aspects of
+mimetic theory, in addition to cultural topics which are still
+relevant today.  There are other works of his which also cover
+literary works outside of religion, but I haven't read them.
+
+That said, it's not the first book by Girard that I read, and if I
+wasn't as moved by the theory as I was by reading *I See Satan Fall
+Like Lightening*, I'm not sure DDATN would have grabbed me in the same
+way.  It's probably not the way to start if you're interested in
+mimetic theory and looking to begin somewhere.  If you're more
+interested in it for its analysis of the texts covered, it's great in
+this regard.
+
+In reading DDATN Girard will make you want to read the novels and
 authors he talks about (speaking as a newly proud owner of Don
 Quixote).  It seems like most people agree that the works he looks at
 are some of the best, and are probably worth reading anyway.
 
-Is *Deceit, Desire, and the Novel* worth reading? Undoubtedly.
+That said, if you are interested in mimetic theory and want to see it
+used in analysis of issues that are relevant in contemporary times,
+*Deceit, Desire, and the Novel* is a great book.
+
+
 
 
 
