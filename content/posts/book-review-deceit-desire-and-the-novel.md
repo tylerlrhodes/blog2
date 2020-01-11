@@ -1,11 +1,11 @@
 ---
 title: "Book Review - Deceit, Desire, and the Novel"
-date: 2020-01-02T12:34:26-05:00
+date: 2020-01-10T12:34:26-05:00
 draft: false
 tags: [book-review]
 keywords: [book-review, rene girard, mimetic theory]
 description: "Review of Deceit, Desire, and the Novel.  Rene Girard's
-analyis and exposition of novels of mediated desire"
+analysis and exposition of novels of mediated desire"
 ---
 
 Back in August I stumbled across a summary of Rene Girard's mimetic
@@ -19,10 +19,10 @@ Christianity (which it does), but because it offers a new framework
 for understanding violence.
 
 I was so taken by the theory that I now own a number of Girard's
-books, and have read a number of them now.  His all encompassing
-mimetic theory is developed throughout all of his work, or more so
-used and proved, in his own way, to reveal aspects of culture and
-life.
+books, and have read many of them now.  His all encompassing
+mimetic theory is developed throughout all of his work in a rich and
+fascinating manner. In each work he explores life and
+the culture using his theory, showing how it functions.
 
 His first book, *Deceit, Desire, and the Novel (DDATN)*, which is the
 subject of this review, takes a look some key novels, and again
@@ -37,7 +37,7 @@ Girard puts it: "a systematic metaphor, systematically pursued,"
 offers a simple and powerful tool for analysis.
 
 The triangle of *triangular desire* is made up of the mediator (or
-model), the subject, and the object.  Girard hypothosizes that humans
+model), the subject, and the object.  Girard hypothesizes that humans
 learn their desires through the imitation of their model.  In effect,
 our desires come from another -- a mediator or model.  Thus in the
 triangle of *triangular desire*, the subject's desires are mediated
@@ -46,11 +46,11 @@ learned through the model.
 
 DDATN explores a number of ideas and themes with regards to
 *triangular desire* which are present in varying forms through the
-novels analysed, including: vanity, metaphysical desire, politics, and
+novels analyzed, including: vanity, metaphysical desire, politics, and
 interpersonal relationships.  Girard's explanations and analysis of
 the texts offers a lot of ground for review and study, and despite
 being published in 1961 is certainly still relevant.  Reading his
-explanations and reasonings about the texts in question begs for
+explanations and reasoning about the texts in question begs for
 further thought on any number of topics.
 
 Girard is obviously a master at interpreting just about everything
@@ -61,7 +61,7 @@ the impact of gravity on all things.
 
 The difference of course is that we can prove in a material sense the
 effects and reality of gravity.  Gravity isn't open to interpretation,
-the nature of desire, and with it, the essense of individuality and
+the nature of desire, and with it, the essence of individuality and
 free will, kind of are.
 
 However, in an effort to keep this book review about the book at hand,
@@ -71,12 +71,9 @@ that reading Rene Girard's analysis of literature and culture, and in
 later works, religion, myth, and psychology, is super fun and
 interesting.
 
-Besides, if mimetic theory is actually the humanities equivalant of
+Besides, if mimetic theory is actually the humanities equivalent of
 gravity, eventually we'll have quantum mimetic theory, and then just
 fuck it.
-
-Keeping to this book and not falling into defending or attacking
-mimetic theory, I'll say that maybe you should read it.
 
 DDATN is a giant treasure chest of thought and analysis, and reading
 Girard's interpretation of these author's works shows just how
@@ -103,16 +100,16 @@ That said, it's not the first book by Girard that I read, and if I
 wasn't as moved by the theory as I was by reading *I See Satan Fall
 Like Lightening*, I'm not sure DDATN would have grabbed me in the same
 way.  It's probably not the way to start if you're interested in
-mimetic theory and looking to begin somewhere.  If you're more
-interested in it for its analysis of the texts covered, it's great in
-this regard.
+mimetic theory and just looking to begin somewhere.  If you're more
+interested in it for its analysis of the texts covered and less so for
+how it relates to mimetic theory it would be great.
 
 In reading DDATN Girard will make you want to read the novels and
 authors he talks about (speaking as a newly proud owner of Don
 Quixote).  It seems like most people agree that the works he looks at
 are some of the best, and are probably worth reading anyway.
 
-That said, if you are interested in mimetic theory and want to see it
+If you are interested in mimetic theory and want to see it
 used in analysis of issues that are relevant in contemporary times,
 *Deceit, Desire, and the Novel* is a great book.
 

@@ -96,7 +96,21 @@ Debug : *C-u C-M-x* <br />
 
 Search: C-s
 
+### Spell Check
 
+ispell: M-x ispell
+
+skip word: `<SPC>`
+
+replace word: r *new* <RET> | R *new* <RET> (which does query-replace through document)
+
+replace with suggestion: *digit*
+
+accept the incorrect word: a | A (A for only this editing session and buffer)
+
+insert this word into private dictionary: i
+
+More: [Spelling](https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html)
 
 ### To Investigate
 
