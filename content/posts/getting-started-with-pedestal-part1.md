@@ -8,6 +8,61 @@ description: "A short post on getting started with Pedestal, a web framework for
 ---
 
 
+Outline:
+
+Part 1
+
+1. Overview of Pedestal
+2. Creating the project
+3. Running the project
+4. Developing at the REPL
+5. Serving files
+6. A simple API
+
+Part 2
+
+1. Interceptors (middleware)
+2. Understanding ring
+3. Using ring middleware
+4. Content types
+5. Forms (getting parameters and data from requests)
+6. A more powerful API
+
+Part 3
+
+1. Logging in pedestal
+2. Security (CSRF, CSP, XSS, etc)
+3. Authentication
+4. Inteceptors revisited
+5. Routing revisited
+6. Integrating ClojureScript
+
+Part 4
+
+1. Our over engineered booklist
+2. The design overview
+3. Detour into Rum/Citrus/Bide
+4. Integrations
+5. Code Review
+6. Deployment
+
+Part 5
+
+1. Overview of "Async"
+2. Pedetal and async
+3. Stuff to watch out for
+4. Async-ifying booklist
+5. A short guide to crashing and burning
+6. Do you need it?
+
+
+
+
+
+
+
+
+
 Pedestal is a web development framework for the Clojure programming
 language.  Or, it's more specifically a set of libraries that can be
 used to build services and applications.
