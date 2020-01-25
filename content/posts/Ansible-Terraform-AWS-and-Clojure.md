@@ -81,16 +81,82 @@ me.  I think it has to do with some different defaults on my AWS
 account.
 
 Basically, all the AWS resources are defined in code, and Terraform
-processes the code, creates/modified/deletes the infrastructure on
+processes the code, creates/modifies/deletes the infrastructure on
 AWS, and everything is great.  A repeatable, clearly defined
 infrastructure that isn't driven by clicking through a GUI or one off
 commands that you can only dream of repeating identically the next
 time you need to.
 
+When Terraform processes the code and creates the infrastructure, it
+needs to keep track of the resources it has created, and how they map
+to the resource definitions in the code files.  It does this by
+storing the mappings between the deployed resource, and its
+definition, in a state database.  The database is basically just a
+file and it maps resource ids to the definitions in your code file.
 
+Working alone, this is pretty simple to manage.  Once you need to work
+with other people it will of course be more complicated, and there are
+a few possiblities for managing the state and the infrastructure's
+code when things progress.
 
+Here I'm going to ignore all of that, and just do everything locally
+since it's just me working on this, and you could probably write a
+whole book on Terraform if you wanted to.
 
+So what I ended up doing was a little bit of trial and error to figure
+out all the AWS resources I needed to create in order to have a
+publicly accessible development server.  In the end I needed to spell
+out everything: a keypair, VPC, subnet, internet gateway, routing
+table, EC2 instance, security group, and the dns record.
 
+Really the only interesting part I ran into was figuring out how to
+update a resource that was created independtly of my Terraform code.
+I already had a hosted DNS zone created in Route 53, and I want that
+zone to not be destroyed with the rest of my resources I define in
+Terraform when I turn off the dev environment.
+
+This is accomplished using a data source, which basically lets me find
+a reference to something not defined in my Terraform module.
+
+I'm avoiding going over all of the Terraform definitions because I
+don't know them all, and to get my dev server up and running, I don't
+need to know it.  When we do the prod server, we'll refactor the
+Terraform, and make it more useful down the road.
+
+If you are a developer, I would imagine that the roadblocks to using
+Terraform would be less about Terraform, and more about how
+knowledagable you are about systems, networking, and "the cloud."
+
+Anyway, the development server is defined in *terraform-dev.tv* in the
+Github repository, and you can see it in all of its glory there.  I'm
+sure there are some mistakes built into it, but it seems to more or
+less work.
+
+That file, if you were to change the values of the domain_name under
+the locals section, together with a Route 53 zone (that matches the
+domain name you define), and a working AWS CLI and Terraform program,
+should get you an EC2 instance up and running.  This, of course, is
+dependent upon the moon being in the correct phase, and whether or not
+the technology gods are currently demanding tribute.
+
+But it will probably more or less work.  Oh you have to generate a
+keypair for it to work too.  And maybe some other stuff, but that's
+probably it.  You only need the keypair if you actually want to
+connect to the instance anyway.
+
+Besides you probably don't want to just deploy random Terraform files
+you found on the internet without knowing what they will do (yes,
+terraform will tell you want it plans on doing, but if you don't
+understand whats in the file, you probably won't understand that
+either).
+
+So if you've learned anything so far from this post, it's that
+Terraform isn't that hard, and will work, if the moon is in the
+correct phase, and the cloud gods permit it.  Also, you should deploy
+random Terraform files you find on the internet because YOLO.
+
+Now onto the next learning adventure, which is using Ansible to deploy
+even more buzzwords onto your EC2 instance automatically.
 
 
 
