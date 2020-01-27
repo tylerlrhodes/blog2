@@ -1,15 +1,16 @@
 ---
-title: "Ansible Terraform AWS and Clojure"
+title: "Deploying a Web App with Ansible, Terraform and AWS,
+part 1"
 date: 2020-01-19T10:28:58-05:00
 draft: true
 
 ---
 
-In this post we are going to focus on the build and deployment of a
-web application developed with Clojure.  We are going to deploy the
-application to AWS, and it is going to run on a single EC2 instance.
-While it won't necessarily be "web-scale," in our case it won't need
-to be.
+In this series of posts we are going to focus on the build and
+deployment of a web application developed with Clojure.  We are going
+to deploy the application to AWS, and it is going to run on a single
+EC2 instance.  While it won't necessarily be "web-scale," in our case
+it won't need to be.
 
 The application itself will be a simple one, and its development won't
 be covered in this post.  It is a simple application for tracking
@@ -26,10 +27,16 @@ We'll build out a simple *dev* environment for testing, and a
 deploy it to your own AWS environment it may cost you real money.  I
 won't be covering potential costs in this post.
 
-By the end of this post we'll have a functioning environment and
+By the end of these posts we'll have a functioning environment and
 deployment system, which in addition to hosting the web application,
 will also automatically utilize *Let's Encrypt* to acquire a free SSL
-certificate.
+certificate for the production system.  At the end of this post
+itself, the dev environment will be up (hopefully).
+
+Most of this post is going to be high-level kind of descriptions and
+things that I've discovered/done along the way while doing this.  It's
+not really a how-to guide, although if you're considering using this
+tech for something similar it might be useful to you.
 
 Oh, fyi, this is the first time I'm doing this and its basically
 pieced together random bits of information on the internet.  I didn't
@@ -73,6 +80,8 @@ accessible via DNS, with an SSL certificate, running the simple web
 application.
 
 Let's tackle the Terraform part of that now.
+
+## Terraforming things
 
 Terraform allows us to pretty easily define our infrastructure as
 code.  It took me an hour or two to get my initial setup working,
@@ -157,6 +166,52 @@ random Terraform files you find on the internet because YOLO.
 
 Now onto the next learning adventure, which is using Ansible to deploy
 even more buzzwords onto your EC2 instance automatically.
+
+## Deploy Buzzwords with Ansible
+
+So now that we have a dev environment that we can easily turn on and
+off again, we need to be able to setup the software on that server.
+
+Now I've decided to use Ansible for this, and I like to think that I
+made a good decision to do so, because I don't need a management
+server to do anything and when I started playing with all of this it
+worked basically right away.
+
+That said, there isn't an \*official\* Ansible provider for Terraform,
+and I guess there are for some other configuration/deployment
+technologies, but whatever, because so far it works and this is my
+blog I can do what I want to.
+
+The thing with Ansible is that you need to do your
+deployment/managment things from a non-Windows operating system.  Not
+a big deal really, and there are ways to do it from Windows with WSL
+or whatever, but just a heads up.
+
+Ansible is for the configuration of software on the systems, like
+Terraform is for the configuration of infrastructure on the cloud.
+
+By defining "playbooks", which are basically YAML files with tasks to
+be run on different hosts, Ansible lets you automate the deployment
+and configuration of software.  Actually, you can do other stuff like
+automate your network switches and things like that as well.
+
+The dev server (and production too basically) needs a few things to be
+installed and configured to host our application.
+
+It's going to need:
+
+* nginx
+* Java Runtime
+* SSL certificate
+* configuration changes for nginx
+* configuration to start the web app (it's a java program basically)
+
+
+
+
+
+
+
 
 
 
