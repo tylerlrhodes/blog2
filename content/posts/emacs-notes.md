@@ -13,6 +13,14 @@ its the things I've been using just infrequently enough to forget.
 
 It's a work in progress.
 
+### Emacs to do:
+
+Can I have a bash shell in emacs?
+
+Learn all the emacs temp and backup files and why they show up.
+
+Set the mode based upon file extension automatically (md files text-mode with auto-fillmode)
+
 ### Terminology
 
 **Frame**: otherwise known as a "window" in Windows.<br/>
@@ -94,7 +102,8 @@ Debug : *C-u C-M-x* <br />
 
 ### Searching
 
-Search: C-s
+Search: C-s [press it again to repeat the search]
+
 
 ### Spell Check
 

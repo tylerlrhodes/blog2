@@ -206,6 +206,17 @@ It's going to need:
 * configuration changes for nginx
 * configuration to start the web app (it's a java program basically)
 
+This is actually suprisingly easy to get setup with Ansible.  The only
+part that requires digging a little is the use of
+*terraform-inventory*, which is a little utility which dynamically
+builds an inventory for Ansible from the Terraform state.
+
+Besides that, it's just a matter of composing the configuration files
+and the playbook for Ansible.  I basically used the ad-hoc Ansible
+command to find the correct usage of the modules to install the
+software, and then built a playbook from that.  It was almost too easy
+for the most part.
+
 
 
 
