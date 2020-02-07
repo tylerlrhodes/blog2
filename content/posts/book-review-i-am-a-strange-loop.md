@@ -1,34 +1,40 @@
 ---
-title: "Book Review I Am a Strange Loop"
+title: "Book Review: I Am a Strange Loop"
 date: 2020-02-06T06:50:55-05:00
 draft: true
 ---
 
 *I Am a Strange Loop*, is a book by Douglas Hofstadter concerning the
-nature of the self.
+nature of the self.  Published in 2007 it's a followup to his *Godel,
+Escher, Bach,* and an attempt to drive home the central theme of that
+book, which he feels was missed by and large.
 
-
-
-
-In it Hofstadter explores what he considers to be the experience of
-the "I", or self, and how this experience is constructed from a
-self-referential loop of sorts -- his *strange loop*.
-
+In this work Hofstadter explores what he considers to be the
+experience of the "I", or self, and how this experience is constructed
+from a self-referential loop of sorts -- his *strange loop*.
 
 Through the text Hofstadter uses any number of metaphors and "thought
 experiments" to drive home his loop.  Or I think that this is what
-he's doing.
+he's doing.  Hofstadter's prose at times can be a little wordy but
+overall he communicates the meat of his message well.
 
-There are a few spots I think he drives home this core message, and
-that's in his exposition of Kurt Godel's work concerning *Principia
-Mathematica*, and how he showed that an entire system designed and
-constructed to eliminate self-reference, was actually
-self-referential.
+The one spot I felt Hofstadter drove home his message most effectively
+was his exposition of Kurt Godel's work concerning *Principia
+Mathematica.*  It's really pretty incredible what Godel did, which was
+show that an entire system architected and designed by the geniuses of
+the time to eliminate all self reference, was actually
+self-referential through and through.
 
-Hofstadter does a great job of showing this, even for someone like
+Hofstadter does a great job of explaining this, even for someone like
 myself who hasn't really done math for a while.  It's pretty clever
-how it works,  and the story behind it.  It's these few chapters that
-get me really excited about reading *Godel, Escher, Bach*.
+how it works, and the story behind it.  It's these few chapters that
+get me really excited about reading *Godel, Escher, Bach*.  For me,
+these are hands down the best chapters of the book.
+
+While *I Am a Strange Loop* has a lot of loopy stuff
+in it, this is the work that Hofstadter bases his notions of the self
+on, and builds his strange loop from.
+
 
 While I believe that I agree with the core premise of the book, that
 is, the *strange loop* is the experience of the self, I wasn't
