@@ -1,7 +1,11 @@
 ---
 title: "Book Review: I Am a Strange Loop"
 date: 2020-02-06T06:50:55-05:00
-draft: true
+draft: false
+tags: [ "book-review" ]
+description: "My review of I Am a Strange Loop by Douglass Hofstadter"
+keywords: [ "Book-Review", "Strange Loop"]
+
 ---
 
 *I Am a Strange Loop*, is a book by Douglas Hofstadter concerning the
@@ -47,12 +51,12 @@ doesn't have the focus and effectiveness that it could.  There are a
 few things I feel like he could have given more attention.  I would
 have liked to have seen more about the causal potency of patterns he
 describe.  Besides the experience of the self being analogous to the
-self-referential *strange loop* he descovers with Godel's work,
+self-referential *strange loop* he discovers with Godel's work,
 Hofstadter, in my opinion dances around what drives the loop a little bit.
 
 Later in the book, nearly at the end, he casually mentions the
 "so-called problem of free will," like its no big thing when
-discussing conciousness.  Here Hofstadter, in less than a few pages,
+discussing consciousness.  Here Hofstadter, in less than a few pages,
 declares that we "have wants," and that our "wants" cause us to do
 things.  He then declares that there is no sense to maintain that our
 "wants" are free, or that our decisions are.  He then claims, they are
@@ -60,11 +64,11 @@ the outcomes of physical events in our heads.
 
 To me the section in chapter 23, *There is no Free Will*, is an
 example of why I feel the book fell apart in some places.  I
-seriouslly have some issues with just declaring *free will* a sacred
+seriously have some issues with just declaring *free will* a sacred
 cow, killing it, and then using the reasoning he uses in this section
 like its some kind of "proof" that there is no such thing.  I mean, I
 wouldn't to so far as to say that he is totally wrong, I just thing he
-is missing tying so pieces together, that he lays out in the text.
+is missing tying some pieces together, that he lays out in the text.
 
 The experience of the self, through the *strange loop*, so far as our
 bodies experience feelings and emotions, is laid out through metaphor
@@ -78,7 +82,7 @@ experience.
 In Hofstadter lingo, *symbols* should be thought of as "a symbol
 inside a cranium, just like a simmball in the hypothetical careenium,
 should be thought of as a triggerable physical structure that
-constitues the brain's way of implementing a particular category or
+constitutes the brain's way of implementing a particular category or
 concept."  So inputs, to the brain, trigger Hofstadter's *symbols*,
 which does something physically, or whatever.
 
@@ -111,18 +115,27 @@ takes, and I suppose, it's from this viewpoint that towards the end he
 kills the *sacred cow* of the so-called "free-will."
 
 Our existence is reduced to biological determinism -- have a nice day
-meat sack.  From this viewpoint the rest of the book is built, a house
-of thought built from a loop of symbols of which are nothing less than
-a symbolic recording of biological and physical determinism through
-which our abstract notion of the self arises.
+meat sack.  Based upon no less than a notion that the "bottom-up"
+thinking *seems* more *fundamental,* Hofstadter builds the rest of the
+book.  In a way he tries to build up meaning again through a creative
+use of language to reduce the impact of the meat-sack reductionism he
+espouses.  That's my hot-take anyway.  A harsher take might be to say
+that pseudo-scientific thought tries to rebuild the meaning it has
+killed by assigning new meaning to the meaning of the words it has
+ingloriously killed off.
+
+While the dictionary isn't written in stone, I think redefining the
+word symbol, as Hofstadter does in this book, is a mistake, and adds
+to the confusion I had reading it.  Symbol is a vague enough word, but
+to give it the meaning this book does, is a little frustrating to me.
 
 There are a lot of tangents that Hofstadter goes off on in the book,
 and a lot of them are interesting, and could be fruitfully pursued
 further.  But the question to me, in this context, is if that fruit
-would be any good.  For a book of science, the only thing "prooved" in
-the book is Godel's work, showing a system designed to elimate
+would be any good.  For a book of science, the only thing "proved" in
+the book is Godel's work, showing a system designed to eliminate
 self-reference was in fact, self-referential.  I suppose from an
-emperical viewpoint, there could be some value in exploring some of
+empirical viewpoint, there could be some value in exploring some of
 Hofstadter's concepts throughout the book.  Or they might just be
 interesting to read about.
 
@@ -130,7 +143,7 @@ Hofstadter's *strange loop* however is described well, and almost
 romantically in some places, as he seems to portray a secular notion
 of spirituality built from the experience of individual "selves" which
 exist in oneself, as well as others.  It's a nice way of kind of
-laying out an idea of immortality and rememberance of people who have
+laying out an idea of immortality and remembrance of people who have
 passed, and Hofstadter describes this experience through his own
 personal life, and the tragic loss of his wife.
 
@@ -141,14 +154,14 @@ am looking forward *still* to reading *Godel, Escher, Bach* by the
 same author.
 
 I didn't like the book mainly because of the writing style.  As much
-as this book is about the *strange loop*, it's also about Hoftstadter,
+as this book is about the *strange loop*, it's also about Hofstadter,
 his opinions, and his life.  I mean, I am basically in agreement with
 just about everything he says in the books.  But I lost interest
 hearing what I think could be considered pseudo-scientific
 rationalizations of certain aspects of spirituality.
 
 Despite my criticisms of the work, and my reluctance to submit to the
-viewpoint that all we are is sacks of meat and all of our behaviour
+viewpoint that all we are is sacks of meat and all of our behavior
 will one day be reduced to a deterministic system which has been
 derived from genetics and physics (Hofstadter does not put it so
 bleakly, but it seems this is his position), I think it's a good book.
