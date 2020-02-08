@@ -67,13 +67,28 @@ wouldn't to so far as to say that he is totally wrong, I just thing he
 is missing tying so pieces together, that he lays out in the text.
 
 The experience of the self, through the *strange loop*, so far as our
-bodies experience feelings and emotions, is again laid out through
-metaphor and through experiments.  What he is saying kind of boils
-down, in my opinion, to the idea that if we had thought recorders, for
-instance, each *symbol* that is processed by the mind is recorded, and
-then played back, we *experience* this process.  As opposed to a
-computer playing back these *symbols* -- a computer would have no
-feeling or experience.
+bodies experience feelings and emotions, is laid out through metaphor
+and thought experiments.  What he is saying kind of boils down, in my
+opinion, to the idea that if we had thought recorders, for instance,
+each *input* that is processed by the mind is recorded, and then
+played back, we *experience* this process.  As opposed to a computer
+playing back these *inputs* -- a computer would have no feeling or
+experience.
+
+In Hofstadter lingo, *symbols* should be thought of as "a symbol
+inside a cranium, just like a simmball in the hypothetical careenium,
+should be thought of as a triggerable physical structure that
+constitues the brain's way of implementing a particular category or
+concept."  So inputs, to the brain, trigger Hofstadter's *symbols*,
+which does something physically, or whatever.
+
+Honestly reading this book makes me feel like an idiot, but there is a
+fair amount of writing in this book and enough metaphorical
+construction (not enough fundamentals) that is put out there in such a
+way that it feels like a lot of the *concepts* in it are built on a
+shaky foundation.  Not that I'm doing anything in this post to refute
+them, just saying this is what it feels like to me.  This book is
+loopy enough to make me want a drink.
 
 The book doesn't answer *who is the I* (it kind of tries to), rather I
 think it explains how through the experience and construction of the
@@ -86,7 +101,7 @@ derivation of what *meaning* is is left out of the book) and *feel.*
 In Chapter 7, *The Epi Phenomenon*, page 97, Hofstadter says that the "I" is
 the driver -- his words: "If I want something to happen, I just *will*
 it to happen, and unless it is out of my control, it generally *does*
-happen."  Sentences later while describing the "I": "How could it be
+happen."  Sentences later while describing the "I", "How could it be
 so all-powerful and yet not exist?"
 
 In the next section is Hofstadter compares the bottom up and top down
@@ -111,7 +126,6 @@ emperical viewpoint, there could be some value in exploring some of
 Hofstadter's concepts throughout the book.  Or they might just be
 interesting to read about.
 
-
 Hofstadter's *strange loop* however is described well, and almost
 romantically in some places, as he seems to portray a secular notion
 of spirituality built from the experience of individual "selves" which
@@ -119,8 +133,6 @@ exist in oneself, as well as others.  It's a nice way of kind of
 laying out an idea of immortality and rememberance of people who have
 passed, and Hofstadter describes this experience through his own
 personal life, and the tragic loss of his wife.
-
-
 
 While I believe that I agree with the core premise of the book, that
 is, the *strange loop* is the experience of the self, I wasn't
@@ -139,8 +151,23 @@ Despite my criticisms of the work, and my reluctance to submit to the
 viewpoint that all we are is sacks of meat and all of our behaviour
 will one day be reduced to a deterministic system which has been
 derived from genetics and physics (Hofstadter does not put it so
-bleakly, but it seems this is his position),   
+bleakly, but it seems this is his position), I think it's a good book.
 
-Anwer: * how symbols acquire meaning through context
-of this book *
+To be fair, Hofstadter does say in the beginning he doesn't believe
+philosophical thought can be proved in the same way as mathematics.
+I kind of have to agree with him here.  And he does lay out the course
+of the work early on, in the dialog he made up between Socrates and
+Plato when he was younger.  Is the self an illusion? And what is to be
+made of free will?
+
+Hofstadter gives his answer in this book I guess.  I'm not even sure
+he's wrong anywhere, I'm just not sure he's right and I certainly
+didn't find this to be convincing one way or the other.
+
+Anyway, despite not being totally crazy about this book, or the style
+of writing, I'm still really looking forward to *Godel, Escher, Bach.*
+Hofstadter is a good writer, and he has a lot to say, even if I don't
+totally agree with his viewpoint.  
+
+
 
