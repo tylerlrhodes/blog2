@@ -1,7 +1,6 @@
 ---
-title: "Deploying a Web App with Ansible, Terraform and AWS,
-part 1"
-date: 2020-01-19T10:28:58-05:00
+title: "Deploying a Web App with Ansible and Terraform on AWS, part 1"
+date: 2020-02-08T10:28:58-05:00
 draft: true
 
 ---
@@ -217,6 +216,12 @@ command to find the correct usage of the modules to install the
 software, and then built a playbook from that.  It was almost too easy
 for the most part.
 
+In fact, Ansible was so easy to get started with, that I have to say
+I'm pretty impressed.  Again, like Terraform, knowledge about what
+you're configuring is probably 
+
+* Learn about Ansible Handlers
+* "Best Practices"
 
 
 
