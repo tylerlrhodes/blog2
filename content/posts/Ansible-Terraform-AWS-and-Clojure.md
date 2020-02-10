@@ -5,32 +5,31 @@ draft: true
 
 ---
 
-In this series of posts we are going to focus on the build and
-deployment of a web application developed with Clojure.  We are going
-to deploy the application to AWS, and it is going to run on a single
-EC2 instance.  While it won't necessarily be "web-scale," in our case
-it won't need to be.
+This is the first post in what will be a few posts concerning the
+deployment of a web appliction to AWS.
 
-The application itself will be a simple one, and its development won't
-be covered in this post.  It is a simple application for tracking
-daily goals progress and expenditures.  It's written in Clojure and
-ClojureScript. It uses a simple file-based system for storing data.
-No databases required.
+This post will provide a high-level overview of the process and
+technologies used to deploy the application, and by the end of it a
+functioning development environment will be deployable in a repeatable
+manner.
 
-We will build out our infrastructure using *Terraform*, and then we
-will deploy our code and configuration using *Ansible*, and it will
-run on AWS.
+While the rest of the posts, and the application, are yet to be
+developed, I plan on a few posts (2 or 3) and having a tagged GitHub
+which shows the state of the development to go with the associated
+post.
 
-We'll build out a simple *dev* environment for testing, and a
-*production* environment for the real thing.  If you follow along and
-deploy it to your own AWS environment it may cost you real money.  I
-won't be covering potential costs in this post.
+The GitHub repo is available
+[here](https://github.com/tylerlrhodes/daily-goal), and the state at
+the end of this post is marked with the tag 'part1.' It represents my
+first take at a repeatable dev environment, and will be refactored a
+bit as I go along further.
 
-By the end of these posts we'll have a functioning environment and
-deployment system, which in addition to hosting the web application,
-will also automatically utilize *Let's Encrypt* to acquire a free SSL
-certificate for the production system.  At the end of this post
-itself, the dev environment will be up (hopefully).
+The application development is a bit orthogonal to this series of
+posts, and isn't terribly important.  This outline and deployment
+would work for nearly any basic web application on Linux, with
+modifications of course.  And I mean **basic**, the end state of this
+application is a simple, single server application.  Not a complex
+distributed system with multiple databases spanning two cloud providers.
 
 Most of this post is going to be high-level kind of descriptions and
 things that I've discovered/done along the way while doing this.  It's
@@ -102,16 +101,22 @@ storing the mappings between the deployed resource, and its
 definition, in a state database.  The database is basically just a
 file and it maps resource ids to the definitions in your code file.
 
-Working alone, this is pretty simple to manage.  Once you need to work
-with other people it will of course be more complicated, and there are
-a few possiblities for managing the state and the infrastructure's
-code when things progress.
+Terraform offers a few ways for managing this state and the mapping to
+your code.  The simplest way, is to work with the file locally.  This
+however doesn't work so well when you have multiple users, or, in my
+case, want to work from multiple computers.
 
-Here I'm going to ignore all of that, and just do everything locally
-since it's just me working on this, and you could probably write a
-whole book on Terraform if you wanted to.
+There area few options for setting up a remote store for the state,
+and these options are documented on the Terraform site.  I ended up
+going with the Terraform cloud after starting off just using the local
+file.  It was easy to setup, and best of all, free.
 
-So what I ended up doing was a little bit of trial and error to figure
+Since the Terraform getting started guide, which showed basically
+exactly what I wanted to do, didn't work, I had more to do in order to
+get going.  In the end it wasn't too bad, it just took a little longer
+than the five minute getting started guide laid out.
+
+What I ended up doing was a little bit of trial and error to figure
 out all the AWS resources I needed to create in order to have a
 publicly accessible development server.  In the end I needed to spell
 out everything: a keypair, VPC, subnet, internet gateway, routing
@@ -131,6 +136,12 @@ don't know them all, and to get my dev server up and running, I don't
 need to know it.  When we do the prod server, we'll refactor the
 Terraform, and make it more useful down the road.
 
+Overall working with Terraform is a pretty good experience, and the
+documentation out there is reasonable.  It was a few more hours work
+to get it going than it looked like it might be, but this is pretty
+par for the course in technology land.  Sometimes the guide works,
+sometimes it doesn't.
+
 If you are a developer, I would imagine that the roadblocks to using
 Terraform would be less about Terraform, and more about how
 knowledagable you are about systems, networking, and "the cloud."
@@ -140,28 +151,11 @@ Github repository, and you can see it in all of its glory there.  I'm
 sure there are some mistakes built into it, but it seems to more or
 less work.
 
-That file, if you were to change the values of the domain_name under
-the locals section, together with a Route 53 zone (that matches the
-domain name you define), and a working AWS CLI and Terraform program,
-should get you an EC2 instance up and running.  This, of course, is
-dependent upon the moon being in the correct phase, and whether or not
-the technology gods are currently demanding tribute.
-
-But it will probably more or less work.  Oh you have to generate a
-keypair for it to work too.  And maybe some other stuff, but that's
-probably it.  You only need the keypair if you actually want to
-connect to the instance anyway.
-
-Besides you probably don't want to just deploy random Terraform files
-you found on the internet without knowing what they will do (yes,
-terraform will tell you want it plans on doing, but if you don't
-understand whats in the file, you probably won't understand that
-either).
-
-So if you've learned anything so far from this post, it's that
-Terraform isn't that hard, and will work, if the moon is in the
-correct phase, and the cloud gods permit it.  Also, you should deploy
-random Terraform files you find on the internet because YOLO.
+To be fair, the Terraform file in the repo at this point \*works\*,
+and seems to work pretty well -- but it needs some refactoring.  Not
+just the code (thats probably just about ok), but the directory
+structure.  It's not primetime Terraform, but it's not a bad starting
+point I think.
 
 Now onto the next learning adventure, which is using Ansible to deploy
 even more buzzwords onto your EC2 instance automatically.
@@ -184,7 +178,7 @@ blog I can do what I want to.
 The thing with Ansible is that you need to do your
 deployment/managment things from a non-Windows operating system.  Not
 a big deal really, and there are ways to do it from Windows with WSL
-or whatever, but just a heads up.
+(I assume anyway), but just a heads up.
 
 Ansible is for the configuration of software on the systems, like
 Terraform is for the configuration of infrastructure on the cloud.
@@ -204,6 +198,7 @@ It's going to need:
 * SSL certificate
 * configuration changes for nginx
 * configuration to start the web app (it's a java program basically)
+* the application
 
 This is actually suprisingly easy to get setup with Ansible.  The only
 part that requires digging a little is the use of
@@ -218,7 +213,41 @@ for the most part.
 
 In fact, Ansible was so easy to get started with, that I have to say
 I'm pretty impressed.  Again, like Terraform, knowledge about what
-you're configuring is probably 
+you're configuring is probably the limiting factor.
+
+That said, I'm definitely not using Ansible as well as I could be, and
+it too needs some work before production.  But -- for now, I can
+deploy and configure my dev server with just a few commands, which is
+good enough.
+
+## To Conclude Part 1
+
+Getting this stuff working was actually a lot of fun.  I started
+working in technology fixing printers and computers (ok actually it
+was QBasic but professionally), and progressed into systems and
+networking, only to circle back to development.  So I think this
+infrastructure as code, and automated deployment and configuration
+stuff is pretty sweet.
+
+It took a little bit (mostly just to write this), but my development
+server can be launched in just a few minutes, from nothing.  Totally
+awesome.
+
+I would like to be able to just shut it off somehow in case I forget
+it's on.  But it's only a t3.nano, which is cheap, but not free.  If it
+was more money I would definitely want a shutoff, almost like reverse
+monitoring.  The alerts come in when it's still on or something like
+that.
+
+There are a few things I have to sort out still, but not really.
+Mostly it's just how to manage the private certificates for the
+environments for SSH access to the box from my many computers.  But
+copy and paste is pretty much fine for now.
+
+
+
+
+
 
 * Learn about Ansible Handlers
 * "Best Practices"
