@@ -1,8 +1,11 @@
 ---
 title: "Deploying a Web App with Ansible and Terraform on AWS, part 1"
 date: 2020-02-08T10:28:58-05:00
-draft: true
-
+draft: false
+description: "Part 1 in a series of posts concerning the deployment of
+a web application using Terraform and Ansible to AWS"
+tags: [ "ansible", "terraform", "aws", "technology" ]
+keywords: [ "programming", "technology" ]
 ---
 
 This is the first post in what will be a few posts concerning the
@@ -19,10 +22,10 @@ which shows the state of the development to go with the associated
 post.
 
 The GitHub repo is available
-[here](https://github.com/tylerlrhodes/daily-goal), and the state at
-the end of this post is marked with the tag 'part1.' It represents my
-first take at a repeatable dev environment, and will be refactored a
-bit as I go along further.
+[here](https://github.com/tylerlrhodes/daily-goal/tree/part1), and the
+state at the end of this post is marked with the tag 'part1.' It
+represents my first take at a repeatable dev environment, and will be
+refactored a bit as I go along further.
 
 The application development is a bit orthogonal to this series of
 posts, and isn't terribly important.  This outline and deployment
@@ -49,7 +52,7 @@ development environment.
 
 First, I'm doing this on an Ubuntu workstation and I've already
 installed Terraform, Ansible, and a utility which helps connect
-Ansible and Terraform in a way.
+Ansible and Terraform.  
 
 So, just to make sure you can expect close to the same results, this
 is the software and versions I'm using:
@@ -224,14 +227,14 @@ good enough.
 
 Getting this stuff working was actually a lot of fun.  I started
 working in technology fixing printers and computers (ok actually it
-was QBasic but professionally), and progressed into systems and
+was QBasic but professionally anyway), and progressed into systems and
 networking, only to circle back to development.  So I think this
 infrastructure as code, and automated deployment and configuration
 stuff is pretty sweet.
 
-It took a little bit (mostly just to write this), but my development
-server can be launched in just a few minutes, from nothing.  Totally
-awesome.
+It took a little bit of time to do (mostly just to write this), but my
+development server can be launched in just a few minutes, from
+nothing.  Totally awesome.
 
 I would like to be able to just shut it off somehow in case I forget
 it's on.  But it's only a t3.nano, which is cheap, but not free.  If it
@@ -242,15 +245,16 @@ that.
 There are a few things I have to sort out still, but not really.
 Mostly it's just how to manage the private certificates for the
 environments for SSH access to the box from my many computers.  But
-copy and paste is pretty much fine for now.
+copy and paste is pretty much fine for now, or maybe keep it in
+1Password.  Actually I'll spend some time figuring this out, but it
+shouldn't be too bad.
 
+There is definitely some refactorings to be done, and improvments that
+could be made to the Ansible and Terraform code.  So after I develop
+the app a little more, I'm going to work on this, and the next post
+will go into breaking up the Terraform appropriately, and improving
+the Ansible a bit with things like handlers and other good practices.
 
-
-
-
-
-* Learn about Ansible Handlers
-* "Best Practices"
 
 
 

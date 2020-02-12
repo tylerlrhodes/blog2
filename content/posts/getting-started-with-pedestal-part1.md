@@ -18,6 +18,8 @@ Part 1
 4. Developing at the REPL
 5. Serving files
 6. A simple API
+7. Testing
+8. Getting around
 
 Part 2
 
