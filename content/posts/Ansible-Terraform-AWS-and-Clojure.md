@@ -9,7 +9,7 @@ keywords: [ "programming", "technology" ]
 ---
 
 This is the first post in what will be a few posts concerning the
-deployment of a web appliction to AWS.
+deployment of a web application to AWS.
 
 This post will provide a high-level overview of the process and
 technologies used to deploy the application, and by the end of it a
@@ -69,7 +69,7 @@ and troubleshoot why it may not be working.
 For instance, to work with Terraform and AWS, you need the AWS CLI
 installed but I didn't list that up there.
 
-This post is going to go over the broard strokes and occasionally dip
+This post is going to go over the broad strokes and occasionally dip
 down into the details to help out.  But it's going to leave a lot out
 and assume you can follow along anyway.
 
@@ -109,7 +109,7 @@ your code.  The simplest way, is to work with the file locally.  This
 however doesn't work so well when you have multiple users, or, in my
 case, want to work from multiple computers.
 
-There area few options for setting up a remote store for the state,
+There are a few options for setting up a remote store for the state,
 and these options are documented on the Terraform site.  I ended up
 going with the Terraform cloud after starting off just using the local
 file.  It was easy to setup, and best of all, free.
@@ -123,10 +123,10 @@ What I ended up doing was a little bit of trial and error to figure
 out all the AWS resources I needed to create in order to have a
 publicly accessible development server.  In the end I needed to spell
 out everything: a keypair, VPC, subnet, internet gateway, routing
-table, EC2 instance, security group, and the dns record.
+table, EC2 instance, security group, and the DNS record.
 
 Really the only interesting part I ran into was figuring out how to
-update a resource that was created independtly of my Terraform code.
+update a resource that was created independently of my Terraform code.
 I already had a hosted DNS zone created in Route 53, and I want that
 zone to not be destroyed with the rest of my resources I define in
 Terraform when I turn off the dev environment.
@@ -147,17 +147,17 @@ sometimes it doesn't.
 
 If you are a developer, I would imagine that the roadblocks to using
 Terraform would be less about Terraform, and more about how
-knowledagable you are about systems, networking, and "the cloud."
+knowledgeable you are about systems, networking, and "the cloud."
 
 Anyway, the development server is defined in *terraform-dev.tv* in the
-Github repository, and you can see it in all of its glory there.  I'm
+GitHub repository, and you can see it in all of its glory there.  I'm
 sure there are some mistakes built into it, but it seems to more or
 less work.
 
 To be fair, the Terraform file in the repo at this point \*works\*,
 and seems to work pretty well -- but it needs some refactoring.  Not
-just the code (thats probably just about ok), but the directory
-structure.  It's not primetime Terraform, but it's not a bad starting
+just the code (that's probably just about ok), but the directory
+structure.  It's not prime-time Terraform, but it's not a bad starting
 point I think.
 
 Now onto the next learning adventure, which is using Ansible to deploy
@@ -179,7 +179,7 @@ technologies, but whatever, because so far it works and this is my
 blog I can do what I want to.
 
 The thing with Ansible is that you need to do your
-deployment/managment things from a non-Windows operating system.  Not
+deployment/management things from a non-Windows operating system.  Not
 a big deal really, and there are ways to do it from Windows with WSL
 (I assume anyway), but just a heads up.
 
@@ -203,7 +203,7 @@ It's going to need:
 * configuration to start the web app (it's a java program basically)
 * the application
 
-This is actually suprisingly easy to get setup with Ansible.  The only
+This is actually surprisingly easy to get setup with Ansible.  The only
 part that requires digging a little is the use of
 *terraform-inventory*, which is a little utility which dynamically
 builds an inventory for Ansible from the Terraform state.
@@ -249,7 +249,7 @@ copy and paste is pretty much fine for now, or maybe keep it in
 1Password.  Actually I'll spend some time figuring this out, but it
 shouldn't be too bad.
 
-There is definitely some refactorings to be done, and improvments that
+There is definitely some refactoring to be done, and improvements that
 could be made to the Ansible and Terraform code.  So after I develop
 the app a little more, I'm going to work on this, and the next post
 will go into breaking up the Terraform appropriately, and improving
