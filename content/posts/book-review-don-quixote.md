@@ -39,4 +39,11 @@ When is reason in Don Quixotie "reasonable"?
 
 Envy, Jealousy, Haterd -- traignualr desire, internal mediation: explanations
 
+can a "memory" be an object in triangular desire - p 30 DDATN
+
+humility vs pride
+
+the transfiguration of the object via the mediator
+
+
 
