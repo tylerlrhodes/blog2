@@ -45,5 +45,13 @@ humility vs pride
 
 the transfiguration of the object via the mediator
 
+page 57-58 DDATN - manic experience described kind of ... review this
+
+p 68 - explain why rejection intensifies desire through lengs of triangular desire
+
+what does girard mean by "deviated transcendency"
+
+what does girard mean by "affective memory"
+
 
 

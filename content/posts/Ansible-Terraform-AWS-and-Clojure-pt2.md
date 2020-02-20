@@ -56,6 +56,46 @@ cost me money.
 
 - find something to scan github automatically for credentials
 
+Basically I just need to make sure that my private keys are protected,
+and that I don't just commit them to GitHub on accident.
+
+They should probably also be password protected, both the SSH key for
+the EC2 instance, and the private key for the development web server
+certificate.
+
+So the secrets that need to be managed are:
+
+* AWS Credentials: for Terraform, and also application access to S3
+* EC2 SSH Private key: need this from a few machines
+* Dev server private web certificate: not critical if comprimised
+* Others?
+
+### AWS Credentials
+
+So my AWS root account is protected with 2FA, but it's crazy 2FA,
+because it's also my Amazon account, which is also protected by 2FA,
+so I have to type in two different authenticator codes, but they're
+from the same device, so I guess it's still 2FA, just crazy style.
+
+I like to imagine that one day, when my application is making tons of
+money, and get's hacked into, some people will laugh at me for using
+the same account to buy underwear that I use to pay for my massive AWS
+bill.
+
+But besides hoping for laughter in the future, I will try to at least
+make it kind of hard for someone to spend my money when I dont' want
+them to.  The application, once it's deployed to AWS, should not be
+able to do crazy things with my AWS account if it gets hacked.
+
+So the following needs to be reviewed:
+
+1. IAM permissions that the EC2 instance operates under
+2. IAM account for S3 access between environments, and managment of
+secrets
+
+
+
+
 
 
 
