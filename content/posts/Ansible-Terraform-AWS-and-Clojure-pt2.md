@@ -87,11 +87,44 @@ make it kind of hard for someone to spend my money when I dont' want
 them to.  The application, once it's deployed to AWS, should not be
 able to do crazy things with my AWS account if it gets hacked.
 
-So the following needs to be reviewed:
+There are two sets of credentials here that need to be managed.
 
-1. IAM permissions that the EC2 instance operates under
-2. IAM account for S3 access between environments, and managment of
-secrets
+One is for the deployment of the environments using Terraform.  This
+set of credentials needs access to create resources in AWS, such as
+the EC2 instance, S3 Bucket, and associated required resources (VPC,
+internet gateway, etc).
+
+I'm not sure if for this its necessary to lock this down too much,
+since it's really only me that's using these credentials, and they'll
+only be used locally.  I've created a user that isn't the root user
+through IAM, and the access keys for this are tied to that.
+
+The other is for access to S3 from the application.  While these
+credentials won't need to be able to create the buckets, they will
+need to be able to read and write to them.
+
+It looks like a reasonable approach to take, with the development and
+production environments, would be the use of specific IAM roles which
+can be attached to EC2 instances.  This allows the EC2 instance to use
+temporary credentials, managed by AWS, to access resources in the AWS
+environment.  The configured IAM role of course would only have access
+to S3 in this case.
+
+A slight drawback here is that running the program locally, I'll still
+have to use local credentials, so there may be a slight difference in
+how the application acquires it's credentials between local and other
+environments.  However, due to the way that the AWS SDK resolves
+credentials by default, in practice this shouldn't be a problem at
+all.  Between the development and production environments, both on
+AWS, the process would be identical.
+
+### SSH Private Keys
+
+
+
+
+
+
 
 
 

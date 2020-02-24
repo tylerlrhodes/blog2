@@ -53,5 +53,25 @@ what does girard mean by "deviated transcendency"
 
 what does girard mean by "affective memory"
 
+page 90 - proust and girard on "selves"
 
+define ontological disease in Girard's terms
+
+describe double mediation - p173
+
+Master vs Slave
+
+Men become gods
+
+Girard's defintion of passion
+
+Relativity of passion vs vanity (characters at points in time in the novel)
+
+spontaneous desire
+
+Individual vs collective in general
+
+"The need for transcendency seeks satisfaction in the human world and leads the hero into all sorts of madness" - p 159 ddatn
+
+masochism and sadism
 
