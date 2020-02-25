@@ -97,7 +97,8 @@ internet gateway, etc).
 I'm not sure if for this its necessary to lock this down too much,
 since it's really only me that's using these credentials, and they'll
 only be used locally.  I've created a user that isn't the root user
-through IAM, and the access keys for this are tied to that.
+through IAM, and the access keys for this are tied to that.  I keep
+the access keys for the SDK in 1Password, which is encrypted and secure.
 
 The other is for access to S3 from the application.  While these
 credentials won't need to be able to create the buckets, they will
@@ -118,7 +119,30 @@ credentials by default, in practice this shouldn't be a problem at
 all.  Between the development and production environments, both on
 AWS, the process would be identical.
 
+-- Do this and write about it
+
 ### SSH Private Keys
+
+There will be a public-private keypair for both development and
+production, which will be used for authenticating to the EC2 instance
+via SSH.  This keypair needs to be identified during the environment
+creation, and specified in the Terraform code.
+
+One mistake that I've made so far is that my private key isn't
+protected with a password, which is a good measure, in addition to not
+checking into source control on accident.
+
+This is pretty easy to remedy, and can be done with the following
+command:
+
+```
+ssh-keygen -p -f ~/.ssh/id_rsa
+```
+
+Of note is that this changes the actualy file and doesn't produce a
+new file.  The key is encrypted with a password, and using it with the
+SSH client will result in you being prompted for the password.
+
 
 
 
@@ -188,7 +212,7 @@ https://serverfault.com/questions/934132/how-to-configure-nginx-ssl-with-an-encr
 - ansible inventory
 - ansible handlers
 - idempotency
-
+- ansible.cfg file
 
 
 * Build and deployment system
