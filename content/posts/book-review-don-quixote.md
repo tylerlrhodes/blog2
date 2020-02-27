@@ -64,7 +64,7 @@ Master vs Slave
 Men become gods
 
 Girard's defintion of passion
-
+j 
 Relativity of passion vs vanity (characters at points in time in the novel)
 
 spontaneous desire
