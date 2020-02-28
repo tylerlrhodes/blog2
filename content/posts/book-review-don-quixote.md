@@ -5,6 +5,21 @@ draft: true
 ---
 
 
+
+p31 - "he strung these..." - second to bottom paragraph
+
+p35 - "yet what bothered him most ..." last sentence
+
+p44 -
+
+p51 - 54
+
+
+
+
+
+
+
 Approach to reading:
 
 1. Enjoy the book
@@ -57,7 +72,7 @@ page 90 - proust and girard on "selves"
 
 define ontological disease in Girard's terms
 
-describe double mediation - p173
+describe double mediation - p173,
 
 Master vs Slave
 
