@@ -12,9 +12,13 @@ Operating under the context of triangular desire, the individual has
 surrendered his fundamental perogative, he no longer chooses his
 desires.  His desires are the desires of his mediator.
 
-Girard does not directly appear to give his derivation of triangular
-desire, but later works of his hint at it's beginnings: the 10th
-commandment.
+Girard builds his model of triangular desire from the words of Don
+Quixote, and his imitation of his model of chivalry, Amadis of Gaul.
+With this foundation he couples Quixote and later works to the model
+of triangular desire.  While not a subject of this book, his later
+analysis of Christianity and religion, is tied to this model
+fundamentally as well.  In fact, the 10th commandment is identified as
+Girard 
 
 Besides the analytical power of triangular desire, it immediately
 poses a more fundamental question.  If we merely copy our mediator's
@@ -72,11 +76,19 @@ Chapter 1:
   and judgement paralyzed.
 * Passion vs Vanity: what does it mean to desire? Is passion the
   opposite of vanity?  individualism?
+* "The passionate person draws the strength of his desire from within
+  himself and not from others" - passion / vanity (passion in
+  Stendhal)
+* A vaniteux will desire any object so long as he is convinced that it
+  is already desired by another person whom he admires.  The mediator
+  here is a rival, brought into existence as a rival by vanity, and
+  that same vanity demands his defeat.  
 * External vs internal mediation: the existance of the rival and
   spiritual distance to the mediator
 * Double mediation: a desire begets a duplicate desire, and a rival
   * the mediator can no longer act his role of model without also
     acting or appearing to act the role of obstacle.
+* The loathed rival is actually a mediator    
 * Start with the rival instead of the object of desire for analysis,
   the mediator transfigures the object
 * Jealousy, envy, hatred: traditional names given to internal
@@ -88,7 +100,7 @@ Chapter 1:
 * internal mediation is a dissolving power, striking at the core of
   groups and family
 * snob - p24, doesn't trust his own judgement, only others -- slave to
-  fashionable
+  fashionable, only desires objects desired by others
 * Closer the mediator gets to subject, the mmore the possibilities of
   the two rivals merge, and the more insuperable the obstacle becomes
 * highest forms of suggesstion not as different from the lowest as we
@@ -116,11 +128,66 @@ Chapter 1:
 
 Chapter 2:
 
-
-
-
-
-
-
-
-
+* Every hero of a novel expects his being to be radically changed by
+  the act of possession.
+* The object is only a means of reaching the mediator.  The desire is
+  aimed at the mediators being.
+* This can take the form of a desire to be initiated into a new "life"
+  or "lifestyle" - p53
+* The desiring subject wants to become his mediator - "perfect
+  knight", "irresistible seducer"
+* The curse the hero is burdened with is indistinguishable from his
+  subjectivity.
+* What is the source of demands the self cannot satisfy?
+  * a desire originating in the self, should be satisfieable by the
+  self
+  * These desires (metaphysical desire) don't originate from teh self
+  * false promise of metaphysical autonomy: Dostoyevsky
+* "God is dead, man must take his place": "new" Western Doctrine - p56
+* As the voice of pride swells, the consciousness of existence becomes
+  bitter and solitary
+* Everyone thinks that he alone is condemned to hell, and that is what
+  makes it hell: "I am alone, and they are together."
+* An individual proclaims that he does not wish to change his being
+  and that he is self-sufficient: the victims of modern gospel are its
+  greatest allies.  The more one becomes a slave the more one defends
+  slavery.
+* Choice involves choosing a model, and true freedom lies in the
+  choice between a human or divine model
+* pride is more external to us than the external world
+* Hate is the reverse image of divine love
+* The false prophets proclaim that in tomorrow's world "men will be
+  gods for each other."
+* The passion that drives men to seize or gain more possessions is not
+  materialistic: it is the triumph of the mediator, the god with the
+  human face
+* Vanity prevents the addmission of failure, characters cannot equal
+  the model they have chosen.
+* modern historical development and the appeal of "political freedom"
+  give rise or heighten vanity
+* "We shall never despise the snob as much as he despises himself"
+* p67 - "moral judgement", we don't have the heart to condem one who
+  is "possessed"
+* snobbism begins with equality
+* we condomen one and forgive the other on the same moral grounds
+* one must be a snob oneself to suffer from the snobbism of others
+* as the distance between subject and mediator decreases, differences
+  diminish, the comprehension more acute and the hatred more intense
+* the lucidity and blindness both increase as the mediator comes
+  nearer
+* It is those who are most inclined to the "ontological sin" that
+  attempt to cure Don Quixote
+* It is always the most familiar forms of imitative desire which
+  excite indignation
+* the metaphor should reveal the significance of metaphysical desire
+* The narrator always approaches his god in fear and trembling
+* A childhood deprived of the sacred succeeds in ressurecting myths
+  which have been dead for centuries; it revivifies the most lifeless
+  symbols
+* metaphysical life is so vigorours in certain beings that it
+  reappears under the most unfavorable conditions. It can finally end
+  by assuming quite monstrous shapes.
+* it is the transcendant quality of a former desire which is relived
+  on contact with a relic of the past.  The memory is no longer
+  poisoned, as was the desire, by the rival desire
+  

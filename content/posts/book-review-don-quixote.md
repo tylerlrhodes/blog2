@@ -14,6 +14,52 @@ p44 -
 
 p51 - 54
 
+p59-60
+
+61 - sancho intro
+
+62 - the island
+
+64 - freston and the windmills
+
+68 - funny quote
+
+73
+
+
+74 - the ligth and mirror of chivalry of that land
+
+85 - knight errantry
+
+93 - marcela - death dealing shepherdess
+
+96 - what is a knight errant, 99 ladies men joke
+
+
+103 - grisostomo's song
+
+111 - marcela / quixote
+
+116 - funny
+
+119 - "harvests of chivalry"
+
+123 - "whats a knight adventurer?"
+
+128
+
+129 - funny
+
+132 - the balsam potion
+
+143 - "this just shows how my enemy, that scoundrel of an enchanter, can transform things and make them disappear.
+
+148 x
+
+151 - knigght of sorry face
+
+
+
 
 
 
