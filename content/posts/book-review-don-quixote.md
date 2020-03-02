@@ -58,6 +58,14 @@ p59-60
 
 151 - knigght of sorry face
 
+168 - barbers basin
+
+171-172 'knight-errantry / chivalry'
+
+186 - after freeing the convicts
+
+196 - knight of the sierra
+
 
 
 

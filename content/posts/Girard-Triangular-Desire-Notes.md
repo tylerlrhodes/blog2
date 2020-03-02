@@ -191,3 +191,101 @@ Chapter 2:
   on contact with a relic of the past.  The memory is no longer
   poisoned, as was the desire, by the rival desire
   
+Chapter 3:
+
+* "Imitative desire is always a desire to be Another.  There is only
+one metaphysical desire but the particular desires which instantiate
+this primordial desire are of infinite variety.  From what we can
+observe directly, nothing is constant in the desire of a hero of a
+novel.  Even its intensity is variable.  It depends on the degree of
+"metaphysical virtue" possessed by the object.  And this virtue, in
+turn, depends on the distance between the object and meditor."
+
+* Desire always increases in intensity as the mediator approaches the
+  desiring subject.
+* The closre the mediator comes, the more feverish the action becomes.
+* As the role of the metaphysical grows greater in desire, that of the
+  physical diminishes in importance.
+* Stendhal: the pettier the social differences, the more affection it
+  produces
+* Most extreme forms of internal mediation should therefore be defined
+  as a minimum difference producing a maximum affection.
+* Stendhal or Proust: disappointment when possession attained is
+  entirely metaphysical.  Possession of the objeect has not changed
+  the subjects being.  Expected metamorphosis has not taken place.
+* p90
+* "decomposition of personality": comes from multiplication of
+  mediators
+* the briefer the reign of mediator, the more tyrannical it becomes
+* the underground man's mediators succeed one another so rapidly, we
+  can no longer speak of distinct selves
+* man from the underground is often torn between several simultaneous
+  mediations
+* beginning with Proust: mediator can be anyone and popup at any
+  moment
+* "As the mediation becomes more unstable the yoke grows heavier.  Don
+  Quixote's mediation is a feudal monarchy which is sometimes more
+  symbolic than real.  But the underground man's mediation is a series
+  of dictatorships as savage as they are temporary.  The results of
+  this convulsive state are not limited to any particular area of
+  existence; on the contrary, they are totalitarian."
+  
+Chapter 4:
+
+* Metaphysical desire is eminently contagious.
+* Don Quixote spreads the "ontological sickness" to those around him
+* "the truly diabolical subtlety of the ontological sickness provides
+  the clue to numerous episodes."
+* The supreme imitator is imitated; the work denouncing metaphysical
+  desire is enlisted under its banner and becomes its best ally.
+* The contagious nature of metaphysical desire is one of the most
+  important points of novelistic revalation.
+* Metaphysical desire is always contagious.  It becomes even more so
+  as the mediator draws nearer to the hero.  
+* The nearer the mediator comes the more extensive are the ravages of
+  mediation.
+* In the world of internal mediation, the contagion is so widespread
+  that everyone can become his neighbor's mediator without ever
+  understanding the role he is playing.
+* Each imitates the other while claiming that his own desire is prior
+  and previous.  
+* The more intense the hatred the nearer it brings us to the loathed
+  rival. Everything it suggests to one, it suggests equally to the
+  other, including the desire to distinguish onself at all costs.
+* Modern society is no longer anything but a negative imitation and
+  the effort to leave the beaten path forces everyone inevitably into
+  the same ditch.
+* Double, or reciprocal, mediation: Renal thought he was imitating
+  Valenod's desire and now VAlenod is imitating Renal's desire
+* "Reality springs from the illusion and provides it with a misleading
+  guarantee."
+* In double mediation, the metamorphosis of the object is common to
+  both partners.
+* "The players are opposed but alike, and even interchangeable, for
+  they make exactly the same movements." - p103
+* "The players are partners, but they agree only to disagree"
+* "As we know, each one holds the Other responsible for the misfortune
+  which falls upon him."
+* All imitated desire, no matter how noble and inoffensive it appears
+  at the beginning, gradually drags its victims down into the infernal
+  regions
+* "In the universe of internal mediation indifference is never simply
+  neutral; it is never pure absence of desire.  To the observer it
+  always appears as the exteriour aspect of a desire of oneself.  And
+  it is this supposed desire which is imitated.  Far from
+  contradicting the laws of metaphysical desire, the dialectic of
+  indifference confirms them."
+* In the world of internal mediation every desire can produce other
+  rival desires.
+* When double mediation invades the domain of love, all hope of
+  reciprocity vanishes.
+* "In double mediation each one stakes his freedom against the
+  other's. The struggle ends when one of the partners admits his
+  desire and humbles his pride.
+* "Stendhalian vanity, Proustian snobbism, and the Dostoyevskain
+  underground are the new forms assumed by the struggle of
+  consciousnesses in a universe of physical non-violence.
+* Violence, far from serving the interests of whoever exerts it,
+  reveals the intensity of his desire; thus it is a sign of slavery.  
+
+
