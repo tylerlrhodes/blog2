@@ -289,3 +289,72 @@ Chapter 4:
   reveals the intensity of his desire; thus it is a sign of slavery.  
 
 
+Chapter 5: The Red and the Black
+
+- Stendhal does not give up thinking the day he stops copying the
+  thought of others; he begins to think for himself.  He must amend
+  the conclusions of abstract intelligence by contact with experience.
+- "Why are men not happy in the modern world? - Stendhal: we are not
+  happy because we are 'vanituex'"
+- "The revolutionaries thought they would be destorying vanity when
+  they destroyed the privileges of the noble.  But vanity is like a
+  virulent cancer that spreads in a more serious form throughout the
+  body just when one thinks it has been removed.  Who is there left to
+  imitate after the "tyrant"? Henceforth men shall copy each other;
+  idolatry of one person is replaced by hatred of a hundred thousand
+  rivals."
+- Men will become gods for each other
+- The vanity of the 'ancien regime' was gay, unconcerned, and
+  frivoloous; the vanity of the nineteenth century is sad and
+  suspicious; it has a terrible fear of ridicule.  "Envy, jealousy,
+  and impotent hatred" are the accompaniment of internal mediation.
+- The transistion from external to internal mediation constitutes the
+  supreme phase in the decline of the nobility.
+- Double mediation is a melting-pot in which differences among classes
+  and individuals gradually dissolve.
+- Mediated by its bourgeois audience, the nobility copies the
+  bourgeoisie without even realizing it.
+- "In the Ancient Regime and the Revolution, for instance, we find the
+  paradox of an aristocracy that by its opposition to the middle class
+  begins to resemble it, and that adopts all the virtues of which the
+  middle class is trying to rid itself."
+- When the aristocracy seems most alive is precisely when it is most
+  dead.
+- All novelistic works have a tendency to the comic
+- The paradox of an aristocracy that becomes democratic through its
+  very hatred of democracy is nowhere more striking than in political
+  life.
+- The theme throughout is reacion and reveals the negative slavery of
+  internal mediation.  Party rule is the natural political expression
+  of this mediation; party platforms do not bring about political
+  opposition - opposition brings about party platforms.
+- "moreover, we soon realize that rationalism means the death of
+  privilege.  Truly noble reflection resigns itself to that death,
+  just as the truly noble warrior is prepared to die on the
+  battlefield."
+- "First came the nobility; then followed the noble class; finally
+  only a noble party is left.  After the period when the two
+  coincided, spiritual and social nobility now tend to exclude each
+  other; henceforth the incompatibility of privilege with greatness of
+  soul is so radical that it is patent even in the attempts to conceal
+  it."
+- "They are ignoble because they prize nobility"
+- Since the revolution no one can be privileged without knowing it.
+- Historic and psychic evolution are irreversible.
+- "The political elimination of the noble party cannont re-establish
+  harmony and satisfy the desires that have been awakened."
+- Ancient historic appearances hide a new structure of human
+  relations.  The party struggle is rooted not in past inequality but
+  in the present equality, no matter how imperfect it may be.
+- Submission to the Other is no less absolute when it assumes negative
+  forms - a puppet is no less a puppet when the strings are crossed.
+- First the actors exchange threats, then they exchange roles.
+- Internal mediation continues its underground work.
+- The increasing equality - the approach of the mediator in our terms
+  - does not give rise to harmony but to an even keener rivalry.
+  Although this rivalry is the source of considerable material
+  benefits, it also leads to even more considerable spiritual
+  sufferings, for nothing material can appease it.
+- The ontological sickness, we know, always leads its victims toward
+  the "solutions" that are most likely to aggravate it.
+-   

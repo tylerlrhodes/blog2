@@ -66,6 +66,22 @@ p59-60
 
 196 - knight of the sierra
 
+p205 - defense of queen
+
+p207 imitation notes
+
+p209 - object transfiguration
+
+p226 - spread of ontological disease
+
+p231 - mental illness 
+
+p232 - "curing the ontological sickness"
+
+p234 - example of triangular desire
+
+p237 - letter
+
 
 
 
