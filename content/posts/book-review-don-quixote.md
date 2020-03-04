@@ -82,6 +82,35 @@ p234 - example of triangular desire
 
 p237 - letter
 
+p247 - funny opening: most happy and fortunate were the times ...
+
+p264 - paragraph 3, spread of ontological sickness
+
+p268 - beard reattachment
+
+p271 - "you blockhead..."
+
+p276 - quixote pummels sancho for heresey
+
+p279 ' concerning quixote's chivalry
+
+p280 - 
+
+p281 - quixote on his fate
+
+p281-285 material
+
+p287 - don quixote - "success vs reality"
+
+p288 - feedback from prior "errantry"
+
+p290-3 - the books of chivalry - the prieset and innkeeper talk
+
+p294 sancho's confusion: books of knight errangry lies?
+
+p295 - the tale of inappropriate curiousity ddatn p49 analysis
+
+
 
 
 

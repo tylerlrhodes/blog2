@@ -6,37 +6,28 @@ draft: true
 
 Girard's model of Triangular Desire is used throughout 'Deceit, Desire
 & the Novel,' (DDATN), to analyze a number of texts, revealing
-characteristics of human behavior.
+characteristics of human behavior through the analysis of fictional
+characters.
 
 Operating under the context of triangular desire, the individual has
 surrendered his fundamental perogative, he no longer chooses his
 desires.  His desires are the desires of his mediator.
 
 Girard builds his model of triangular desire from the words of Don
-Quixote, and his imitation of his model of chivalry, Amadis of Gaul.
-With this foundation he couples Quixote and later works to the model
-of triangular desire.  While not a subject of this book, his later
-analysis of Christianity and religion, is tied to this model
-fundamentally as well.  In fact, the 10th commandment is identified as
-Girard 
+Quixote, and Quixote's imitation of his model of chivalry, Amadis of
+Gaul.  With this foundation he couples Quixote and later works to the
+model of triangular desire.
 
 Besides the analytical power of triangular desire, it immediately
 poses a more fundamental question.  If we merely copy our mediator's
 desire, then but of course: who is the original?
 
-Girard does not directly answer this, but indirectly he does.  There
-aren't exactly too many ways to dance around it, and one of the
-beauties of Girard's writing from my perspective, is that he answers
-this *penultimate* question in a way which allows the reader to deny
-God from a perhaps *scientific* perspective, while affirming his
-existance from a *linguistic* perspective (the bad guy in the Bible
-isn't left out of Girard's analysis either - Voldamort!).
+That question, I don't think, is directly answered in DDATN.  In fact
+it isn't directly answered in any of Girard's works per se (that I've
+seen yet), although I do believe this answer is scketched out.
 
-Perhaps this is the best he can do after all, but from going through
-quite a bit of Girard's work, he offers a *scientific* proof of the
-existance of the *sacred* through a deductive analysis of myth,
-gospel, and literature.  So my take on it is that from a *linguistic*
-perspective, Girard *proves* God exists.
+Girard states unequivocally that novelistic works of genius have one
+goal contained within: the ...
 
 DDATN hints at this deductive process to come, sketching the framework
 of analysis which will be used in *Violence and the Sacred.*
@@ -357,4 +348,21 @@ Chapter 5: The Red and the Black
   sufferings, for nothing material can appease it.
 - The ontological sickness, we know, always leads its victims toward
   the "solutions" that are most likely to aggravate it.
+- Stendhal, Flaubert, Tocqueville describe as "republican" or
+  "democratic" an evolution which we today would call totalitarian:
+   - As the mediator comes nearer and the concrete differences between
+     men grow smaller, abstract opposition plays an even larger part
+     in individual and collective existence.
+   - Thus every human force is braced in a struggle that is as
+     relentless as it is senseless, since no concrete difference or
+     positive value is involved.  Totalitarianism is precisely this.
+- Totalitarianism exists when all desires have been organized one by
+  one into a general and permanent mobilization of being in the
+  service of nothingness.
+- Double mediation has invaded the growing domain of collective
+  existence and wormed its way into the more intimate depths of the
+  individual soul, until finally it stretches beyond national
+  boundaries and annexes countries, races, and continents, in the
+  heart of a universe where technical progress is wiping away one by
+  one the differences between men.
 -   
