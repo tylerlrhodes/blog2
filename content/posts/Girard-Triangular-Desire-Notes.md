@@ -9,6 +9,11 @@ Girard's model of Triangular Desire is used throughout 'Deceit, Desire
 characteristics of human behavior through the analysis of fictional
 characters.
 
+Using this model, Girard explores how what he calls "novels of
+mediated desire" reveal the existance of metaphysical desire.  His
+model of triangular desire is essentially a model which can be used
+to analyze the works to confirm the revalation.
+
 Operating under the context of triangular desire, the individual has
 surrendered his fundamental perogative, he no longer chooses his
 desires.  His desires are the desires of his mediator.
@@ -18,13 +23,30 @@ Quixote, and Quixote's imitation of his model of chivalry, Amadis of
 Gaul.  With this foundation he couples Quixote and later works to the
 model of triangular desire.
 
-Besides the analytical power of triangular desire, it immediately
-poses a more fundamental question.  If we merely copy our mediator's
-desire, then but of course: who is the original?
+Triangular desire results in a mediation between subject and model.
+While not necessarily bad, in certain forms it results in a rivalry
+betwen the subject and his mediator.
 
-That question, I don't think, is directly answered in DDATN.  In fact
-it isn't directly answered in any of Girard's works per se (that I've
-seen yet), although I do believe this answer is scketched out.
+Girard's analysis of texts in DDATN examines the results of this
+mediation based upon essentially the distance between the mediator and
+subject.  The core message driven throughout is that the closer the
+mediator, the greater the chance of rivalry, and the bitterer the
+result of rivalry.
+
+
+
+
+Inherent in this foundation when considered outside the context of
+fictional work, is a more profound question of course, however within
+the context of DDATN, we are free to explore using the model of
+triangular desire.
+
+The *desire* that Girard speaks of is what he refers to as
+*metaphysical desire,* and in general I think it would be a mistake to
+reduce Girard's ideas to nonsense because of some reasoning along the
+lines of "I just want the cookie because it tastes good, not because
+the Cookie Monster suggested this desire to me."
+
 
 Girard states unequivocally that novelistic works of genius have one
 goal contained within: the ...
@@ -365,4 +387,52 @@ Chapter 5: The Red and the Black
   boundaries and annexes countries, races, and continents, in the
   heart of a universe where technical progress is wiping away one by
   one the differences between men.
+
+
+Chapter 6: Technical problems in Stendhal, Cervantes, and Flaubert
+
+- Double mediation gradually devours and digests ideas, beliefs, and
+  values but it respects the outer shell: it leaves a semblance of
+  life.  This secret decomposition of values drags with it the
+  language in which they are supposedly reflected.
+- The corruption of language is still in the first stage in the work
+  of Stendhal; it is characterized by the pure and simple reversal of
+  meaning
+- The vaniteux never recognizes this contradiction; he talks as if a
+  perfect harmony still existed between things and their names.
+- By remaining faithful to out-dated categories and to a fossilized
+  vocabulary Stendhal's vaniteux can fail to perceive the real
+  distinctions among men and multiply those which are unreal and
+  abstract.
+- The passionate man is not even aware of crossing the walls of
+  illusions built up by the world's vanity.
+- He is the only realist in a world of lies; for this reason he always
+  seems a little mad.
+- The passionate person baffles and bewilders the vaniteux because he
+  goes straight to the truth.  He is the involuntary negation of that
+  negation which is Stendhalian vanity.
+- Novelistic affirmation always springs from that negation.
+- Nobility, altruism, spontaneity, and originality are mentioned
+  constantly.  The passionate being appears and immediately we see
+  that these words really meant slavery, copying, imitation of Others.
+- The passionate person is the exception, the creature of vanity the
+  rule
+- The only thing that counts is the revelation of metaphysical desire.
+- Although in principle the distinction between vanity and passion is
+  radical, it does not allow a sharp division of people into clear-cut
+  categories.  As in Cervantes, one person can embody successively
+  both ontological sickness and health, depending on whether he is
+  faced with a vanity less or greater than his own.
+- The deeper one is immersed in vanity, the closer the mediator is to
+  his subject.
+- The romantic exceptoin embodies Good and the rul Evil.
+- The romantic work is a weapon aimed at Others.
+- The "victim" to be rescued is never more than a pretext for
+  asserting oneself gloriously against the whole universe.
+- A Cervantes or Stendhal manages a sublime equality of treatment of
+  Self and Other which is not compromised but assured by the subtle
+  dialectic of the rule and the exception.
+- It is at the conclusion, and only then, that the hero speaks in the
+  name of the author.  And the dying hero always renounces his past
+  existence.
 -   

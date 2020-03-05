@@ -111,6 +111,12 @@ p294 sancho's confusion: books of knight errangry lies?
 p295 - the tale of inappropriate curiousity ddatn p49 analysis
 
 
+p332 - at the inn again lol
+
+p345 sancho's tears at the dissoled illusion of queen micomicona
+
+p347 quixote's reasoning - "enchantment"
+
 
 
 
