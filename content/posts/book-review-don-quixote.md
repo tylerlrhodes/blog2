@@ -117,6 +117,48 @@ p345 sancho's tears at the dissoled illusion of queen micomicona
 
 p347 quixote's reasoning - "enchantment"
 
+p356 - quixote's discourse on letters and arms
+
+p361 - "proverbs"
+
+p395 - funny language of Don Fernando ****
+
+p408 - knight errant reasoning on failure
+
+p410 - quixote: "you know little of the world ..."
+
+p414 - don quixonte ... only one mission at a time lol
+
+p418 - the basin, again
+
+p421 - reality
+
+p422 - spread of ontological sickness
+
+p429 - quixote hilariously yelling at sancho
+
+p434 - end of page, reasoning on failure
+
+p437 - quixote: "Are you gentalman by chance versed and skilled in the matter of knight-errantry?
+
+p440 - description of books on knight-errantry
+
+p447 - sancho's "logic", followed by "quixote's logic"
+
+p451 - quoxite qute "practicing this profession for which god..."
+
+
+
+
+
+
+
+The Inn, enchantment, the ontological disease - p430
+
+
+
+
+
 
 
 

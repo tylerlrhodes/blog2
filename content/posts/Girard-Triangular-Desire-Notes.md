@@ -435,4 +435,122 @@ Chapter 6: Technical problems in Stendhal, Cervantes, and Flaubert
 - It is at the conclusion, and only then, that the hero speaks in the
   name of the author.  And the dying hero always renounces his past
   existence.
--   
+- IT is not merely an author's whim or his particularly peevish humor
+  which is responsible for curtailing the role of spontaneous desire
+  in the universe of the novel; it is rather the progress of
+  ontological sickness.
+- In Cervantes metaphysical desire stands out against the back-ground
+  of common sense; in Stendhal spontaneous desire stands out against a
+  metaphysical background.
+- We must not look for the expression of a statistical truth about
+  desire in a novelistic work.
+- The progress of metaphysical desire merely increases the empty
+  oppositions; it weakens the concrete oppositions or banishes them to
+  the far boundaries of the novelistic universe.
+- This advance of metaphysical desire is made on two different fronts.
+  The ontological sickness grows worse in the areas already
+  contaminated, and it spreads to areas thus far spared.
+- Everything rests on the contrast between the rule and the exception.
+- Once the reader has been given the clue to the oppositions, the
+  slightest misunderstanding between two characters immediately
+  suggests the pattern of passion-vanity and reveals metaphysical
+  desire.
+- The emptiness of the oppositions must be revealed with no outside
+  help.
+- The novelistic universe is a palace full of absurd ornaments and
+  false windows which are there "for symmetry."
+- Petty bourgeois individualism finally ends in the ridiculous
+  apotheosis of the Identical and the Interchangeable.
+
+Chapter 7: The Hero's Askesis
+
+- Every desire that is revealed can arouse or increase a rival's
+  desire; thus it is necessary to conceal desire in order to gain
+  possession of the object.  Stendhal calls this concealment
+  hypocrisy.
+- The two partners in mediation copy one and the same desire;
+  therefore this desire cannot suggest anything to one without
+  suggesting it to the other as well.  The dissimulation has to be
+  perfect because the mediator's perspicacity is unlimited.
+- Hypocrisy for the sake of desire requires as much will power as
+  religious asceticism.  It is a question of thwarting the same forces
+  in both cases.
+- In a universe where desire must always pass through Another, truly
+  successful action is directed toward the Self.  It is totally
+  interior.
+- Julien Sorel owes his success to a strange strength of soul which he
+  cultivates with the passion of a mystic.  This strength is dedicated
+  to the service of the Self just as true mysticism is dedicated to
+  the service of God.
+- Every infraction of the code of hypocrisy is atoned for by an
+  increase in ascetic dissimulation.
+- The instinct which moves Julien, the instinct of hypocrisy, is never
+  rational but it is infallible.  Julien will owe all his triumphs to
+  it.
+- Renunciation for the sake of desire is wholly consonant with this
+  desire.  In internal mediation it is precisely the mediator-rival's
+  desire which separates subject from object; but this mediator's
+  desire is itself copied from the subject's desire.
+- Askesis for the sake of desire discourages imitation; thus it alone can open the
+  road to the object.
+- The analogy between deviated transcendency and vertical transcendency is even
+  closer than we at first suspect.
+- The rationalist does not want to perceive the metaphysical structure of his
+  desire: he contents himself with ridiculous explanations, he appeals to
+  "good sense" and "psychology"
+- The most profound hypocrisy can be distinguished from virtue only by its poisoned
+  fruit.
+- In the universe of the Red, where violence is not impossible, passion flourishes openly.
+  In the universe of the Black, on the contrary, passions are concealed.
+- Religious hypocrisy conceals double mediation.
+- The victims of metaphysical desire always choose their political; philosophical,
+  and religious ideas to fit their hatred;  thought is no more than a weapon for an
+  affronted consciousness.
+- Askesis for the sake of desire is an inevitable consequence of triangular desire.
+- In the eyes of the novelist, modern man suffers, not because he refuses to become fully
+  and totally aware of his autonomy, but because that awareness, whether real or illusory,
+  is for him intolerable.  The need for transcendency seeks satisfaction in the human world
+  and leads the hero into all sorts of madness.
+- As the mediator comes closer, the situation changes.  Consciousness loses its control over
+  the process.
+- Dandyism and Stavrogin in Dostoyevsky
+- The novelist's fundamental concern is not the creation of characters but the revelation
+  of metaphysical desire.
+- The desiring subject, when he takes possession of the object, finds that he is grasping
+  a void; thus, in the final reckoning, the master ends up as far from his aim as the slave.
+  By pretending and dissimulating desire, he succeeds in exerting control over the Other's
+  desire.
+- The slave immediately becomes a part of the kingdom of the banal of which the master
+  is the center.
+- The master thus pursues his sad exploration of reality indefinitely, like the positivist
+  scholar who hopes to attain supreme knowledge by an exhaustive analysis of the "facts."
+- The master is doomed to disillusionment and boredom.
+- Only the threat, or rather the promise of a victorious resistance, attracts the master from
+  now on.
+- The master is not cured, he has become blase.  His cynicism is the opposite of true wisdom.
+- The master seeks the object which will resist him.
+- The ambitious man is not persecuted by a blind fate; it is the dialectic of pride and shame
+  which is always present even at the height of glory.  The soul of the great man is constantly
+  being hollowed out by the abyss of nothingness.
+- Like every object of desire history is ephemeral.
+- In the universe of internal mediation desire for omnipotence, like the desire for
+  omniscience, contains within itself the germs of its own failure.  Desire misses its object
+  at the very moment when it seems to attain it, for by becoming visible it arouses rival
+  desires that stand between the hero and his object.
+  - Now the master is drawn relentlessly, from desire through desire, toward the supreme
+    spectacle of his own omnipotence.  He always moves, therefore, toward his own
+    destruction.
+- Every startling success in the universe of double mediation results from real or feigned
+  indifference.
+- The whole secret consists of displaying indifference without giving away one's game.
+- In double mediation, as we have said, mastery is always the reward of the partner who has
+  best concealed his desire.
+- Only indifference can open the doors of the salon to the snob: "The lights of high society
+  are so used to being sought after that one who shuns them seems to be a phoenix."
+- Askesis for the sake of desire is a universal requirement in the novels of internal mediation.
+- Novelistic insight is usually found in the consciousness of a master;  when this consciousness
+  loses its mastery, it also loses that insight which then passes to the conqueror.
+- We know that the future for mastery is slavery.
+- This movement toward slavery is one of theb asic principles of novelistic structure.
+- Jean Santeuil is a novel of mastery.  Remembrance of Things Past is a novel of slavery.
+- 
