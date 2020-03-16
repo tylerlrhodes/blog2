@@ -147,6 +147,29 @@ p447 - sancho's "logic", followed by "quixote's logic"
 
 p451 - quoxite qute "practicing this profession for which god..."
 
+p458 - quixote on his passion for knight-errantry
+
+p461 - the priest in quixote confirms Nassim Taleb's argument
+
+p465- elegant phrasing of depression, Anselmo lost his sight....
+
+p468 - don quixoe's anger: "You are a villanious wretch..."
+
+p469 - "you shall perceive how important it is that knights..."
+
+p470 - knight errantry at its finest
+
+p504 - summary of quixotes adventures so far
+
+p505 - funny sancho quote - "oh no, not another blunders-expert..."
+
+p507 - dxq quote: "To write in any other way .... would be to write not truths but falsehoods..."
+
+p508 - doing vs critiquing conversation / dxq & scholar
+
+p511 - the people on the "second part" of dxq
+
+p513 - spread of ontolotical disease and progression ... "Sancho ... you've spoken like..."
 
 
 
