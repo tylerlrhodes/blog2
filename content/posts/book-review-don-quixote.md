@@ -171,6 +171,21 @@ p511 - the people on the "second part" of dxq
 
 p513 - spread of ontolotical disease and progression ... "Sancho ... you've spoken like..."
 
+p518 - poor vs rich, proverb: "what covers you discovers you" .. next few pages Sanch and his wifes disagreemtn on plans to marry daughter
+
+p522 - "by the God who sustains me" ... Quixote on different knight-errants
+
+p524 - quixote on wealth and virtue
+
+p524 - quixote "there are two roads, my daughters, to riches and honour: one is letters, the other is arms..."
+
+p528 - quixtoe uses knight-errantry as precedence and "common-law" (discussing fixed wages to Sanch)
+
+p529 - quixote (to sancho): "and remember, my son, that a good hope is better than a bad holding, and a good grievance is better than bad compensation"
+
+
+
+
 
 
 
