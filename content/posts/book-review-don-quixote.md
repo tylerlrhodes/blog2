@@ -183,6 +183,28 @@ p528 - quixtoe uses knight-errantry as precedence and "common-law" (discussing f
 
 p529 - quixote (to sancho): "and remember, my son, that a good hope is better than a bad holding, and a good grievance is better than bad compensation"
 
+p543 - as the author of this great history ...
+
+p545 - you're but a messenger, my friend ...
+
+p545 - [bottom] Sancho's thoughts on "reality" and fooling Quixote
+
+p548 - the peasant girls (who sancho makes to be Quixote's Dulcinea)
+
+p548 - Sancho: "o princess and universal lady of El Toboso.  How is it that your magnanimous hearth .... foundation of knight-errantry..."
+
+p550 - quixonte: "I was indeed born to be a mirror of misfortune..."
+
+p554 - "On my faith as a knight-errant..."
+
+p558 - Sancho: "Yes, I've seen a play like that..."
+
+p558 - sancho: "What I'm trying to say is that being with you is the manure thats been spread over the barren soil of my poor wits..."
+
+p561 - Quixote: "This knight is delirious..."
+
+p562 - Knight of the forest: "Are you in love..." [to quixote] "I am, by an evil chance...."
+
 
 
 
