@@ -47,9 +47,9 @@ reduce Girard's ideas to nonsense because of some reasoning along the
 lines of "I just want the cookie because it tastes good, not because
 the Cookie Monster suggested this desire to me."
 
+Girard states that the novelist's fundamental concern is not the creation
+of characters but the revelation of metaphysical desire.
 
-Girard states unequivocally that novelistic works of genius have one
-goal contained within: the ...
 
 DDATN hints at this deductive process to come, sketching the framework
 of analysis which will be used in *Violence and the Sacred.*
@@ -553,4 +553,16 @@ Chapter 7: The Hero's Askesis
 - We know that the future for mastery is slavery.
 - This movement toward slavery is one of theb asic principles of novelistic structure.
 - Jean Santeuil is a novel of mastery.  Remembrance of Things Past is a novel of slavery.
-- 
+- when two rivals are very close to each other, double mediation ends in double fascination.
+  Askesis for the sake of desire becomes involuntary and causes paralysis.
+- double mediation is a figure turned in upon itself; desire circulates in it and feeds on
+  its own substance.  Thus double mediation constitues a veritable "generator" of desire,
+  the simples possible.
+- Beginning from the standpoint of double mediation, it is easy to imagine more complex
+  figures, equally autonomous, which give birth to ever more vast novelistic worlds.
+- the character who plays the part of mediator in a first triable may play the part of slave
+  in a second triangle and so on.
+- the subject clings to a mediator who is transfigured by his desire.  He thinks he is heightening
+  his individuality by desiring this being, wheras in reality he is losing it, for everyone
+  is the victim of the same illusion.
+  

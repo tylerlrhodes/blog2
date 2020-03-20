@@ -205,6 +205,38 @@ p561 - Quixote: "This knight is delirious..."
 
 p562 - Knight of the forest: "Are you in love..." [to quixote] "I am, by an evil chance...."
 
+p564 - another squire and promise of reward
+
+p566 - the squires discuss their mad masters
+
+p580 - Carrasco's plot to cure Quixote
+
+p589 - Taleb's point, natural poet vs academic poet
+
+p598 - quixote on knight errantry [again]
+
+p601 - don diego on quixote - what to make of him
+
+p602 - quixote: "I studied knight-errantry" [on subjects studied]
+
+p603 - quixote: "many times have I said what I shall now say"
+
+p608 - what don diego and don lorenzo consider quixote's 'mania' for adventure
+
+p609 - quixote goes under the title of "knight of the lions" [now]
+
+p611 - quixote on marriage [in general]
+
+p612 - sanch "god will find a remedy" [sancho's take on love, in this case]
+
+p612 - quixote [to sanch]: 'you corrupter of language...'
+
+p623 - quixote to sancho: "have you quite finished your harangue..."
+
+p624 - triangular desire?
+
+p626 - "drama" at its finest - Quiteria and Basilio's "death-bed wedding"
+
 
 
 
