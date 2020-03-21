@@ -565,4 +565,60 @@ Chapter 7: The Hero's Askesis
 - the subject clings to a mediator who is transfigured by his desire.  He thinks he is heightening
   his individuality by desiring this being, wheras in reality he is losing it, for everyone
   is the victim of the same illusion.
-  
+
+
+Chapter 8 - Masochism and Sadism
+
+- The master has learned from his many different experiences that an object which can be
+  possessed is valueless.  So in the future he will be interested only in objects which are
+  forbidden him by an implacable mediator.  The master seeks an insurmountable obstacle and he
+  almost always succeeds in finding one.
+- The masochist, may be originally a master who has become blase
+- As we know, metaphysical desire always ends in enslavement, failure, and shame.
+- enslavement leads to masochism even more directly than mastery.  The victim of internal
+  mediation always sees, we may recall, a hostile intention in the mechanical obstacle which the
+  desire of the mediator places in his path.  The victim is loud in his indignation but
+  at heart he believes he deserves the punishment inflicted on him.  The mediator's hostility
+  always seems somewhat legitimate, since by very definition the victim feels inferior to the
+  person whose desire he copies.  Thus contempt and obstruction only redouble desire because they
+  confirm the superiority of the mediator.  From this point it is but a short step to choosing
+  the mediator, not because of his seemingly positive qualities but because of the obstruction
+  he can provide; and the more a subject despises himself the more easily he makes this step.
+- The masochist perceives the necessary relation between unhappiness and metaphysical desire,
+  but he nevertheless does not renouce his desire.
+- every passion feeds on the obstacles placed in its way and dies in their absense.
+- The obstacle, even in the case of masochism where it alone is directly sought, cannot be primary.
+- In the lower stages of internal mediation the subject despises himself so much that he has
+  no confidence in his own judgement.
+- There is only one thing whose value the masochist thinks himself capable of judging - himself,
+  and his value is nil.
+- We are masochists when we no longer choose our mediator because of the admiration which he
+  inspires in us but because of the disgust we inspire in him.
+- the great novelists, ..., in their revelation of the completely imitative existence of the
+  passionate being, illuminate the darkest depths of the Western soul.
+- The masochist is at once more lucid and more blind than other victims of metaphysical desire.
+- The source of this ill-starred lucidity which characterizes the last stages of ontological
+  sickness is not difficult to discover.  It is the increased proximity of the mediator.
+  Enslavement is always the final result of desire, but at first it is very distant and the
+  desiring subject cannot perceive it.
+- Every metaphysical desire proceeds towards its own truth and toward the desiring subject's
+  awareness of this truth; masochism occurs when the subject himself enters into the light
+  of this truth and eagerly collaborates in its advent.
+- Don Quixote is no more a masochist in the strict sense of the word, than Cervantes is a sadist,
+  he is imitating his mediator Amadis of Gaul.
+- The dividing line between sickness and health is always arbitrary and is drawn by our own
+  desires.
+- No one can say where a repulsive masochism begins and so-called "legitimate" ambition and a
+  noble hunger for what is risky leave off.
+- Every reduction of the distance between the mediator and the subject is a step in the direction
+  of masochism.  The passage from external to internal mediation has itself masochistic
+  implications.
+- the impassioned person is seeking the divine through this insuperable obstacle, through that
+  which, by definition, cannot be crossed.  It is this metaphysical meaning which has escaped
+  most psychologists and psychiatrists.
+- Every victim of metaphysical desire, including the masochist, covets his mediator's divinity
+  and for this divinity he will accept if necessary -- and it is always necessary -- or even seek
+  out, shame, humiliation, and suffering.
+- To make suffering -- the simple result of desire, or, in masochism, its preliminary condition --
+  the actual object of that desire is a particularly revealing "mistake."
+-   

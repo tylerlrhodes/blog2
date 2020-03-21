@@ -237,6 +237,31 @@ p624 - triangular desire?
 
 p626 - "drama" at its finest - Quiteria and Basilio's "death-bed wedding"
 
+p640 - "this is my friend durandarte..." [in the crystal palace (Montesinos)]
+
+p644 - Quixote on the enchanted's diet and bowel movements
+
+p646 - the enchanged Dulcinea del Tolboso and Quixote's oath [647]
+
+p648 - on the veracity of Quixote's tale about the Cave of Montesions
+
+p652 - quixote on death
+
+p661 - Sancho would like to ask Master Pedro's to ask his monkey if what happened to
+       Quixote in the Cave of Montesinos was true
+
+p666 - Quixote attacking the puppet Moors in defence of Don Gaiferos (crazy time)
+
+p668 - after destorying Master Pedro's puppet show Quixote blames the enchanters again
+
+p670 - the narration of this famous history....
+
+p674 - 'I, my dear sirs, am a knight errant...'
+
+p675 - sancho: 'the devil take me,' ... 'if this master of mine isn't a theorologian..'
+
+p680 - quixote to sancho: 'you violator of the regulations of knight-errantry regarding squires'
+
 
 
 
