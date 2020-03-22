@@ -262,6 +262,36 @@ p675 - sancho: 'the devil take me,' ... 'if this master of mine isn't a theorolo
 
 p680 - quixote to sancho: 'you violator of the regulations of knight-errantry regarding squires'
 
+p688 - quixote with another fine lady to serve
+
+p689 - quixote's fame precedes him
+
+p690 - quixote: "The result of me of my meeting you, O valiant lord...' - funny
+
+p695 - quixote [to sancho]: 'tell me, yesterday's dunderhead and today's court jester.."
+
+p697 - quixote and sancho routine, the duchess wants sancho to speak
+
+p700 - the churchman, angry at Quixote's antics, and gives him directions - good example of
+       what ddatn says about the folks most interested in "curing" quixote
+
+p707 - quixote explaining to the duke and duchess about his persecuiting enchanters, and whether
+       his lady, dulcinea del tolboso exists
+
+p709 - quixote doesn't get enchanted himself ... rather his enchanters enchant his lady and others
+
+p710 - quixote on sancho: he doubts everything and he believes everything... (and more)
+
+p714 - sancho talks to the duchess on Quixote's madness (and reflects on his)
+
+p720 - 'one of the most famous adventures in this book'
+
+p723 - 'God and all his holy saints damn you, Sancho you wretch!' ... 'When wil the day come,
+       as I have asked many times before, when I can hear you develop a straightforward, coherent
+       argument without proverbs?...'
+
+
+
 
 
 
@@ -271,6 +301,10 @@ p680 - quixote to sancho: 'you violator of the regulations of knight-errantry re
 
 
 The Inn, enchantment, the ontological disease - p430
+
+envious enchanter's in quixote's quest for his lady
+
+sancho's blathering and proverbs
 
 
 

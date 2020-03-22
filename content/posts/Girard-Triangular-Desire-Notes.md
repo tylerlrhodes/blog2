@@ -621,4 +621,62 @@ Chapter 8 - Masochism and Sadism
   out, shame, humiliation, and suffering.
 - To make suffering -- the simple result of desire, or, in masochism, its preliminary condition --
   the actual object of that desire is a particularly revealing "mistake."
--   
+- By restricting the deplorable consequences of metaphysical desire to an object which the
+  masochist, and he alone, would desire, one makes an exceptional being of him, a monster
+  whose sentiments have nothing in common with those of "normal" people, i.e., our own.
+- Let us note that contradictions which in reality are the very basis of our psychic life
+  always appear as "differences" between Others and ourselves.
+- We dehumanize every desire whose harmful consequences we perceive in order not to recognize
+  the image, or caricature, of our own desires.  Dostoyevsky accurately observes that by having
+  our neighbor confined to a mental institution we convince ourselves of our own sanity.
+- The sexual masochist tries to reproduce in his erotic life the conditions of an extermely
+  intense metaphysical desire.
+- The masochist is reduced to imitating his impossible ideal.  He wants to act with his sexual
+  partner the role which he would play - or so he thinks - with his mediator.
+  - the brutalities demanded by the masochist are always associated in his mind with those to which
+    a truly divine model would probably subject him.
+- Even in purely sexual masochism, it cannot be said that the subject "desires" suffering.  What he
+  desires is his mediators presence, contact with the sacred.
+- Suffering which does not remind him of the mediator is of no erotic value to the masochist.
+- Sadism is the "dialectical" reverse of masochism. Tired of playing the part of the martyr,
+  the desiring subject chooses to become the tormentor.
+- All victims of metaphysical desire seek to appropriate their mediator's being by imitating him.
+  The sadist wants to persuade himself that he has already attained his goal; he tries to take the
+  place of the mediator and see the world through his eyes.
+- The sadist's violence is yet another effort to attain divinity.
+- One cannot be a sadist unless the key to the enchanged garden appears to be in the hands of
+  a tormentor.
+- Every reflection obviously comes after the thing it reflects.  Sexual masochism is a mirror for
+  existential masochism and not the reverse.  Once more it must be said -- current interpretations
+  always reverse the true meaning and hierarchy of the phenomena.
+- The sadist never ceases to identify with the victim, that is with persecuted innocence, even
+  during the very perpetration of evil.
+- Deep in his heart, the masochist cannot stand the Good to which he thinks he is condemned, and
+  he worships the persecuting Evil, for his mediator personifies Evil.
+- Most of the time the subject is not aware of his passion for Evil.  The truth only appears in
+  flashes in his sexual life and in certain remote areas of existence.
+- The masochist identifies with all the "insulted and the injured," with all the real and imaginary
+  misfortunes that vaguely remind him of his own destiny.  The masochist has a grudge against
+  the very Spirit of Evil.  And yet he does not want to crush the wicked so much as to prove to them
+  their wickedness and his own virtue; he wants to cover them with shame by making them look
+  at the victims of their own infamy.
+- At this state of desire the "voice of conscience" is indistinguishable from the hatred aroused
+  by the mediator.
+- The masochist is fundamentally a pessimist.  He knows that Evil is destined to triumph.
+- All the values of Christian morality can be found in masochism but their hierarchy is inverted.
+- The masochistic vision is never independent.  It is always in opposition to a rival masochism
+  which is organizing the same elements into a symmetrical and inverse structure.  What is defined
+  as Good on one leaf of the diptych is automatically identified as Evil on the other, and
+  vice versa.
+- The sado-masochist's mistake would make us laugh as much as Don Quixote's were the results of
+  mediation not so terrible.
+- It could be said without paradox that among heroes of novels Don Quixote is the least mad.
+- The genius of the novel rises above the oppositions that stem from metaphysical desire.  It
+  tries to show us their illusory character.  It transcends the rival caricatures of Good and
+  Evil presented by the factions.  It affirms the identity of the opposites on the level of
+  internal mediation.  But it does not end in moral relativism.  Evil exists.  Suffering is real.
+- Evil exists and it is metaphysical desire itself -- deviated transcendency -- which weaves
+  man's thread in the wrong direction, thus separating what it claims to unite and uniting
+  what it claims to separate.  Evil is that negative pact of hatred to which so many men
+  strictly adhere for their mutual destruction.
+  
