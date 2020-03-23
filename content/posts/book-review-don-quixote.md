@@ -290,6 +290,52 @@ p723 - 'God and all his holy saints damn you, Sancho you wretch!' ... 'When wil 
        as I have asked many times before, when I can hear you develop a straightforward, coherent
        argument without proverbs?...'
 
+p732 - Sancho to take his lashing or lose his governorship
+
+p738 - Dolorous Duenna and Quixote on the need for knight errants
+
+p742 - Dolorous Duenna's entrance and begining of adventure
+
+p749 - enchantment at its finest, and a quest for Quixote
+
+p750 - 'about matters relevant to this adventure and to this memorable history'
+
+p751 - the horse contructed by merlin that flies through the air so fast ... followed by Sancho's
+       comments about his dun (donkey)
+
+p754 - Quixote: 'my sword will shave Malambruno's head from his shoulders.  God suffers the
+       wicked, but not for ever.'
+
+p755 - about the coming of Clavileno ...
+
+p757 - the coming adventure, and Sancho's lashings
+
+p760 - "flying on Clavileno..."
+
+p762 - 'for this has been ordained by the sage Merlin, the protoenchanter of all enchanters..'
+
+p765 - Quixote [to Sancho]: 'Sancho, since you want people to believe what you saw in the sky
+       I want you to believe what I saw in the Cave of Montesinos.  I Say no more'
+
+p765 - Sancho, about to become a governer, Girard's triangular desire -- about to attain the
+       object of desire
+
+p767 - Quixote speaking to Sancho about the merits of his coming governorship
+
+p769 - Quixote's advice to sancho on governing and judging: "these instructions I have given
+       you so far are for the embellishment of your soul; listen now to instructions for the
+       embellishment of your body.'
+
+p774 - 'God damn you Sancho' ... 'Sixty thousand devils take you and your proverbs..'
+
+p775 - Sancho: ... 'And if you think about it you'll realize that you were the one who put
+       me up to this here governing lark in the first place ...' [to Quixote]
+
+p775 - Quixote: 'By God Sancho,....,I think you're worthy to be governor of a thousand islands
+       just for those last few words you've spoken: you're a good natured fellow...'
+
+
+
 
 
 
@@ -305,6 +351,8 @@ The Inn, enchantment, the ontological disease - p430
 envious enchanter's in quixote's quest for his lady
 
 sancho's blathering and proverbs
+
+Quixote clear and intelligent about all things, except chivalry (reality vs madness)
 
 
 

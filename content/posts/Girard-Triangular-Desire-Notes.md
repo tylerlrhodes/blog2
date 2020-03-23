@@ -83,7 +83,7 @@ really bored look up mirror neurons.
 It's like Forrest Gump said all along: "stupid is as stupid does."
 
 
-Chapter 1:
+Chapter 1: "Triangular" desire
 
 * Once the mediators influence is felt, the sense of reality is lost
   and judgement paralyzed.
@@ -139,7 +139,7 @@ Chapter 1:
   without others
 *
 
-Chapter 2:
+Chapter 2: Men become Gods in the eyes of each other
 
 * Every hero of a novel expects his being to be radically changed by
   the act of possession.
@@ -204,7 +204,7 @@ Chapter 2:
   on contact with a relic of the past.  The memory is no longer
   poisoned, as was the desire, by the rival desire
   
-Chapter 3:
+Chapter 3: The metamorphosis of desire
 
 * "Imitative desire is always a desire to be Another.  There is only
 one metaphysical desire but the particular desires which instantiate
@@ -243,7 +243,7 @@ turn, depends on the distance between the object and meditor."
   this convulsive state are not limited to any particular area of
   existence; on the contrary, they are totalitarian."
   
-Chapter 4:
+Chapter 4: Master and slave
 
 * Metaphysical desire is eminently contagious.
 * Don Quixote spreads the "ontological sickness" to those around him
@@ -679,4 +679,65 @@ Chapter 8 - Masochism and Sadism
   man's thread in the wrong direction, thus separating what it claims to unite and uniting
   what it claims to separate.  Evil is that negative pact of hatred to which so many men
   strictly adhere for their mutual destruction.
+
+Chapter 9: The worlds of Proust
+
+* A certain order is superimposed on reality and becomes indistinguishable from it
+* The members of Combray feel a certain solidarity and brotherliness when they discover
+  something which distinguishes them from the outside world.
+* The novelist is trying to make us see, touch and feel what men by definition never see,
+  touch, or feel: two perceptive events that are as imperative as they are contradictory
+* What is the origin of this inability to communicate? [Combray and outside]
+* We must go beyond the words to the substance of the novel. The truth about Swann does not
+  penetrate Combray because it contradicts the family's social beliefs and its sense of
+  bourgeois hierarchies.  Proust tells us that facts do not penetrate the world where our beliefs
+  reign supreme.
+* Eyes and ears are closed when the well-being and integrity of the personal universe are involved.
+* page 197 on "these defence mechanisms"
+* The Verdurin salon is not simply a meeting-place, it is a way of seeing, feeling, judging.
+* How can we account for the difference between the two different types of the sacred which
+  give unity, the one to the Verdurin salon, the other to Combray? [pg 200, internval vs external
+  mediation]
+* The disproportionate place the manifestations of this hatred hold in the existence of the salon
+  provides the single but irrefutable indication of metaphysical truth: the hated outsiders
+  are the true gods.
+* Collective internal mediation faithfully reproduces the traits of individual mediation.  The
+  happiness of being "among one's friends" is as unreal as the happiness of being oneself.
+* Only the novelist looks behind the deceptive mask of the official cult and finds the hidden
+  gods of internal mediation.
+* Patriotism is the result of external mediation while chauvinism is rooted in internal mediation.
+* The chauvinist hates a powerful, belligerent and will-disciplined Germany because he himself
+  is dreaming of war, power, and discipline.
+* The metaphors which continually transport us from one dimension to the other draw our attention
+  to this identity of structure.
+* The war which divides the universe into two enemy camps provides nourishment for the instinctive
+  dualism of the masochist.
+* By definition, metaphysical desire is never aimed at an accessible object.
+* At the level of internal mediation, the collectivity, like the individual, ceases to be an
+  absolute reference point.  The salons can now be understood only by contrasting them with
+  rival salons, by fitting them into the totality of which each of them is no more than an element.
+* Individualist and collectivist myths are brothers for they always mask the opposition of the
+  same. The desire to be "among one's friends" just as the desire to be oneself hides a desire to
+  be the Other.
+* The world of the novel obtains its cohesion from these laws of internal mediation.
+* The opposition between external and internal mediation is not an opposition between Good and
+  Evil, it is not an absolute separation.
+* The nearer the mediator comes to the desiring subject the more remote transcendency becomes
+  from that vertical.  It is deviated transcendency at work.
+* Like certain atomic particles, the Faubourg vanishes when scientific instruments are brought
+  to bear on it.
+* The Faubourg exists for the snob and does not exist for the nonsnob.
+* The novelist is interested neither in the petty reality of the object nor in that same object
+  transfigured by desire; he is interested in the process of transfiguration.
+* The novelist who reveals triangular desire cannot be a snob but he must have been one.  He must
+  have known desire but must now be beyond it.
+* The Faubourg is an enchanged helmet to the snob and a barber's basin to the nonsnob.
+* The novelist asks an apparently harmless question: "What is snobbism?"
+* The snob seeks no concrete advantage; his pleasures and sufferings are purely metaphysical.
+* Snobbism is the grain of dust that finds its way into the gears of "science" and throws it out
+  of kilter.
+* The snob desires nothingness.  When the concrete differences among men disappear or recede into
+  the background, in any sector whatever of society, abstract rivalry makes its appearance, but
+  for a long time it is confused with the earlier conflicts whose shape it assumes.
+* In reading we relive the spiritual experience whose form is that of the novel itself.  
   
