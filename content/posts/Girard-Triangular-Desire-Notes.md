@@ -740,4 +740,91 @@ Chapter 9: The worlds of Proust
   the background, in any sector whatever of society, abstract rivalry makes its appearance, but
   for a long time it is confused with the earlier conflicts whose shape it assumes.
 * In reading we relive the spiritual experience whose form is that of the novel itself.  
-  
+* The Marxist thinks he can do away with all alienation by destroying bourgeois society.  He
+  makes no allowance for the extreme forms of metaphysical desire, those described by Proust
+  and Dostoyevsky.
+* We have seen how snobbism raises abstract barriers between individuals who enjoy the same
+  income, who belong to the same class and to the same tradition.
+* The value of the article consumed is based soley on how it is regarded by the Other.  Only
+  Another's desire can produce desire.
+* The Other becomes more and more fascinating the nearer he is to the Self.
+* The sociologists never get as far as the laws of metaphysical desire because they do not realize
+  that even material values are finally swallowed up by double mediation.  The snob desires
+  nothing concrete.
+* The same desire triumps in both microcosm and macrocosm. The structure is the same, only the
+  pretext changes.
+* The distance between pure and simple futility and cataclysmic futility is imperceptible.
+* There are, in any case, no "causes" great or small, there is only the infinitely active void
+  of metaphysical desire.
+* We see the same indignation, the same theatrical gestures, on both sides.  The speeches are all
+  the same: to make them admirable or atrocious, depending on the listener, all that is
+  necessary is to reverse the proper names.
+* Ideology is merely a pretext for ferocious oppositions which are secretly in agreement.
+* Orwell clearly understands that the totalitarian structure is always double.
+* The reader projects into the work the same mearning he already projects into the world.
+* see page 227 on spreading of ontological disease and novelist
+* The great novels end in the sterile abstraction of high society because the whole society
+  gradually tends toward that abstraction.
+* Those who portray the social elite are either very superficial or very profound depending
+  on whether they reflect metaphysical desire or whether on the contrary they suceed in
+  revealing it.
+
+Chapter 10: Technical problems in Proust and Dostoyevsky
+
+* But we shall not be so foolish as to suggest that our era has discovered
+  human truths which completely eluded our forebears.
+* the quid quo pro between Don Quixote and the barber reveal at the outset
+  a qualitative difference of perception.
+* The subjectivities who are prisoners of this metamorphic desire, that is,
+  of pride, are doomed to misunderstanding.
+* The novelist is able to reveal their helplessness only because he has experienced
+  it himself and overcome it.  He has been victorious in his struggle with the
+  imperialism of perception.
+* The two victims of the quid pro quo are the tesis and the antithesis;  the novelists
+  point of view is the synthesis.  (not a quid pro quo like Trump and Ukraine per se)
+* The novelist is a man who has overcome desire and who, remembering it, can make
+  a comparison.
+* Like all novelists, Proust's narrator moves freely from room to room in the "museum
+  without walls" of his existence.
+* The novelist is a hero cured of metaphysical desire.
+* The mediator draws nearer and desire changes shape.
+* The consciousness of the characters is as deceptive as the external appearances (in Proust)
+* Consequently it is no longer enough to break into the characters' consciousness.
+  * characters lie to themselves -- they conceal their own desire from thier consciousness
+* Stendhal and Flaubert never really needed the future or the past, since their characters
+  were as yet neither divided within themselves nor split into several successive selves.
+* Only an inventory of their successive about-faces makes the revelation of the truth about
+  their desires possible.  And only the narrator can compile this inventory.
+* The duratioon of these Selves is long enough, the transitions are gradual enough for the
+  subject himself to be the first to be deceived.
+* The shadow cast by the real gods can be seen behind the painted paper gods, which are
+  the only ones acknowledged by the official cult.
+* The wind turns the weather vane but the weather vane does not change; it would be changed
+  if it stopped turning.  Proust's characters turn in the wind of their desire.  Their changes
+  in direction should not be taken for genuine conversions.  They are always only the result
+  of the changing data of their original mediation or, at the very most, of a change of mediator.
+* Desire never actually acquires its true object: it leads to failure, oblivion, and death.
+* Transcendence toward the nadir is a mirror likeness of transcendence toward the zenity.  The analogy
+  between deviated transcendency and vertical transcendency never fails.
+* Just as the damned and the elect in Dante are always surrouned by those who practiced the same
+  vices or virtues as they themselves, so the narrator always seeks the company of the characters
+  whose desire is most analogous to his own.
+* In order to throw light on metaphyiscal desire at this stage of its development the novelist has
+  to intervene personally; he has to become a professor proving a theorem.
+* In the last volumes, however, the ontological sickness has become so serious that, as we have said before,
+  the hero's existence loses all stability.
+* The study of techniques, instead of creating an abyss between the great novelists, reveals the same
+  ability to adapt to the very diverse demands brought about by the variations of the same desire.
+* Fundamentally Dostoyevsky's method is to bring about confrontations which exhaust all possible
+  relationships between the different characters in the novel.
+* The complexity in Proust is on the level of the sentence, in Dostoyevsky it is on the level of the
+  whole novel.
+* See page 247/8/9 on the unconscious and the hidden contradictions of the mediated individual through
+  the ontological sickness.
+* It is never seen that the "existentialism" of the underground characters does not depend on the author
+  but on the spread of the ontological sickness, on the proximity and multiplication of the mediators.
+* The individual has not renounced his goal of autonomy and glorious mastery; he has not renounced
+  his pride.  Instead of sharing his faith, the great novelist is trying desperately to disclose its vanity.
+* The victims of metaphysical desire are caught up in a whirlwind of increasing velocity and narrowing
+  circumference.
+*   

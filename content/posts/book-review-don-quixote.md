@@ -334,6 +334,38 @@ p775 - Sancho: ... 'And if you think about it you'll realize that you were the o
 p775 - Quixote: 'By God Sancho,....,I think you're worthy to be governor of a thousand islands
        just for those last few words you've spoken: you're a good natured fellow...'
 
+p795 - Quixote, fighting a cat
+
+p797- a doctor, treating Sancho's 'diet'
+
+p806 - Dona Rodriguez to Quixote: '....But you wait for me here a little; I shall go away
+       and light my candle, and return in an instant to tell the tale of my woes to the healer
+       of all the woes in the world.'  (Duke and Duchess... ongoing joking)
+
+p806 - quxiote worried about awakening lustful feelings which aren't about the Dulcinea del 
+       Tolboso
+
+p808 - quixote offering his services
+
+p823 - The duchess's revenge for insults against her beauty by Dona Rodriguez
+
+p834 - Quixote's letter to Sancho:  Where I was expeceting to receive news of your negligence and your
+       blunders..
+
+p845 - about the troubled conclusion to Sancho Panza's governorship
+
+p848 - Sancho's governorship not what he thought, his talk with his dun
+
+p856 - Sancho on leaving his governorship
+
+p867 - Sancho proverbs: "Give to the cat what you were going to give to the mouse, and save yourself some trouble."
+
+p867 - Quixote -- it's enchangers again and not him being fooled
+
+p868 - Quixote may be mad, and the planned battle fixed even if for the duenna's daughter's real cause, but
+       despite the antics and the ruse, in the end Quixote's efforts result in a happy ending here
+
+
 
 
 
