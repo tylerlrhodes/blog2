@@ -363,7 +363,39 @@ p867 - Sancho proverbs: "Give to the cat what you were going to give to the mous
 p867 - Quixote -- it's enchangers again and not him being fooled
 
 p868 - Quixote may be mad, and the planned battle fixed even if for the duenna's daughter's real cause, but
-       despite the antics and the ruse, in the end Quixote's efforts result in a happy ending here
+       despite the antics and the ruse, in the end Quixote's efforts result in a happy ending here [p938 -- turns not not so]
+
+
+p876 - Sancho: 'God hear what you said and the devil be deaf.'
+
+p879 - A new adventure for Quixote, and his reputation precedes him now
+
+p881 - On Quixote's sanity 
+
+p884 - Quixote depressed due to his misfortunes
+
+p891 - Quixote angry about Sancho's slowness in completing his lashings to disenchange his lady
+
+p894 - Quixote disappointed on his behavior as a kinght-errant in this case
+
+p899 - Roque: "This life our ours must seem strange to you Don Quixote.."
+
+p909 - Quixote spreads his madness (spread of ontological sickness)
+
+p925 - concerning the adventure that caused Don Quixote more grief than any of his previous ones
+
+p926 - 'Illustrious knight and never sufficiently praised Don Quixote de la Mancha...'
+
+p927 - The knight of the White Moon replied that it was a question of pre-eminence in beauty  [why they were to fight]
+
+p928 - The Knight of the White Moon defeats Quixote ... who is to return home for a year without taking up arms
+       but affirms the beauty of Dulcinea del Tolboso
+
+p930 - Knight of the White Moon is Sanson Carrasco, BA  [example of spread of ontological sickess ... and those most apt to want to cure Quixote]
+
+p930 - Don Antonio .. talking to Carrasco about his offence in attempting to restore the funniest madman to his senses
+
+p938 - The Duke's ploy with Tosilos revealed
 
 
 

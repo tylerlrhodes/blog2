@@ -22,18 +22,60 @@ means of reaching the mediator (Other).
 Through the analysis of literature Girard arrives at what he calls the
 novelistic revelation: the existence of metaphysical desire.
 
+The study of metaphysical desire as undertaken in DDATN is important
+due to the outcome of its mediation.  The mediation of desire, and the
+ontological sickness (the increasing proximity of themediator),
+ultimately lead to shame, slavery, and suffering.  The novelistic
+revelation, and the confirmation of the existence of metaphysical
+desire seems to validate certain "spiritual lessons," such as in
+Buddhism, which states that desire and ignorance lie at the root of
+suffering.
+
+The model of triangular desire allows the analyst to examine
+novelistic works and relate the structure and results of the
+metaphysical desire in a systematic fashion.  Girard does this and
+structures his analyis by exploring the spread of the ongological
+sickness through a review of literature termed "novels of mediated
+desire."
+
+The model of triangular desire, and the "existence" of metaphysical
+desire, allows for the untangling of the complex into the simple.  It
+appears, at least from a method of analysis relegated to literature,
+that imitated desire allows for the operation of certain emotions and
+behaviors to be understood at a base level.
+
+The reality of mediated desire (if accepted as correct) appears to
+throw much contemporary thinking into disarray.  The very notion of
+individuality and freedom is called to be examined (as DDATN does),
+and the fundamental questions it poses, such as the difference between
+passion and vanity (is there ultimately a difference here?), among
+others, are not easy to answer.
+
+Girard's grand theory, mimetic theory, to come after DDATN and built
+up from mimetic desire, is, ironically, not anything new.  In fact
+through his work he draws readily on literature and other sources to
+show the existence of this reality through time.  In my opinion, the
+beauty of Girard's approach is that through his deductive process and
+exposition he makes this reality more palatable for those less
+religious and spiritually inclined.  His model makes the spiritual
+scientific, and he proves his theorem using literature.
+
+
+
+
+There apparently is "real science" which corroborates the operation of
+triangular desire, or at least the imitation of behavior, found in the
+existence of mirror neurons.
+
+
+
+
+
 The necessity of this revelation in the novelistic universe is
 important.  Since the object is not the actual aim of desire, it's
 acquisition ultimately results in disappointment.  The fruits of
 metaphysical desire are bitter in general.  The expected
 transformation doesn't take place when the object is acquired.
-
-The model of triangular desire allows the analyst to examine
-novelistic works and relate the structure and results of the
-metaphysical desire in a systematic fashion.  Girard does this and
-structures his analyis of the works in a fashion exploring the spread
-of the ongological sickness (the increasing proximity of the mediator)
-through a review of literature termed "novels of mediated desire."
 
 Following the novelistic revalation, the novelistic conclusion, at
 least with regards to "novels of mediated desire," end with the

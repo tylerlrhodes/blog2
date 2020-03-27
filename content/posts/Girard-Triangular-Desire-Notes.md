@@ -827,4 +827,84 @@ Chapter 10: Technical problems in Proust and Dostoyevsky
   his pride.  Instead of sharing his faith, the great novelist is trying desperately to disclose its vanity.
 * The victims of metaphysical desire are caught up in a whirlwind of increasing velocity and narrowing
   circumference.
-*   
+* Freedom can be affirmed only in the form of a genuine conversion such as Stepan Tromfimovitch undergoes
+  at the novel's conclusion.  What cannot be determined is the degree of culpability or innocence of a
+  character.  It is never any more than this.
+* There is always the same meaning behind the adventure of the hero of a novel; it takes us from the upper
+  to the lower regions of a particular novelistic domain.  The career of the hero is a descent into hell
+  which almost always ends in a return to the light, by means of a metaphysical, nontemporal conversion.
+* There are a hundred heroes and yet there is a single hero whose adventure spreads over the thole of novelistic
+  literature.
+* Each generation embodies one stage of ontological sickness.  The truth about the parents remains hidden
+  for a long time but it breaks out with incredible force in the feverish agitation, the violence, and the
+  debauchery of the children.
+* They do not see the connection between the tree and its fruit.
+* But the results of underground lucidity are always injurious; they drag the characters down, not up.
+* We shall know the tree by its fruit.
+
+
+Chapter 11: The Dostoyevskian Apocalypse
+
+* The notion of freedom is inevitably ambiguous when applied to the novel.  If the novelist is free it
+  is hard to see how his characters would be.
+* Either the novelist is free and his characters are not, or else the characters are free and the novelist,
+  like God, does not exist.  [See violence and the sacred]
+* The underground man is bound to be surprising if the means of understanding him are removed.
+* We cannot distinguish between our alleged free spontaneity and underground slavery.  How can we make
+  such a glaring confusion?
+* It is for one of two reasons: either we are innocent of all metaphysical desire or else that desire
+  possesses us so completely that we are entirely unaware of it.
+* Our fiction [modern] hides from us the presence of the mediator in our daily existence.
+* Our criticism hides that same mediator from us in a work expressly written to reveal his presence.
+* The will to autonomy gives rise to slavery but the man from the underground is not aware of it and
+  does not want to be.
+* We should not confuse the novelist with his character, especially if he has drawn the characters from himself.
+* The underground is the truth hidden behind the rationalistic, romantic, and "existential" abstractions.
+* The underground hero in his own way bears witness to the individuals true vocation.  And he testifies more
+  vigorously, in a way, than he would if he were less sick.  As metaphysical desire grows more acute, the testimony
+  becomes more insistent.  The underground is the inverse image of metaphysical truth.  This image becomes
+  increasingly clear as one plunges deeper into the abyss.
+* "I am alone and they are everyone" - the underground motto.
+* The romantic has put into circulation a group of symbols and images intended not for communion but for
+  universal separation.  Like other contemporary social forces, our literature has a tendency toward
+  conformity even when it thinks it is fighting it, since the path of leveling is a via negativa.
+* The underground man is never closer to the Others than when he thinks he is most cut off from them.
+* The hero is incapable of laughing for he cannot see through the individualism of opposition.
+* Nothing can be more humiliating to underground pride than this appeal to the Other.
+* To write and especailly to publish a work is to appeal to the public, to sever by a unilateral gesture
+  the bond of indifference between Self and Other.  Nothing is as humiliating to underground pride
+  as that initiative.
+* see page 263
+* The writer talks in order to seduce us just as he did in the past.  He constantly watches our eyes to see
+  in them the admiration aroused by his talent.
+* We are not strangers, but rather bastards in the Sartrean sense.  We pretend we are free but we are not telling
+  the truth.  We are hypnotized by ridiculous gods and our suffering is doubled by the knowledge that they are ridiculous.
+* Metaphysical desire drags its victims toward the ambiguous point of fascination situated exactly at equal
+  distances from both true detachment and intimate contact with the desired object.
+* As long as the mediator is immobile it is not difficult to feign "serene contemplation" but as soon as the idol moves
+  away the mask of indifference falls to the ground.
+* He always has to make what was not the object of a choice appear as if he had chosen it.
+* The tricks of a pride constantly involved in denying its gods are embodiedd in Dostoyevsky's fictitious characters;
+  in our day we find them in the shape of philosophical and aesthetic theories.
+* Metaphysical desire itself suggests these aberrant interpretations of all novelists.  Once more we must point out
+  how easilty ontological sickness transforms obstacles into resources and adversaries into allies.
+* The copy of the desire appears to be a rather crude carbon copy; copied desires are always more blurred than the original.
+* The lucidity of our time is able to recognize the presence of the sacred in desires that would appear to be most natural.
+* Not a single desire escapes the demystifier who is patiently occupied in constructing on top of all the dead myths
+  the greatest myth of all, that of his own detachment.  He alone, it seems, never desires.
+* Thus once more we have seen that lucidity and blindness increase side by side.
+* Askesis for the sake of desire raged only in the public parks, in the salon, and in the bedroom.  Now it triumps
+  even in the secret recesses of one's conscience and in the interior monologue.
+* The hero who experiences the greatest desire is succeeded by the hero who experiences the least desire.
+* Whereas romantic readers used to identify with the hero who felt the strongest desire, today they identify with the
+  hero who feels the least desire.
+* We are like Don Quixote's friends who are busy trying to cure the poor man of his madness because they themselves
+  are the victims of it in an aggravated form.
+* As soon as the subject who desires recognizes the role of imitation in his own desire he ahs to renounce either this
+  desire or his pride.
+* The Christian's desires are transfigured by his thirst for immortality.
+* Men waste their energy pursuing God anywhere but within themselves.
+* [Krillov] Like all proud people he covets Another's divinity and he becomes the diabolic rival of Christ.  In this
+  supreme desire the analogies between vertical and deviated transcendency are clearer than ever.  The satanic side of
+  the arrogant mediation is plainly revealed.
+  
