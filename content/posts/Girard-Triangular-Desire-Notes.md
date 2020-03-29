@@ -907,4 +907,40 @@ Chapter 11: The Dostoyevskian Apocalypse
 * [Krillov] Like all proud people he covets Another's divinity and he becomes the diabolic rival of Christ.  In this
   supreme desire the analogies between vertical and deviated transcendency are clearer than ever.  The satanic side of
   the arrogant mediation is plainly revealed.
-  
+* His distinction between vanity which makese comparisons and incomparable pride is a new kind of comparison and
+  therefore a new kind of vanity.
+* The ontological sickness grows more and more serious as the mediator approaches the desiring subject.  Its natural
+  end is death.  The power of pride cannot but end in the fragmentation and ultimately in the complete disintegration of
+  the subject.  The very desire to unify oneself disperses, and here we have arrived at the definitive dispersion.  The
+  contradictions caused by internal mediation end by destroying the individual.
+* Inevitably the fatal outcome of ontological sickness is, directly or indirectly, a form of suicide, since pride has
+  been freely chosen.
+* As the mediator approaches, the phenomena connected with metaphysical desire tend to be of a collective nature.  This
+  is more apparent than ever in the supreme stage of desire.  Thus in Dostoyevsky along with the individual suicide
+  we find a quasi-suicide of the collectivity.
+* This sickness is contagious and yet it isolates individuals; it turns them one against the other.  Each believes he alone
+  knows the truth and each is miserable when he looks at his neighbors.  Each condemns and acquits according to his own law.
+  None of these symptoms is unfamiliar to us.  Raskolnikov is describing ontological sickness at the paroxysmal stage which
+  triggers this orgy of destruction.  The reassuring vocabulary of microbic medicine and technology emerges in the apocalypse.
+* The truth of metaphysical desire is death.
+  * this is the inevitable end of the contradiction on which that desire is based.
+* As we have seen, the game of internal mediation depends on hiding what one feels.  The cleverest at the game will always be
+  the one who feels the least.
+* Once the stage of masochism has been reached it becomes very obvious that metaphysical desire tends toward the complete
+  destruction of life and spirit.  The obstinate search for an obstacle gradually assures the elimination of accessible objects
+  and benevolent mediators.
+  - see page 283
+* .. In double mediation, the apparent materialism hides an inverse spiritualism.
+* The masochist is constantly running up against the blind wall of stupidity, and it is against this wall that he finally
+  smashes himself to bits.
+* [contemporary novelistic fiction since Kafka] - The hero is no longer alive but he is not yet dead.  Moreover the hero
+  knows that the end of his search is death, but this knowledge does not turn him from metaphysical desire.  The greatest
+  lucidity is also the most total blindness.
+* The affirmation of the self ends in the negation of the self.  The will to make onself God is a will to self-destruction
+  which is gradually realized.
+* The exaltation of the negative is rooted in that blind lucidity which characterizes the last stages of internal mediation.
+* The negative which so many modern philosophers identify with freedom and life is in reality the hearld of slavery and death.
+* To perceive the metaphysical structure of desire is to foresee its catastrophic conclusion.  Apocalypse means development.
+  The Dostoyevskian apocalypse is a development that ends in the destruction of what it has developed.
+* Deviated transcendency is a giddy descent, a blind plunge into the shadows.
+

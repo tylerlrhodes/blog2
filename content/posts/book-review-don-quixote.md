@@ -397,7 +397,31 @@ p930 - Don Antonio .. talking to Carrasco about his offence in attempting to res
 
 p938 - The Duke's ploy with Tosilos revealed
 
+p940 - Quixote on imitating the pastoral Arcadia and becoming a shepherd
 
+p952 - Sancho's disenchanting power [by being "tortured"]
+
+p955 - A recap of the enchantements
+
+p956 - the contagion of metaphysical desire and the ontological sickness
+
+p959 - Altisidora reveals another ruse to Quixote
+
+p962 - Quixote to pay Sancho for his lashings
+
+p963 - Sancho lashes a tree and fakes it
+
+p964- Quixote's judgement improves now that he is defeated and not practicing knight-errantry
+
+p968 - Don Alvaro Tarfe, the "bad Don Quixote", spread of ontological disease
+
+p971 - potential example of "ideas of reference" or "delusion of reference"
+
+p973 - Quixote to the priest and graduate on his foiled efforts and plan to be a shepherd
+
+p981 - Quixote's last day, and a poem by Carrasco
+
+p976 - Quixote's renunciation of detestable books of chivalry
 
 
 
