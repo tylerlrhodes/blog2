@@ -944,3 +944,61 @@ Chapter 11: The Dostoyevskian Apocalypse
   The Dostoyevskian apocalypse is a development that ends in the destruction of what it has developed.
 * Deviated transcendency is a giddy descent, a blind plunge into the shadows.
 
+
+Chapter 12: The Conclusion:
+* The ultimate meaning of desire is death but death is not the novel's ultimate meaning.
+* Out of supreme disorder is born supernatural order.
+* The apocalypse would not be complete withouta positive side.
+* The unity of novelistic conclusions consists in the renunciation of metaphysical desire.
+* In renouncing divinity the hero renounces slavery.  Every level of his existence is inverted
+  all the effects of metaphysical desire are replaced by contrary effects.  Deception gives
+  way to truth, anguish to remembrance, agitation to repose, hatred to love, humiliation to
+  humility, mediated desire to autonomy, deviated transcendency to vertical transcendency.
+* "The hero triumphs in defeat" - the death of pride is his salvation
+* All novelistic conclusions are conversions; it is impossible to doubt this.
+* Metaphysical desire brings into being a certain relationship to others and to oneself.  True
+  conversion engenders a new relationship to others and to oneself.
+* When he no longers envies people, when he no longer wishes to seduce or dominate them, then
+  Julien no longer hates them.
+* Romantic criticism rejects what is essential; it refuses to go beyond metaphysical desire
+  to the truth of the novel which shines beyond death.
+* The title of hero of a novel must be reserved for the character who triumphs over metaphysical
+  desire in a tragic conclusion and thus becomes capable of writing the novel.
+* The aesthetic triumph of the author is one with the joy of the hero who has renounced desire.
+* To triumph over self-centeredness is to get away from oneself and make contact with others
+  but in another sense it also imples a greater intimacy with oneself and a withdrawal from others.
+* At a certain depth there is no difference between our own secret and the secret of Others.
+  Everything is revealed to the novelist when he penetrates this Self, a truer Self than that
+  which each of us displays.  This Self imitates constantly, on its knees before the mediator.
+* But this renunciation is very painful.  The novelist can write his novel only if he recognizes
+  that his mediator is a person like himself.
+* This victory over a self-centeredness which is other centered, this renunciation of fascination
+  and hatred , is the crowning moment of novelistic creation.
+* The novelist recognizes that he is guilty of the sin of which he is accusing his mediator.
+  The curse which Oedipus hurls at Others falls on his own head.
+* Great novels always spring from an obsession that has been transcended.  The hero sees
+  himself in the rival he loathes; he renounces the "differences" suggested by hatred.  He
+  learns, at the expense of his pride, the existence of the psychological circle.
+* This victory over desire is extermely painful.
+* One must "give up one's dearest illusions."
+* "All the writers come together at certain points and they seem like different and sometimes
+  contradictory elements of a single genius."
+* In Proust, as in all persons who experience a very intense and solitary spiritual experience,
+  the fear of appearing extravagant is superseded only by that of seeming ridiculous by
+  repeating universally accepted truths.
+* When he renounces the deceptive divinity of pride, the hero frees himself from slavery and
+  finally grasps the truth about his unhappiness.
+* All we needed was the author's permission, and this we now have: "I loathe Amadis of Gaul,
+  and all the infinite number of his kind." The novelists themselves, through the medium of their
+  heroes, confirm what we have been asserting all the way through this book: the sickness is
+  rooted in pride and the universe of the novel is a universe of people possessed.
+* Novelistic conclusions are bound to be banal since they all quite literally repeat the same thing.
+* The novelistic denouement is a reconciliation between the individual and the world, between
+  man and the sacred.  The multiple universe of passion decomposes and returns to simplicity.
+* The great novelistic conclusions are banal but they are not conventional.
+* .. we would at last realize that Christian symbolism is universal for it alone is able to give
+  form to the experience of the novel.
+* If the seed does not die after it has been sown, it will remain alone, but if it dies it will
+  bear much fruit.
+* Repudiation of a human mediator and renunciation of deviated transcendency inevitably call for
+  symbols of vertical transcendency whether the author is Christian or not.
