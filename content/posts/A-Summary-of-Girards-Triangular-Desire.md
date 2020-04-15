@@ -8,21 +8,21 @@ Triangular desire, aka mimetic desire, the precursor to mimetic theory,
 is a model of understanding human desire.  It is fundamentally simple,
 and states that a subject copies the desires of his model.
 
-In the literay terms of 'Deceit, Desire, and the Novel,' it refers to
+In the literary terms of *Deceit, Desire, and the Novel,* it refers to
 the "self" copying the desire of the "other."
 
-Through this model it is possible to form an analysis of human
-behavior through literature and other forms.  While triangualr desire
-is reductive in application, it's power as a model comes from it's
-simplicity. 
+With the model of triangular desire it is possible to form an analysis
+of human behavior through literature and other forms.  While
+triangular desire is reductive in application, it's power as a model
+comes from it's simplicity.
 
-Girard refers to these copied desires as *metaphysical desires*.  He
-is not referring definitively to all "desire," but rather desires
-which do not originate from the self; rather, desires which orginate
-from an other, and cannot be fulfilled by the self.  Fundamentally,
-the subject's (mimetic) desire is aimed at appropriating the being of
-the Other.  The object which appears to be desired is only a means of
-reaching the mediator (Other).
+Girard refers to these copied, or imitated desires, as *metaphysical
+desires*.  He is not referring definitively to all "desire," but
+rather to desires which do not originate from the Self, desires which
+originate from an Other and cannot be fulfilled by the Self.
+Fundamentally, the subject's (mimetic) desire is aimed at
+appropriating the being of the Other.  The object which appears to be
+desired is only a means of reaching the mediator (Other).
 
 The base example Girard uses in DDATN is Don Quixote, whose case is
 most obvious.  Don Quixote imitates his model of chivalry, Amadis of
@@ -38,8 +38,8 @@ categories refer to the distance of the mediator from the subject in a
 Christian's imitation of Christ, are examples of external mediation.
 His other examples (works I haven't read) are more examples of
 internal mediation: *The Red and the Black*, *Notes From the
-Underground*, *Proust*, and so on.  The mediator in these works is
-more close than far.
+Underground*, *The Past Recaptured*, and so on.  The mediator in these
+works is more close than far.
 
 Through triangular desire and the characteristic *double mediation* of
 *internal mediation* it is possible to represent complex forms of
@@ -48,7 +48,7 @@ complexity of behavior becomes simple with the exposition of
 metaphysical desire in literature.
 
 Inherent in triangular desire is the transfiguration of the object.
-The object increases or decreases in "metapysical value" based upon
+The object increases or decreases in "metaphysical value" based upon
 the mediator.  Complicating the analysis at times is the vague notion
 of what the "object" can be. Don Quixote is a comedy through his
 tormentor's enchantments, and a barber's basin becomes Mambrino's
@@ -59,13 +59,13 @@ near.
 
 Girard explores vanity, snobbism, masochism, sadism, and
 individuality, through the lens of triangular desire, revealing the
-(ironic) equivalance of Quixote's transfigured barber's basin as
+(ironic) equivalence of Quixote's transfigured barber's basin as
 helmet to the common snob's behavior.  The mechanism is the same, but
 the distance to the mediator results in the difference of perception
 and ultimately behavior.
 
 While I would think that most people would not assert the fundamental
-equivalance of passion and vanity, that is what Girard's model does.
+equivalence of passion and vanity, that is what Girard's model does.
 All is dependent upon the distance from the mediator. Perception,
 behavior, and reality (which springs from illusion) in Girard's model
 arise from metaphysical desire. Modeling reality from literature (in
@@ -76,7 +76,7 @@ impact the physical in many ways.
 
 With an understanding of the mediation of desire, and *double
 mediation,* it appears to be possible to understand a modeling of the
-roots of emotions and behaviors prevelant within contemporary life.
+roots of emotions and behaviors prevalent within contemporary life.
 
 The operations of double mediation (A copies the desire of B, B in
 turn copies the desire of A) conceal the nature of the model
@@ -103,15 +103,15 @@ Don Quixote by Cervantes, and the same mediation, operating between
 and outcome: the death of Anselmo, instead of the comedy of the
 windmills.
 
-Deviated transcendency, the inverson of vertical transcendency, the
+Deviated transcendency, the inversion of vertical transcendency, the
 imitation of the false idol instead of the divine, has diabolical
 consequences.
 
 Anselmo schemes to have his "friend" Lotario seduce his wife in a vain
 effort to validate her virtue in the "expected" case of her denying
 Lotario's advances.  The outcome is different however, and Anselmo's
-offering to his rival, instead of frustratig his rival and affirming
-his wife's virtue, results in a "successful seduction" and Anselmo's
+offering to Lotario, instead of frustrating his rival and affirming his
+wife's virtue, results in a "successful seduction" and Anselmo's
 downfall.
 
 Double mediation, in operation between the "friends," rears it's ugly
@@ -121,16 +121,16 @@ it's conclusion tragic instead of comic.
 
 The realm of internal mediation as explored by Girard is brutal and
 total.  Don Quixote's comic chivalric exploits make us laugh.  But the
-works of Dostoyevsky and Proust (apparently, I have yet to read them,
-but I found nothing that obviously contradicts Girards model in Don
+works of Dostoevsky and Proust (apparently, I have yet to read them,
+but I found nothing that obviously contradicts Girard's model in Don
 Quixote) display the tyranny of internal mediation.  The model can be
 anybody and spring up at any time.  The reign of each short but awful.
 The tragic becomes the comic, and the comic the tragic, and the
-operations of desire make deceit and hypocracy the rule of the day.
+operations of desire make deceit and hypocrisy the rule of the day.
 
 Double mediation seems to make the same invent difference, while
 paradoxically eliminating it (*Violence and the Sacred* speaks more on
-"difference").  The very notions of conciousness and individuality,
+"difference").  The very notions of consciousness and individuality,
 and the tenets of Western thought, are exposed and laid bare.  As
 Buddhism says, suffering is rooted in desire and ignorance.  Girard's
 model, and the display through literature of its veracity, appears to
@@ -139,15 +139,15 @@ confirm this truth within a context of Western literature.
 Metaphysical desire is contagious and Girard terms it's spread as the
 *ontological disease.*  In DDATN Girard explores the progression of
 the disease through contemporary time with an exploration of
-literature exposing it's operation and progression.
+literature.
 
-In Girard's explanation the progression of literature is reflective of
-the stages of the ontological disease and the novelists awareness of
-this reality. According to Girard, despite the apparent gulf between
-*Don Quixote*, *Notes From the Underground,* and other works he
-discusses, the novels all perform the same act ultimately: they reveal
-the existence of metaphysical desire.  Girard calls this the
-*novelistic revalation.*
+In Girard's explanation literature is reflective of the stages of the
+ontological disease and the novelists awareness of this
+reality. According to Girard, despite the apparent gulf between *Don
+Quixote*, *Notes From the Underground,* and other works he discusses,
+the novels all perform the same act ultimately: they reveal the
+existence of metaphysical desire.  Girard calls this the *novelistic
+revelation.*
 
 In *Don Quixote,* this operation is fairly obvious.  Don Quixote's
 imitation of Amadis of Gaul and his chivalric exploits in practicing
@@ -156,22 +156,22 @@ Quixote participates in, the "common" reality shared by the priest,
 various innkeepers, Dukes, and others, is contrasted with the absurd
 enchantments Don Quixote experiences.
 
-The *novelstic revalation* is performed by contrasting metaphysical
+The *novelistic revelation* is performed by contrasting metaphysical
 realities.  In the case of *Don Quixote,* this is pretty easy to see.
 The contrast between the books of chivalry which form the basis for
 Don Quixote's reality, and the reality of the priest, for example, is
-a relatively straight forward to see.
+a relatively straight forward.
 
 The absurdity of Don Quixote's enchantments become comic not out of
 some fixed "true reality" of which he alone is excluded and truly
 insane within in an absolute sense.  They are absurd and comic because of the
 incompatible realities shared by the characters (and readers) and the
-conflicting transfigurations of reality.
+conflicting transfiguration of reality.
 
-Through a contrast of the realities of the characters wihin the novel,
-a process *suggested* implicitly, not explicitly, the maleable nature
+Through a contrast of the realities of the characters within the novel,
+a process *suggested* implicitly, not explicitly, the malleable nature
 of metaphysical reality and desire becomes apparent.  Coupled with the
-model of triangular desire, many apparent "complexities," "archtypes,"
+model of triangular desire, many apparent "complexities," "archetypes,"
 and other notions become reducible within the literature itself to the
 same fundamental operation: the mediation of desire.
 
@@ -179,9 +179,12 @@ The ultimate result of metaphysical desire is enslavement, shame, and
 suffering.  Don Quixote's desires are not his own, and while his
 exploits are hilarious, nobody would wish them upon themself.
 
-The question of freedom is resolved by Girard through the *novelistic
-conclusion,* which is the renunciation of the hero's former self, the
-renunciation of metaphysical desire.
+[ rewrite ]
+
+With the result of metaphysical desire being slavery, the question of
+freedom is resolved by Girard through the *novelistic conclusion,*
+which is the renunciation of the hero's former self, the renunciation
+of metaphysical desire.
 
 Don Quixote renounces knight-errantry and the folly of his ways in the
 end.  Don Quixote's freedom comes ironically at the point of his death
@@ -190,6 +193,8 @@ in the novel.
 Freedom, seen through the Girardian lens, is in the renunciation of
 metaphysical desire, and the selection of a divine model instead of a
 human model.
+
+[ end rewrite ]
 
 The study of metaphysical desire as undertaken in DDATN is important
 due to the outcome of its mediation.  The mediation of desire, and the
@@ -204,7 +209,7 @@ Christ, and undoubtedly other religious teachings.
 The model of triangular desire allows the analyst to examine
 novelistic works and relate the structure and results of the
 metaphysical desire in a systematic fashion.  Girard does this and
-structures his analyis by exploring the spread of the ongological
+structures his analysis by exploring the spread of the ontological
 sickness through a review of literature termed "novels of mediated
 desire."
 
@@ -235,3 +240,6 @@ desire, but the ending of all desire, a return to calm and joy.*
 
 
 
+
+LocalWords:  DDATN Amadis errantry Mambrino's snobbism Lotario
+LocalWords:  Lotario's chivalric
