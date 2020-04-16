@@ -1,7 +1,8 @@
 ---
-title: "A Summary of Girard's Triangular Desire & the Novelistic Revelation"
-date: 2020-03-24T06:59:05-04:00
-draft: true
+title: "A Summary of Girard's Triangular Desire & The Novelistic Revelation"
+date: 2020-04-15T06:59:05-04:00
+draft: false
+
 ---
 
 Triangular desire, aka mimetic desire, the precursor to mimetic theory,
@@ -110,14 +111,35 @@ consequences.
 Anselmo schemes to have his "friend" Lotario seduce his wife in a vain
 effort to validate her virtue in the "expected" case of her denying
 Lotario's advances.  The outcome is different however, and Anselmo's
-offering to Lotario, instead of frustrating his rival and affirming his
-wife's virtue, results in a "successful seduction" and Anselmo's
-downfall.
+offering to Lotario, instead of frustrating his rival, validating his
+desire, and affirming his wife's virtue, results in a "successful
+seduction" and Anselmo's downfall.
 
 Double mediation, in operation between the "friends," rears it's ugly
 head in this case.  Anselmo's desires become Lotario's desires and
 vice versa, and the originally hidden rivalry becomes apparent and
 it's conclusion tragic instead of comic.
+
+The inclusion of the tale within *Don Quixote* according to Girard
+shows the operation of *internal mediation.* Girard's take is that
+Cervantes included it to show the universal nature of metaphysical
+desire.  Girard states that the hero of internal mediation offers his
+"sacrifice" to the god in order that the god might not enjoy it.
+Here, Anselmo pushes his beloved into his mediator's arms in order to
+arouse his desire and triumph over the rival desire.  However
+Anselmo's plan fails in this case, leading to his downfall.
+
+[re-work]
+
+The imitative nature of the working of desire has been expanded upon
+by others.  In a later work of Girard's, *Things Hidden Since the
+Foundation of the World*, one of the interviewers, a psychiatrist,
+Jean-Michel Oughourlain, analyzises mimetic theory with Girard.  This
+doctor goes on to incorporate this model of desire into his practice
+of psychiatry and medicine, offering credence to the concept of
+imitative desire and its operation in internal and double mediation.
+In his book, *The Mimetic Brian*, he goes so far as to "tweak" desire
+to the benefits of his patients.
 
 The realm of internal mediation as explored by Girard is brutal and
 total.  Don Quixote's comic chivalric exploits make us laugh.  But the
@@ -127,6 +149,8 @@ Quixote) display the tyranny of internal mediation.  The model can be
 anybody and spring up at any time.  The reign of each short but awful.
 The tragic becomes the comic, and the comic the tragic, and the
 operations of desire make deceit and hypocrisy the rule of the day.
+
+[end-rework]
 
 Double mediation seems to make the same invent difference, while
 paradoxically eliminating it (*Violence and the Sacred* speaks more on
