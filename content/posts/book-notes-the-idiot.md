@@ -6,3 +6,9 @@ draft: true
 
 
 
+words:
+* pensive
+* insolent
+* reproach
+* varlet
+* taciturn

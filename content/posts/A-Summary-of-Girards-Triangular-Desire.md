@@ -126,15 +126,13 @@ Cervantes included it to show the universal nature of metaphysical
 desire.  Girard states that the hero of internal mediation offers his
 "sacrifice" to the god in order that the god might not enjoy it.
 Here, Anselmo pushes his beloved into his mediator's arms in order to
-arouse his desire and triumph over the rival desire.  However
-Anselmo's plan fails in this case, leading to his downfall.
-
-[re-work]
+arouse his desire and triumph over the rival mimetic (imitated)
+desire. Anselmo's plan fails however and leads to his downfall.
 
 The imitative nature of the working of desire has been expanded upon
 by others.  In a later work of Girard's, *Things Hidden Since the
 Foundation of the World*, one of the interviewers, a psychiatrist,
-Jean-Michel Oughourlain, analyzises mimetic theory with Girard.  This
+Jean-Michel Oughourlain, analyzes mimetic theory with Girard.  This
 doctor goes on to incorporate this model of desire into his practice
 of psychiatry and medicine, offering credence to the concept of
 imitative desire and its operation in internal and double mediation.
@@ -150,8 +148,6 @@ anybody and spring up at any time.  The reign of each short but awful.
 The tragic becomes the comic, and the comic the tragic, and the
 operations of desire make deceit and hypocrisy the rule of the day.
 
-[end-rework]
-
 Double mediation seems to make the same invent difference, while
 paradoxically eliminating it (*Violence and the Sacred* speaks more on
 "difference").  The very notions of consciousness and individuality,
@@ -165,7 +161,7 @@ Metaphysical desire is contagious and Girard terms it's spread as the
 the disease through contemporary time with an exploration of
 literature.
 
-In Girard's explanation literature is reflective of the stages of the
+Girard's claims that literature is reflective of the stages of the
 ontological disease and the novelists awareness of this
 reality. According to Girard, despite the apparent gulf between *Don
 Quixote*, *Notes From the Underground,* and other works he discusses,
@@ -186,12 +182,6 @@ The contrast between the books of chivalry which form the basis for
 Don Quixote's reality, and the reality of the priest, for example, is
 a relatively straight forward.
 
-The absurdity of Don Quixote's enchantments become comic not out of
-some fixed "true reality" of which he alone is excluded and truly
-insane within in an absolute sense.  They are absurd and comic because of the
-incompatible realities shared by the characters (and readers) and the
-conflicting transfiguration of reality.
-
 Through a contrast of the realities of the characters within the novel,
 a process *suggested* implicitly, not explicitly, the malleable nature
 of metaphysical reality and desire becomes apparent.  Coupled with the
@@ -199,26 +189,35 @@ model of triangular desire, many apparent "complexities," "archetypes,"
 and other notions become reducible within the literature itself to the
 same fundamental operation: the mediation of desire.
 
-The ultimate result of metaphysical desire is enslavement, shame, and
-suffering.  Don Quixote's desires are not his own, and while his
-exploits are hilarious, nobody would wish them upon themself.
+The absurdity of Don Quixote's enchantments become comic not out of
+some fixed "true reality" of which he alone is excluded and truly
+insane within in an absolute sense.  They are absurd and comic because of the
+incompatible realities shared by the characters (and readers) and the
+conflicting transfiguration of reality.
 
-[ rewrite ]
+By exploring a number of novels, Girard reveals that the ultimate
+result of metaphysical desire is enslavement, shame, and suffering.
+Don Quixote's desires are not his own, and while his exploits are
+hilarious, nobody would wish them upon themself.  The tyranny under
+which the underground man toils is driven by the same mediation, only
+the mediator(s) are closer than is Quixote's Amadis of Gaul.  While
+the underground man's "reality" may be more "real" to us than
+Quixote's, the path to each is the same.
 
-With the result of metaphysical desire being slavery, the question of
-freedom is resolved by Girard through the *novelistic conclusion,*
-which is the renunciation of the hero's former self, the renunciation
-of metaphysical desire.
+Despite the tyranny of metaphysical desire, there is a freedom
+achieved through what Girard calls the *novelistic conclusion.*  This
+occurs when the hero renounces his old self.  The hero renounces
+metaphysical desire, realizes the nature of his desire, and is able to
+rejoin the world with a new relation to others and reality.  This
+conclusion manifests differently but is fundamentally the same.
 
-Don Quixote renounces knight-errantry and the folly of his ways in the
+Don Quixote abandons knight-errantry and the folly of his ways in the
 end.  Don Quixote's freedom comes ironically at the point of his death
 in the novel.
 
 Freedom, seen through the Girardian lens, is in the renunciation of
 metaphysical desire, and the selection of a divine model instead of a
 human model.
-
-[ end rewrite ]
 
 The study of metaphysical desire as undertaken in DDATN is important
 due to the outcome of its mediation.  The mediation of desire, and the
@@ -266,4 +265,5 @@ desire, but the ending of all desire, a return to calm and joy.*
 
 
 LocalWords:  DDATN Amadis errantry Mambrino's snobbism Lotario
-LocalWords:  Lotario's chivalric
+LocalWords:  Lotario's chivalric Novelistic transcendency Oughourlain
+LocalWords:  novelistic themself Girardian
