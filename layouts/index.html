@@ -41,16 +41,12 @@
 	{{ range first 5 .Data.Pages }}
 	   <a class="fp-post-link" href="{{ .Permalink }}">{{ .Title }}</a> <br />
 	{{ end }} <br />
+           <a href="/posts">All Posts</a> |
+	   <a href="{{ .RSSLink }}">RSS Feed</a> 
 
-	   <a href="{{ .RSSLink }}">RSS Feed</a> | <a href="/posts">All Posts</a>
-
-       <br /><br />
-
-    	<!-- Begin Mailchimp Signup Form -->
-
-
+<br /> <br />	   
 <form action="https://gmail.us3.list-manage.com/subscribe/post?u=c11b26b5092fee8269a836c31&amp;id=0e9c1ecbfa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll" style="margin:8px">
+    <div id="mc_embed_signup_scroll" style="margin:0px">
 	<label for="mce-EMAIL">Subscribe for updates:</label> <br />
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="margin-top:10px">
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -62,14 +58,20 @@
 
 <!--End mc_embed_signup-->
 
-
-	<h3>Find me on Social Media:</h3>
+       	<h3>Links:</h3>
 
 	<a href="mailto:tylerlrhodes@gmail.com">Email Me</a> <br />
 	<a href="https://github.com/tylerlrhodes/">Github</a> <br />
 	<a href="https://twitter.com/itcheeze">Twitter</a> <br />
 	<a href="https://www.facebook.com/tyler.rhodes.5648">Facebook</a> <br />
 	<a href="https://linkedin.com/in/rhodest">Linkedin</a> <br />
+
+	      <a href="/tylerrhodes-resume.pdf">My Resume</a>
+
+
+    	<!-- Begin Mailchimp Signup Form -->
+
+
 
     </div>
   </body>

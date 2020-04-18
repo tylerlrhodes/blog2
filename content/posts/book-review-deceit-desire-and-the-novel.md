@@ -1,5 +1,5 @@
 ---
-title: "Book Review - Deceit, Desire, and the Novel"
+title: "Book Review: Deceit, Desire, and the Novel"
 date: 2020-01-10T12:34:26-05:00
 draft: false
 tags: [book-review]

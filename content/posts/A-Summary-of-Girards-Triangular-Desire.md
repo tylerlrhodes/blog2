@@ -2,15 +2,19 @@
 title: "A Summary of Girard's Triangular Desire & The Novelistic Revelation"
 date: 2020-04-15T06:59:05-04:00
 draft: false
-
+description: "A summary of Rene Girard's Triangular (mimetic) Desire
+and the novelistic revelation"
+tags: [ "mimetic theory", "triangular desire", "rene girard" ]
+keywords: [ "summary", "mimetic theory", "mimetic desire", "triangular
+desire" ]
 ---
 
 Triangular desire, aka mimetic desire, the precursor to mimetic theory,
 is a model of understanding human desire.  It is fundamentally simple,
 and states that a subject copies the desires of his model.
 
-In the literary terms of *Deceit, Desire, and the Novel,* it refers to
-the "self" copying the desire of the "other."
+In the literary terms of *Deceit, Desire, and the Novel (DDATN),* it
+refers to the "self" copying the desire of the "other."
 
 With the model of triangular desire it is possible to form an analysis
 of human behavior through literature and other forms.  While
@@ -161,8 +165,8 @@ Metaphysical desire is contagious and Girard terms it's spread as the
 the disease through contemporary time with an exploration of
 literature.
 
-Girard's claims that literature is reflective of the stages of the
-ontological disease and the novelists awareness of this
+Girard claims that literature is reflective of the stages of the
+ontological disease and the novelists' awareness of this
 reality. According to Girard, despite the apparent gulf between *Don
 Quixote*, *Notes From the Underground,* and other works he discusses,
 the novels all perform the same act ultimately: they reveal the
@@ -191,16 +195,16 @@ same fundamental operation: the mediation of desire.
 
 The absurdity of Don Quixote's enchantments become comic not out of
 some fixed "true reality" of which he alone is excluded and truly
-insane within in an absolute sense.  They are absurd and comic because of the
-incompatible realities shared by the characters (and readers) and the
-conflicting transfiguration of reality.
+insane within in an absolute sense.  They are absurd and comic because
+of the incompatible realities shared by the characters (and readers)
+and the conflicting transfiguration of reality.  
 
 By exploring a number of novels, Girard reveals that the ultimate
 result of metaphysical desire is enslavement, shame, and suffering.
 Don Quixote's desires are not his own, and while his exploits are
 hilarious, nobody would wish them upon themself.  The tyranny under
 which the underground man toils is driven by the same mediation, only
-the mediator(s) are closer than is Quixote's Amadis of Gaul.  While
+his mediator(s) are closer than Quixote's Amadis of Gaul.  While
 the underground man's "reality" may be more "real" to us than
 Quixote's, the path to each is the same.
 
@@ -209,7 +213,7 @@ achieved through what Girard calls the *novelistic conclusion.*  This
 occurs when the hero renounces his old self.  The hero renounces
 metaphysical desire, realizes the nature of his desire, and is able to
 rejoin the world with a new relation to others and reality.  This
-conclusion manifests differently but is fundamentally the same.
+conclusion may manifest differently but is fundamentally the same.
 
 Don Quixote abandons knight-errantry and the folly of his ways in the
 end.  Don Quixote's freedom comes ironically at the point of his death
@@ -248,22 +252,3 @@ between a human or divine model.
 
 As Girard puts it in the first chapter: *The aesthetic emotion is not
 desire, but the ending of all desire, a return to calm and joy.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LocalWords:  DDATN Amadis errantry Mambrino's snobbism Lotario
-LocalWords:  Lotario's chivalric Novelistic transcendency Oughourlain
-LocalWords:  novelistic themself Girardian
