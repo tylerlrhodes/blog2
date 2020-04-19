@@ -104,3 +104,11 @@ body .gist .highlight td {
     font-family: inherit;
     font-size: inherit;
 }
+
+blockquote {
+    display: block;
+    margin: 2rem;
+    font-size: 1rem;
+    font-style: italic;
+    position: relative;
+}

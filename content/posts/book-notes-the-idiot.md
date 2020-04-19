@@ -21,3 +21,17 @@ words:
 * efface - erase (a mark) from a surface; make oneself appear insignificant or inconspicuous
 * solicitor
 * interlocuter
+* physiognomy
+* ardent - enthusiastic or passionate (avid, fervent, fervid, zealous, passionate, impassioned)
+* sultry - hot and humid (of weather); attractive in a way that suggests a passionate nature (of a person, especially a woman)
+* rapture
+* asceticism
+* visage
+* admonitory
+* admonition
+* epigram
+
+emotions:
+* spite
+* jealousy
+* suspicious
