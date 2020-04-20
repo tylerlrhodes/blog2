@@ -1,6 +1,6 @@
 ---
 title: "Deploying a Web App with Ansible and Terraform on AWS, part 2"
-date: 2020-02-16T18:13:13-05:00
+date: 2020-04-18T18:13:13-05:00
 draft: true
 ---
 
@@ -41,8 +41,8 @@ upon the beginnings.
 ## Secrets Management
 
 Starting out, the only secrets I really care about managing here are
-the ones that if they were lost, would cost me money, or really really
-embarass me.
+the ones that if they were lost, would cost me money, or allow for
+private information to become available.
 
 I'm not building Fort Knox, basically this is for a simple application
 for keeping track of daily goals (in a nutshell), and I'm not planning
@@ -85,7 +85,7 @@ bill.
 But besides hoping for laughter in the future, I will try to at least
 make it kind of hard for someone to spend my money when I dont' want
 them to.  The application, once it's deployed to AWS, should not be
-able to do crazy things with my AWS account if it gets hacked.
+able to do bad things with my AWS account if it gets hacked.
 
 There are two sets of credentials here that need to be managed.
 
@@ -94,15 +94,19 @@ set of credentials needs access to create resources in AWS, such as
 the EC2 instance, S3 Bucket, and associated required resources (VPC,
 internet gateway, etc).
 
-I'm not sure if for this its necessary to lock this down too much,
-since it's really only me that's using these credentials, and they'll
-only be used locally.  I've created a user that isn't the root user
-through IAM, and the access keys for this are tied to that.  I keep
-the access keys for the SDK in 1Password, which is encrypted and secure.
+This set of credentials needs to be setup in Terraform Cloud in
+addition to being setup locally for anything deployed not using
+Terraform Cloud.
 
-The other is for access to S3 from the application.  While these
-credentials won't need to be able to create the buckets, they will
-need to be able to read and write to them.
+There is also an API key generated within Terraform Cloud to enable
+communication between the cloud and the CLI which needs to be managed.
+
+I've decided to just store these credentials in 1Password and be done
+with it.
+
+The other set of credentials is for access to S3 from the application.
+While these credentials won't need to be able to create the buckets,
+they will need to be able to read and write to them.
 
 It looks like a reasonable approach to take, with the development and
 production environments, would be the use of specific IAM roles which
@@ -110,6 +114,17 @@ can be attached to EC2 instances.  This allows the EC2 instance to use
 temporary credentials, managed by AWS, to access resources in the AWS
 environment.  The configured IAM role of course would only have access
 to S3 in this case.
+
+I followed an easy guide that I found on
+[Medium](https://medium.com/@kulasangar/creating-and-attaching-an-aws-iam-role-with-a-policy-to-an-ec2-instance-using-terraform-scripts-aa85f3e6dfff)
+to set this up and get it running.  It involves creating some AWS
+resources including an IAM role, IAM policy, and them linking them
+together, dumping them in a profile, and attaching the profile to the
+EC2 instance.  The code for this is in the repository.
+
+* limit EC2 access for the role and validate
+
+
 
 A slight drawback here is that running the program locally, I'll still
 have to use local credentials, so there may be a slight difference in
@@ -119,7 +134,11 @@ credentials by default, in practice this shouldn't be a problem at
 all.  Between the development and production environments, both on
 AWS, the process would be identical.
 
+
 -- Do this and write about it
+
+
+
 
 ### SSH Private Keys
 
