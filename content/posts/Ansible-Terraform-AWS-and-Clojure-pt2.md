@@ -160,7 +160,29 @@ ssh-keygen -p -f ~/.ssh/id_rsa
 
 Of note is that this changes the actualy file and doesn't produce a
 new file.  The key is encrypted with a password, and using it with the
-SSH client will result in you being prompted for the password.
+SSH client will result in you being prompted for the password.  Also,
+there is no way to recover the password if you lose it.  The
+authentication keys would have to be replaced.
+
+While it may not be the best way to manage the private key, again I'm
+just going to use 1Password and store the password protected key there
+to share between computers when needed.
+
+### nginx SSL Certificate
+
+In production I'm planning on using Let's Encrypt for the public key,
+and I think managing that key like I need to do with the development
+environment is basically a moot point.
+
+I'm even thinking of just setting up Let's Encrypt for the development
+environment as well, but for now I have simply generated a certificate
+that is part of the deployment process.  
+
+I'm not really worried about the security of this certificate at all.
+It's basically just used for development to have the connection over
+SSL.  If hackers "decrypt" the communications of my development
+environment I could basically care less.  It's more or less keeping
+track of it from a management perspective.
 
 
 

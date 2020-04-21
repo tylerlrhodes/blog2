@@ -34,6 +34,9 @@ words:
 * rueful - causing sorrow or pity; pitiable; deplorable:
 * propitiate - to make favorably inclined; appease; conciliate
 * pusillanimous - lacking courage or resolution; cowardly; faint-hearted; timid.
+* perspicacious - having keen mental perception and understanding; discerning
+* inveterate - settled or confirmed in a habit, practice, feeling, or the like; chronic
+
 
 emotions:
 * spite
@@ -44,6 +47,14 @@ emotions:
 p 282 - 286
 
 p 307 - 310
+
+p 316
+
+p 326
+
+p 334-336
+
+p 344 - laughter
 
 
 
