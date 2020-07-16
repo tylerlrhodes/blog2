@@ -20,8 +20,7 @@ There are a number of spots to improve, that I'll address in this post
 (maybe the next one too):
 
 * Managing secrets - private keys especially, AWS credentials
-* Terraform - proper use of modules, layout of files, variables and
-  output
+* Terraform
 * Ansible
   * Handlers
   * Splitting files up
@@ -183,6 +182,70 @@ It's basically just used for development to have the connection over
 SSL.  If hackers "decrypt" the communications of my development
 environment I could basically care less.  It's more or less keeping
 track of it from a management perspective.
+
+So while it's probably "bad-form" I'm just going to check in the
+private key to source control to make it easier.  I suppose there is
+some risk if I use a password here that I use for production or for
+some other services, but my "highly secure" development passwords
+usually aren't like that.
+
+## Terraform
+
+I am still not a Terraform expert by any means, but know that this
+project is simple enough that it's best not to get carried away.
+
+My current understanding is that each environment basically needs its
+own root directory to work from.  
+
+When Terraform processes the files it locates the code in the working
+directory to plan, apply, or destroy the infrastructure.  I have yet
+to find a way where the development and production Terraform code can
+live in the same directory, which is fine, and makes sense.
+
+My Terraform code involves setting up some infrastructure around EC2,
+S3, and the networking.  I have only done development so far, but
+production is basically going to look identical to this.  Even if this
+project were to need to scale, I think that would involve just adding
+in a load balancer and increasing the number of EC2 instances.
+
+While I could factor out some of the code into modules, at this point
+it's just not worth the effort.
+
+I'll live with some duplication of code here.
+
+One thing that I could potentially do is move a few of the variables I
+have in the Terraform into their own file.  One spot production will
+look different is the DNS configuration, but it will be different
+enough where it probably won't just be swapping out a variable.
+
+I'll punt on that a bit until I actually put production up.
+
+## Ansible
+
+- seperate inventory by dev and prod: for certificate installation
+
+- How to limit ansible tasks: set intersection
+
+https://www.digitalocean.com/community/tutorials/how-to-manage-multistage-environments-with-ansible
+
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
+
+* variables / templates
+
+* handlers
+
+Approach seems to be put common web_server tasks under one play, then
+have additional plays for dev and prod, where the tasks are customized
+to the environment.
+
+Introduce handlers for restarting services as required.
+
+May not need variables of templating.
+
+
+
+
+
 
 
 
