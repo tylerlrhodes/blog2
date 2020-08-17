@@ -126,7 +126,7 @@ approach.  I have seriously been told this by the pros basically,
 like it is actually a fact, and I can't find where this is factually
 proved.  Email me the link which proves mental illness is *caused* by
 genetics, preferably a link to each \*proof\* for each \*illness\* in
-the DSM, and, well, I'd love to see it.  (There is a way to "prove" this).
+the DSM, and, well, I'd love to see it.  
 
 To sum it up and end this review, because this is a topic I could go
 on forever about, this is a pretty good book to read.  It might not
