@@ -8,12 +8,55 @@ keywords: [ "Book-Review", "The Ethics of Ambiguity"]
 ---
 
 
+*The Ethics of Ambiguity* is Simone de Beavoir's work detailing a
+framework for building an ethics derived from "man's fundamental
+ambiguity."
+
+Taking the fundamental ambiguity as a given feature of existence and
+existentialism, de Beauvoir pushes forward in a manner allowing some
+other fundamental ideas and concepts to be developed and explored.
+How are things like value and meaning derived and associated with form
+given this ambiguity?
+
+This part of the book for me is probably the most important but
+perhaps also the most difficult to grasp at times.  It's with this
+foundation in the first chapter that the rest of the book is given its
+framework and context for developing an ethics.
+
+The principle value from which the ethics is constructed is freedom.
+
+Within this context de Beauvoir describes common patterns of
+existence of individuals and groups, exploring their behavior within
+the ethics, with an eye to the oppressor and the oppressed.
+
+De Beauvoir later in the book works through when certain actions are
+appropriate or may be considered appropriate:  when does it become
+appropriate to become the oppressor?
+
+The book was not easy for me to follow everywhere and part of this was
+my unfamiliarity with the language of existentialism.  However the
+first chapter introduces the reader to existentialism, and "man's
+fundamental ambiguity."
+
+From there it does become easier to read.  De Beauvoir's stereotypes
+of certain types of individuals such as the adventurer, passionate
+man, serious man, artist and writer provide a context to evaluate
+behavior.
+
+After going through the stereotypes of individuals she details "the
+positive aspects of ambiguity."  
+
+
+
+
 *The Ethics of Ambiguity* is a book by Simone de Beauvoir delving into
 the development of an ethics within the framework of existentialism.
 In the book de Beauvoir explores the basics of existentialism
-including the fundamental ambiguity of existence as an individual, and
-how building upon the principle of freedom, an ethics can be
-developed.
+including the fundamental ambiguity of existence.  After briefly
+covering existentialism de Beauvoir builds the basics of an ethics
+which she bases on what she terms "man's fundamental ambiguity."
+
+
 
 The first chapter takes on the task of outlining and defining the
 ambiguity and freedom which provide the basis for understanding the
