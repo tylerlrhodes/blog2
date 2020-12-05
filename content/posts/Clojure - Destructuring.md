@@ -2,6 +2,7 @@
 title: "Clojure: Destructuring and Optional Arguments"
 date: 2019-08-24T12:04:14-04:00
 draft: false
+series: tech
 description: "Destructuring in Clojure is something that shows up
 frequently in code, and to the beginner Clojurist can be difficult to
 decipher.  Being a beginner Clojurist myself, and getting tired of

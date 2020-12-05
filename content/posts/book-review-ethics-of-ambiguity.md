@@ -2,6 +2,7 @@
 title: "Book Review: The Ethics of Ambiguity"
 date: 2020-07-15T07:42:36-04:00
 draft: true
+series: book-review
 tags: [ "book-review" ]
 description: "Book review of Simone de Beauvoir's Ethic's of Ambiguity."
 keywords: [ "Book-Review", "The Ethics of Ambiguity"]

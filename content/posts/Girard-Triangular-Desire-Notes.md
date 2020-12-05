@@ -2,6 +2,7 @@
 title: "Notes on Girard's Triangular Desire"
 date: 2020-02-27T06:38:29-05:00
 draft: true
+series: notes
 ---
 
 Girard's model of Triangular Desire is used throughout 'Deceit, Desire

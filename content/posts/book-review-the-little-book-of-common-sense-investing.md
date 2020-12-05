@@ -2,6 +2,7 @@
 title: "Book Review - The Little Book of Common Sense Investing"
 date: 2018-09-01T11:38:22-04:00
 draft: false
+series: book-review
 tags: [
       "book-review"
 ]

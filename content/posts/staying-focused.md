@@ -2,6 +2,7 @@
 title: "Staying Focused on SICP"
 date: 2018-07-29T10:35:51-04:00
 draft: false
+series: personal
 tags: [
       "musings",
       "SICP"

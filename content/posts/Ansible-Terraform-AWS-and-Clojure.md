@@ -2,10 +2,11 @@
 title: "Deploying a Web App with Ansible and Terraform on AWS, part 1"
 date: 2020-02-08T10:28:58-05:00
 draft: false
+series: tech
 description: "Part 1 in a series of posts concerning the deployment of
 a web application using Terraform and Ansible to AWS"
-tags: [ "ansible", "terraform", "aws", "technology" ]
-keywords: [ "programming", "technology" ]
+tags: [ "ansible", "terraform", "aws", "tech" ]
+keywords: [ "programming", "tech" ]
 ---
 
 This is the first post in what will be a few posts concerning the

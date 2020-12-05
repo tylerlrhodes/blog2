@@ -2,6 +2,7 @@
 title: "Updated Blog Layout"
 date: 2019-04-06T16:53:03-04:00
 draft: false
+series: personal
 ---
 
 Well I've been blogging for nearly a year now.  My journey into

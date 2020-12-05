@@ -2,6 +2,7 @@
 title: "SICP Update 11-2018"
 date: 2018-11-18T15:11:27-05:00
 draft: false
+series: personal
 tags: [
       "SICP",
       "musings"

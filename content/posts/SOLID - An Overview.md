@@ -2,6 +2,7 @@
 title: "SOLID - An Overview"
 date: 2018-05-05T20:07:21-04:00
 draft: true
+series: notes
 ---
 
 SOLID - Minimizing the consequences of future changes to your code

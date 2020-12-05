@@ -2,6 +2,7 @@
 title: "Windows Kernel Synchronization"
 date: 2019-04-02T11:27:24-04:00
 draft: false
+series: personal
 tags: [
       "programming",
       "concurrency",

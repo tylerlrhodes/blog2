@@ -2,6 +2,7 @@
 title: "Interpreter Planning"
 date: 2018-06-10T16:25:49-04:00
 draft: false
+series: personal
 tags: [
       "musings",
       "interpreter"

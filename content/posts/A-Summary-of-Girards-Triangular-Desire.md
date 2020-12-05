@@ -2,6 +2,7 @@
 title: "A Summary of Girard's Triangular Desire & The Novelistic Revelation"
 date: 2020-04-15T06:59:05-04:00
 draft: false
+series: personal
 description: "A summary of Rene Girard's Triangular (mimetic) Desire
 and the novelistic revelation"
 tags: [ "mimetic theory", "triangular desire", "rene girard" ]

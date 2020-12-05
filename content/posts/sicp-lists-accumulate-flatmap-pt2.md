@@ -2,6 +2,7 @@
 title: "SICP - Lists, Accumulate and Flatmap, part 2"
 date: 2018-08-19T11:48:06-04:00
 draft: false
+series: tech
 tags: [
       "SICP",
       "programming",

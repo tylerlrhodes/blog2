@@ -2,6 +2,7 @@
 title: "Getting Started With Scheme"
 date: 2018-06-16T11:57:03-04:00
 draft: false
+series: tech
 tags: [
       "scheme",
       "drracket"

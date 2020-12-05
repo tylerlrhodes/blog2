@@ -2,6 +2,7 @@
 title: "Clojure: Sequences, part 1"
 date: 2019-09-15T21:01:22-04:00
 draft: false
+series: tech
 keywords: [Clojure, sequences, lazy-seq, chunking, map, reduce]
 tags: [programming]
 description: "Sequences are a key abstraction in Clojure, and

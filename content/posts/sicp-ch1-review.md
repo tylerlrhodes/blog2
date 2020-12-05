@@ -2,6 +2,7 @@
 title: "SICP Chapter 1 Thoughts"
 date: 2018-06-23T11:04:39-04:00
 draft: false
+series: personal
 tags: [
       "SICP",
       "scheme"

@@ -2,6 +2,7 @@
 title: "Processes and Threads on Windows"
 date: 2019-03-16T08:56:34-04:00
 draft: false
+series: tech
 tags: [
       "programming",
       "concurrency",

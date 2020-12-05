@@ -2,6 +2,7 @@
 title: "Messin With Lambda"
 date: 2018-03-25T20:58:52-04:00
 draft: false
+series: tech
 tags: [
     "aws",
     "lambda",

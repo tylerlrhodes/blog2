@@ -2,6 +2,7 @@
 title: "Nand2Tetris Part 1 Recap"
 date: 2018-08-11T20:33:49-04:00
 draft: false
+series: personal
 tags: [
       "nand2tetris"
 ]

@@ -2,6 +2,7 @@
 title: "Deploying a Web App with Ansible and Terraform on AWS, part 2"
 date: 2020-04-18T18:13:13-05:00
 draft: true
+series: tech
 ---
 
 

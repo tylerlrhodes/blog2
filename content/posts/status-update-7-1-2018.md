@@ -2,6 +2,7 @@
 title: "Status Update 7/1/2018"
 date: 2018-07-01T10:48:12-04:00
 draft: false
+series: personal
 tags: [
       "SICP",
       "musings"

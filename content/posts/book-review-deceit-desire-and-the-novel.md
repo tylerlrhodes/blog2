@@ -2,6 +2,7 @@
 title: "Book Review: Deceit, Desire, and the Novel"
 date: 2020-01-10T12:34:26-05:00
 draft: false
+series: book-review
 tags: [book-review]
 keywords: [book-review, rene girard, mimetic theory]
 description: "Review of Deceit, Desire, and the Novel.  Rene Girard's

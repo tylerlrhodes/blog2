@@ -2,6 +2,7 @@
 title: "Book Review: I Am a Strange Loop"
 date: 2020-02-06T06:50:55-05:00
 draft: false
+series: book-review
 tags: [ "book-review" ]
 description: "My review of I Am a Strange Loop by Douglass Hofstadter"
 keywords: [ "Book-Review", "Strange Loop"]

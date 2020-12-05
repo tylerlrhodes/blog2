@@ -2,6 +2,7 @@
 title: "SICP Update 7-19-2018"
 date: 2018-07-19T20:51:38-04:00
 draft: false
+series: personal
 tags: [
       "SICP"
 ]

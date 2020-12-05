@@ -2,6 +2,7 @@
 title: "Second Clojure Program - Hugo Front Matter Editor"
 date: 2019-08-11T09:34:05-04:00
 draft: false
+series: tech
 description: "My second program in Clojure, where I put together a
 short tool to edit the front matter of my blog posts."
 keywords: [Clojure, Hugo, programming]

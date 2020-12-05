@@ -19,20 +19,20 @@ New-CFInvalidation -DistributionId E2S8RAXJEUMBUD -InvalidationBatch_CallerRefer
 
 
 
-set-location ".."
+# set-location ".."
 
-remove-item "public" -Recurse -Force
+# remove-item "public" -Recurse -Force
 
-git checkout cloudfare
+# git checkout cloudfare
 
-hugo
+# hugo
 
-set-location "public\"
+# set-location "public\"
 
-Write-S3Object -BucketName bagombo.org -Folder . -Recurse -KeyPrefix \ -CannedACLName public-read -ProfileName HugoProfile
+# Write-S3Object -BucketName bagombo.org -Folder . -Recurse -KeyPrefix \ -CannedACLName public-read -ProfileName HugoProfile
 
-Write-S3Object -BucketName www.bagombo.org -Folder . -Recurse -KeyPrefix \ -CannedACLName public-read -ProfileName HugoProfile
+# Write-S3Object -BucketName www.bagombo.org -Folder . -Recurse -KeyPrefix \ -CannedACLName public-read -ProfileName HugoProfile
 
 
-Pop-Location
+# Pop-Location
 

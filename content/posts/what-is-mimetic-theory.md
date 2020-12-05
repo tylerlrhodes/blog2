@@ -2,6 +2,7 @@
 title: "What Is Mimetic Theory?"
 date: 2020-01-12T11:36:54-05:00
 draft: true
+series: personal
 ---
 
 Mimetic theory is the work of a French-American named Rene Girard, and

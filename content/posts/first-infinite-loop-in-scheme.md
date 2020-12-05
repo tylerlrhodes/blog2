@@ -2,6 +2,7 @@
 title: "An Infinite \"Loop\" in Scheme, or, Applicative vs Normal-Mode Evaluation"
 date: 2018-06-16T15:36:52-04:00
 draft: false
+series: tech
 tags: [
       "scheme",
       "SICP"

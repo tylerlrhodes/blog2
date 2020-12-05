@@ -2,6 +2,7 @@
 title: Back to SICP
 date: 2018-09-29T18:26:56Z
 draft: false
+series: personal
 tags: [personal]
 description: A return to SICP after being sidetracked.
 keywords: [SICP, Scheme]

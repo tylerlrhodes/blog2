@@ -2,6 +2,7 @@
 title: "Week in Review 7-14-2018"
 date: 2018-07-13T18:16:36-04:00
 draft: false
+series: personal
 tags: [
       "musings"
 ]

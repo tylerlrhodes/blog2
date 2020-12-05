@@ -2,6 +2,7 @@
 title: "First Clojure Program - Tetris Clone"
 date: 2019-06-09T11:38:57-04:00
 draft: false
+series: tech
 tags: [
       "clojure",
       "emacs"

@@ -2,6 +2,7 @@
 title: "Monkey Interpreter In C#"
 date: 2018-05-28T11:02:29-04:00
 draft: false
+series: personal
 tags: [
     "interpreter",
     "monkey"

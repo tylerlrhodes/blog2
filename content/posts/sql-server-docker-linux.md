@@ -2,6 +2,7 @@
 title: "SQL Server for Linux on Docker"
 date: 2019-01-02T22:33:08-05:00
 draft: true
+series: tech
 tags: [
       "SQL Server",
       "docker"

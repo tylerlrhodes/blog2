@@ -2,6 +2,7 @@
 title: "Clojure: Sequences, part 2"
 date: 2019-12-30T08:39:46-04:00
 draft: false
+series: tech
 description: "An in depth look at lazy sequences in Clojure: how to
 use them, and how they work."
 tags: [programming]
