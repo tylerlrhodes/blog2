@@ -2,6 +2,7 @@
 title: "SQL Server Data Storage"
 date: 2019-04-14T06:35:44-04:00
 draft: false
+series: tech
 tags: [
       "SQL Server",
       "TSQL"

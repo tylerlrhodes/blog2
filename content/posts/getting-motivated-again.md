@@ -2,6 +2,7 @@
 title: "Getting Motivated Again"
 date: 2018-10-09T20:50:40-04:00
 draft: false
+series: personal
 tags: [
       "SICP",
       "musings",

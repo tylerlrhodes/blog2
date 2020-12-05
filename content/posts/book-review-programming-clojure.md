@@ -2,6 +2,7 @@
 title: "Book Review - Programming Clojure"
 date: 2019-08-17T01:17:31-04:00
 draft: false
+series: book-review
 description: "A book review of Programming Clojure, by Aaron Bedra,
 Stuart Halloway and Alex Miller."
 keywords: [Book Review, Clojure]

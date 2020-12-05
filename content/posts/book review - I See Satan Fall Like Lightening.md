@@ -2,6 +2,7 @@
 title: "Book Review - I See Satan Fall Like Lightening"
 date: 2019-08-05T21:19:22-04:00
 draft: false
+series: book-review
 keywords: [ "book review", "rene girard", "anthropology", "religion",
 "mimetic theory" ]
 tags: [ "Book-Review" ]

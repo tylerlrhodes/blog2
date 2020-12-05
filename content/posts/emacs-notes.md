@@ -2,6 +2,7 @@
 title: "Emacs/CIDER Notes"
 date: 2019-11-16T10:02:15-05:00
 draft: false
+series: personal
 keywords: [emacs, clojure]
 tags: [programming]
 description: "My notes on using Emacs."

@@ -2,6 +2,7 @@
 title: "Learning Python, Part 2"
 date: 2018-12-16T12:42:27-05:00
 draft: false
+series: personal
 tags: [
       "python",
       "programming"

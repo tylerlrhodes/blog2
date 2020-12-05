@@ -2,6 +2,7 @@
 title: "The Beginnings of an Interpreter"
 date: 2018-05-16T19:51:00-04:00
 draft: false
+series: personal
 tags: [
     "interpreter",
     "musings"

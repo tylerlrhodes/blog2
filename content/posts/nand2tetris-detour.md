@@ -2,6 +2,7 @@
 title: "Nand2Tetris"
 date: 2018-07-03T10:23:48-04:00
 draft: false
+series: personal
 tags: [
       "nand2tetris"
 ]

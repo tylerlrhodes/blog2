@@ -2,6 +2,7 @@
 title: "2019 Goals - Updated Learning Plan"
 date: 2019-04-24T08:16:40-04:00
 draft: false
+series: personal
 tags: [
       "Personal", "coding"
 ]      

@@ -2,6 +2,7 @@
 title: "My Netflix Habit"
 date: 2018-07-04T11:39:38-04:00
 draft: false
+series: personal
 tags: [
       "netflix",
       "musings"

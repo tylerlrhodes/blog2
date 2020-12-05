@@ -2,6 +2,7 @@
 title: "A Hugo Blog on AWS"
 date: 2018-03-16T23:04:41-04:00
 draft: false
+series: tech
 tags: [
     "hugo",
     "aws"

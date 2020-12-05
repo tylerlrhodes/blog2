@@ -2,6 +2,7 @@
 title: "Mux and DMux - \"forking\""
 date: 2018-08-05T17:26:53-04:00
 draft: false
+series: tech
 tags: [
       "nand2tetris"
 ]

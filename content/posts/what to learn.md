@@ -2,6 +2,7 @@
 title: "What to Learn?"
 date: 2018-04-27T10:51:36-04:00
 draft: false
+series: personal
 tags: [
     "musings"
 ]

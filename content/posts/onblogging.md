@@ -2,6 +2,7 @@
 title: "On Blogging"
 date: 2018-06-14T19:34:59-04:00
 draft: false
+series: personal
 tags: [
       "blogging",
       "musings"

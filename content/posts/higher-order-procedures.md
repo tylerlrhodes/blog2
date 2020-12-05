@@ -2,6 +2,7 @@
 title: "Higher-Order Procedures"
 date: 2018-07-08T12:58:05-04:00
 draft: false
+series: tech
 tags: [
       "scheme",
       "c",

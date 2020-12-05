@@ -2,6 +2,7 @@
 title: "SQL Server Tables & Indexes"
 date: 2019-04-16T07:48:35-04:00
 draft: true
+series: tech
 ---
 
 SQL Server stores data in tables, with the data stored in a unsorted

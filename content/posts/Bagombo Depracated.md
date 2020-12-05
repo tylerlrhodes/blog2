@@ -2,6 +2,7 @@
 title: Bagombo Deprecated
 date: 2018-03-11T18:21:52Z
 draft: false
+series: personal
 tags: [personal]
 description: Bagombo is deprecated but remains available on GitHub.  Moving my blog to Hugo and S3.
 keywords: [bagombo, hugo, s3, aws]

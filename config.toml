@@ -9,6 +9,7 @@ pygmentsStyle = "emacs"
 
 [taxonomies]
 tag = "tags"
+series = "series"
 
 [params.info]
 Description = "Tyler Rhodes Online"

@@ -2,6 +2,7 @@
 title: "Compiler Time"
 date: 2018-08-26T10:16:27-04:00
 draft: false
+series: personal
 tags: [
       "musings",
       "interpreter",

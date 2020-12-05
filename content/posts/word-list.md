@@ -1,6 +1,7 @@
 ---
 title: "NA"
 draft: true
+series: notes
 ---
 piety:
 

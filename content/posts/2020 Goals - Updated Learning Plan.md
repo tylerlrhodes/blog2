@@ -2,6 +2,7 @@
 title: "2020 Goals: Updated Learning Plan"
 date: 2019-12-15T10:46:23-05:00
 draft: false
+series: personal
 description: "2020 Goals!"
 keywords: [goals, 2020]
 tags: [goals]

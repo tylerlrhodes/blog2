@@ -2,6 +2,7 @@
 title: Planning to Build a Blog Commenting System with Lambda and DynamoDB, part 2
 date: 2018-04-08T15:10:06Z
 draft: false
+series: tech
 tags: [programming]
 description: After planning I decide not to implement a custom commenting system using Lambda and DynamoDB.  It would be a lot of work.
 keywords: [AWS, Lambda, DynamoDB]

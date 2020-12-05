@@ -2,6 +2,7 @@
 title: "Sentences Notes"
 date: 2020-04-15T15:11:26-04:00
 draft: true
+series: notes
 ---
 
 

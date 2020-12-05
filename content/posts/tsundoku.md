@@ -2,6 +2,7 @@
 title: "Tsundoku, Distraction, and Focus"
 date: 2019-08-04T18:18:47-04:00
 draft: false
+series: personal
 keywords: [ "tsundoku", "books", "words", "habit", "focus" ]
 tags: [ "Book-Review" ]
 description: "This is the post where I detail my habit of buying more

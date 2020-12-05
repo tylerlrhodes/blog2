@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  {{ $title := "Posts" }}
+    {{ if eq .Title "tech" }}
+      {{ $title = "Technology Posts" }}
+    {{ else if eq .Title "book-review" }}
+      {{ $title = "Book Reviews"}}
+    {{ else }}
+      {{ $title = "Other / Personal" }}
+    {{ end }}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>
-      All Posts
+      All Posts by Series
     </title>
     <link rel="stylesheet" type="text/css" href="/site.css" />
     <link rel="canonical" href="http://tylerrhodes.net{{ .RelPermalink }}" />
@@ -13,7 +21,7 @@
 
     <div id="main-container">
     <a href="/">Home</a>
-    <h1>All Posts</h1>
+    <h1> {{ $title }} </h1>
 
     {{ range .Pages.GroupByDate "2006-01" }}
 

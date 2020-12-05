@@ -2,6 +2,7 @@
 title: "Book Review - How Not to Die"
 date: 2018-12-29T14:08:59-05:00
 draft: false
+series: book-review
 tags: [
       "book-review",
       "health"

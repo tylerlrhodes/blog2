@@ -2,6 +2,7 @@
 title: "The GUI Development Dilemma"
 date: 2018-03-10T16:25:45-04:00
 draft: false
+series: personal
 tags: [
     "musings"
 ]

@@ -2,6 +2,7 @@
 title: "Book Review: Don Quixote"
 date: 2020-02-16T18:21:03-05:00
 draft: true
+series: notes
 ---
 
 

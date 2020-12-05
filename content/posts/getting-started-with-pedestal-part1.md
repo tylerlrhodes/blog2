@@ -2,6 +2,7 @@
 title: "Getting Started With Pedestal"
 date: 2020-01-02T21:21:58-05:00
 draft: true
+series: tech
 tags: [pedestal, clojure, programming]
 keywords: [programming, pedestal, clojure, rum, bide router]
 description: "A short post on getting started with Pedestal, a web framework for Clojure."

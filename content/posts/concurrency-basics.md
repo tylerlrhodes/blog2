@@ -2,6 +2,7 @@
 title: "Concurrency Basics"
 date: 2019-02-10T11:04:40-05:00
 draft: false
+series: tech
 tags: [
       "programming"
 ]
