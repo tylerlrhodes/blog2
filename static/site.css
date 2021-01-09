@@ -29,6 +29,7 @@ p,a,ul,li {
 
 h1 {
     font-size: 3.0rem;
+    
 }
 article > div > header > h1 {
     border-top: 2px solid black;
@@ -36,7 +37,7 @@ article > div > header > h1 {
     padding: 5px 0px;
 }
 h2 {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
 }
 article > div > h2 {
     background-color: lightblue;
@@ -46,7 +47,7 @@ article > div > h2 {
     padding: 5px;
 }
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 code, code > * {

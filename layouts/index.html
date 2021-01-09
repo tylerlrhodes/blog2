@@ -41,7 +41,7 @@
 
       <div style="text-align:justify; text-justify:inter-word">
       <h1>Tyler Rhodes</h1>
-      <img id="mypic" style="float:left; margin:0px 15px 15px 2px;" src="mypic.jpg" />
+      <img id="mypic" style="float:left; margin:0px 15px 15px 2px;" src="mypic.jpg" /> 
 
 	<p>
 	  Welcome to my blog.
@@ -59,10 +59,10 @@
       </p>
 
       </div>
-      
-	<h3>
+
+	<h2>
 	  Recent Technical Entries:
-	</h3>
+	</h2>
   {{ $t := slice "book-review" }}
 	{{ range first 5 (where .Data.Pages ".Params.series" "==" "tech") }}
 	   <a class="fp-post-link" href="{{ .Permalink }}">{{ .Title }}</a> <br />
@@ -74,24 +74,15 @@
 	   <!--a href="{{ .RSSLink }}">RSS Feed</a --> 
 
 <!--End mc_embed_signup-->
-
-       	<h3>Contact/Links:</h3>
-         <a href="/TylerRhodes-Resume2021-01-07.pdf">Resume</a> <br />
-  <a href="mailto:tylerlrhodes@gmail.com">Email Me</a> <br />
-  <a href="https://linkedin.com/in/rhodest">Linkedin</a> <br />
-	<a href="https://github.com/tylerlrhodes/">Github</a> <br />
-	<a href="https://twitter.com/itcheeze">Twitter</a> <br />
-	<a href="https://www.facebook.com/tyler.rhodes.5648">Facebook</a> <br />
-  <a href="https://stackoverflow.com/users/4372254/tyler-rhodes?tab=profile">StackOverflow</a>
-	      
-
-
-    	<!-- Begin Mailchimp Signup Form -->
-
-
-
-    </div>
-
+<h2>Links and Social Media:</h2>
+  <a href="/TylerRhodes-Resume2021-01-07.pdf">Resume</a> |
+  <a href="mailto:tylerlrhodes@gmail.com">Email Me</a> |
+  <a href="https://linkedin.com/in/rhodest">Linkedin</a> |
+	<a href="https://github.com/tylerlrhodes/">Github</a> |
+	<a href="https://twitter.com/itcheeze">Twitter</a> |
+	<a href="https://www.facebook.com/tyler.rhodes.5648">Facebook</a> |
+  <a href="https://stackoverflow.com/users/4372254/tyler-rhodes?tab=profile">StackOverflow</a> |	    
+  <a href="/pictures">Some Pictures</a>
     <script type="application/javascript">
       var doNotTrack = false;
       if (!doNotTrack) {
