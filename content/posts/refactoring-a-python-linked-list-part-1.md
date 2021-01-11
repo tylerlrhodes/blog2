@@ -1,5 +1,5 @@
 ---
-title: "Refactoring a Python Linked List, Part 1"
+title: "A Refactoring Project in Python: Music CD List, Part 1"
 date: 2021-01-09
 draft: true
 series: tech
@@ -8,17 +8,80 @@ tags: [programming]
 keywords: [python, queue, linked list, refactor]
 ---
 
+This series of posts is going to explore a short refactoring project
+in Python.  The plan is for three blog entries, each building upon the
+previous to achive a Pythonic and well factored linked list used in a
+simple test program -- the "Music CD List."
 
-First, we'll make a giant old mess of a linked list in Python just to
-give us something to work with:
+The code will start as a rushed example which "works."  The first
+thing we'll do is add unit tests and make it fit more closely to PEP 8
+code formatting.  Following that we'll aim to make it coded with an
+eye towards extensability.  This series of articles is not an
+introduction to the "theory of refactoring."  You won't hear about the
+laws of SOLID or at least not too much.
+
+It's more focused on using Python in a Pythonic way compared to what
+will be the initial take, and demonstrate some of what this author
+thinks is "good enough demo" software.
+
+The example application will be start as a simple "Music CD"
+collection and used a hand coded linked list for its data storage.
+Over this and the following entries we'll improve it to be well
+factored and efficient Python code.  Hopefully.
+
+Before you ask, yes, the only reason I have so far for hard coding the
+linked list is a memory refresher and to use it as an example.
+Pythong's `list` is the "better" choice for all intents.
+
+The linked list is the first data structure that I remember learning.
+I think it showed up in a book on C programming or something like
+that.  It's not really the go to data structure for performance, but
+it has it's places, it's easy to code, and will work just fine for the
+purposes of this refactoring project.
+
+Python is one of those great programming languages where it's
+incredibly easy to get started and hack away at some code.  It's
+also effective and highly useful.  I learned it a little over a year
+ago but then put it on the shelf a little.
+
+The code that follows is a first take with my "rusty" Python skills
+which we'll refactor and learn some updated Python best practices
+with.
+
+Here is my linked list music cd collector program:
 
 ### Insert Code Take 1 ###
 ```Python
+
+# music_list.py
+class MusicCD:
+    def __init__(self, artist, title, year, cdid):
+        self.artist = artist
+        self.title = title 
+        self.year = year
+        self.cdid = cdid
+    
+    def __str__(self):
+        return f"__str__:{self.title} by {self.artist} from {self.year}"
+
+    def comparator(self, other):
+        if self.title == other.title:
+            return 0
+        elif self.title > other.title:
+            return 1
+        else:
+            return -1
+
+    def display(self):
+        return f"{self.title} by {self.artist} from {self.year}"
+
 class Node:
     def __init__(self, item):
         self.item = item
         self.next = None
 
+
+### LinkedList
 class LinkedList:
     def __init__(self, node):
         self.head = node
@@ -49,13 +112,40 @@ class LinkedList:
         else:
             ln.next = n
 
-l = LinkedList(None)
+    def sort(self):
+        return 
 
-for i in range(5):
-    l.add_to_list(i)
+    def reverse(self):
+        return
+    
+    def delete(self, n):
+        return 
+    
+    def insert(self, item, n):
+        #insert before item
+        #have p, c, n
+        #set p.n to i
+        #set i.n to c
 
-for i in l:
-    print(i.item)
+        return
+        
+
+music_list = LinkedList(None)
+
+kid_a = MusicCD("Radiohead", "Kid A", 2000, 1)
+the_bends = MusicCD("Radiohead", "The Bends", 1995, 2)
+the_king_of_limbs = MusicCD("Radiohead", "The King of Limbs - Live from the Basement", 2011, 3)
+crash = MusicCD("Dave Matthews Band", "Crash", 1996, 4)
+american_idiot = MusicCD("Green Day", "American Idiot", 2004, 5)
+
+music_list.add_to_list(kid_a)
+music_list.add_to_list(the_bends)
+music_list.add_to_list(the_king_of_limbs)
+music_list.add_to_list(crash)
+music_list.add_to_list(american_idiot)
+
+for cd in music_list:
+    print(f"CD: {cd.item}")
 ```
 
 ### End Code Insert Take 1 ###
@@ -66,11 +156,14 @@ What shall we do with the code?
 * Make it "Pythonic" (within reason of code formatting of this blog):
 at least with regards to Effective Python
 * What functions should it support: sorting, searching, insertion
-* Options for support functionality: class based or functionali
+* Options for support functionality: class based or functional
 * Exception handling - where can there be an exception
-* Flow control, propwer
+* Flow control, proper
 * An eye towards thread safety
-
+* What Python built-in types would function as a linked list?  For
+instance, python lists?
+* Python comparators how to extend?
+* collections.abc interface for classes - what is it? why use it?
 
 In <q> `def __next__` </q> what does this look like?
 
