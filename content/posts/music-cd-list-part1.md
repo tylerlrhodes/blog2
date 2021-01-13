@@ -34,9 +34,9 @@ linked list is a memory refresher and to use it as an example.
 Pythong's `list` is the "better" choice for all intents.
 
 The linked list is the first data structure that I remember learning.
-I think it showed up in a book on C programming or something like
-that.  It's not really the go to data structure for performance, but
-it has it's places, it's easy to code, and will work just fine for the
+I think it showed up in a book on C programming I read a lont time
+ago.  It's not really the go to data structure for performance, but it
+has it's places, it's easy to code, and will work just fine for the
 purposes of this refactoring project.
 
 Python is one of those great programming languages where it's
@@ -48,7 +48,7 @@ The code that follows is a first take with my "rusty" Python skills
 which we'll refactor and learn some updated Python best practices
 with.
 
-Here is my linked list music cd collector program:
+Here is my "linked list music cd collector program":
 
 ### Insert Code Take 1 ###
 ```Python
@@ -149,6 +149,36 @@ for cd in music_list:
 ```
 
 ### End Code Insert Take 1 ###
+
+
+So this little program is fairly useless because there is no dynamic
+input, but that's actually okay for this.  It has a number of
+features, including sort, reverse, add and delete.
+
+But it would be nice to be able to do the following:
+
+* Read the CDs from a CSV file
+* Sort on any key
+* Change sorting algorithms
+* Store Video CDs (or other types of items)
+* Use standard Python coding styles
+* Have a nice output format -- maybe a web page?
+* Put the LinkedList class into a module all of its own for reuse.
+* Put the Program that uses it in another repository and call this
+* code.
+
+However, before doing any of this, we are going to add the key thing
+which will help perform some of the refactorings we'll take on in this
+series of posts.
+
+Can you guess what it is?
+
+Add unit tests!!!
+
+It would be more than nice to know that this code actually works.  It
+will also be nice to have some tests we can just fire of whenever we
+change the code to see that it's still working like it was.
+
 
 
 What shall we do with the code?
