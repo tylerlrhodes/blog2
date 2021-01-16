@@ -61,18 +61,27 @@
       </p>
 
       </div>
-
+      <h4>
+        <a href="/series/tech/">Technical Posts</a> |
+        <a href="/series/book-review/">Book Reviews</a> |
+        <a href="/series/personal/">Other / Personal</a> |
+        <a href="/posts/">All Posts</a> <br />
+       </h2>
 	<h2>
-	  Recent Technical Entries:
+	  Recent Technical Posts:
 	</h2>
   {{ $t := slice "book-review" }}
 	{{ range first 5 (where .Data.Pages ".Params.series" "==" "tech") }}
-	   <a class="fp-post-link" href="{{ .Permalink }}">{{ .Title }}</a> <br />
-	{{ end }} <br />
-           <a href="/series/tech/">Technical Posts</a> |
-           <a href="/series/book-review/">Book Reviews</a> |
-           <a href="/series/personal/">Other / Personal</a> |
-           <a href="/posts/">All</a> <br />
+	   <div class="card">
+      <a class="fp-card-link" href="{{ .Permalink }}">
+       <div class="container">
+         <div class="fp-link-title">{{ .Title }}</div>
+         <div class="fp-link-description">{{ .Params.Description }}</div>
+         <div class="fp-link-published">Published: {{ .PublishDate.Format "January 2, 2006" }}</div>
+       </div></a>
+     </div>
+  {{ end }} <br />
+
 	   <!--a href="{{ .RSSLink }}">RSS Feed</a --> 
 
 <!--End mc_embed_signup-->

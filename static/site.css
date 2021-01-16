@@ -8,7 +8,7 @@ html {
 }
 
 * {
-    font-family: 'Roboto', sans-serif, arial;
+    font-family: 'Roboto', arial, sans-serif;
 }
                      
 body, input, button {
@@ -19,17 +19,42 @@ p,a,ul,li {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .fp-post-link {
     display: inline-block;
     width: 75%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    font-weight: bold;
+}
+
+.fp-card-link {
+    text-decoration: none;
+}
+
+.fp-link-description {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.fp-link-published {
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.fp-link-title {
+    color: blue
 }
 
 h1 {
-    font-size: 3.0rem;
-    
+    font-size: 3.0rem;    
 }
 article > div > header > h1 {
     border-top: 2px solid black;
@@ -117,3 +142,22 @@ blockquote {
     font-style: italic;
     position: relative;
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 0px 0px 10px 0px;
+    border: 1px grey dotted;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 8px;
+  }
