@@ -3,7 +3,8 @@ title: "A Refactoring Project in Python: Music CD List, Part 1"
 date: 2021-01-13
 draft: true
 series: tech
-description: "Basic code refactoring in Python.  From okay to good?"
+description: "Basic code refactoring in Python.  From bad to kind of
+okay? I mean it has unit tests at the end..."
 tags: [programming]
 keywords: [python, queue, linked list, refactor]
 ---
