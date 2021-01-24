@@ -9,6 +9,8 @@ git checkout cloudfront
 
 hugo 
 
+
+
 set-location "public\"
 
 Write-S3Object -BucketName tylerrhodes.net -Folder . -Recurse -KeyPrefix \ -CannedACLName public-read -ProfileName HugoProfile

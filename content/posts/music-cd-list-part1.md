@@ -1,61 +1,53 @@
 ---
-title: "A Refactoring Project in Python: Music CD List, Part 1"
-date: 2021-01-13
+title: "A Refactoring Project in Python: Music CD List, Part 1 of 3"
+date: 2021-01-23
 draft: true
 series: tech
-description: "Basic code refactoring in Python.  From bad to kind of
-okay? I mean it has unit tests at the end..."
+
+description: "The first post in a series on code refactoring in
+Python.  The code goes from bad to kind of okay? I mean it has unit
+tests at the end..."
+
 tags: [programming]
 keywords: [python, queue, linked list, refactor]
 ---
 
+Sometimes, as a software developer, there's a little bit of code which
+could use a little bit of tweaking to make it just right.  Othertimes,
+there's a lot of code that could use a ton of rewriting to make it
+half-way decent.  And sometimes, it's not until months later when this
+realization occurs.
+
+What follows is a contrived example to demonstrate building, and in
+the process refactoring, a small Python application.  The only
+"requirement" at the start: store a list of cds using a linked list.
+And yes, inputting the CDs in the code is just fine (this will be
+fixed after unit tests are added, and not addressed in the post
+directly).
+
 This is the first entry in a series of entries that are going to
-explore a short refactoring project in Python.  The plan is for three
-entries, each building upon the previous to achieve a Pythonic and
-well factored linked list used in a simple test program: The "Music CD
-List."
+explore this program and a series of refactorings to improve it.  The
+plan is for three entries, each building upon the previous to achieve
+a Pythonic and well factored linked list used in a simple test
+program: The "Music CD List."  
 
 The code will start as a rushed example which "works."  The first
-thing we'll do is add unit tests and make it fit more closely to PEP 8
-code formatting.  Following that we'll aim to make it coded with an
-eye towards extensibility and try to make it Pythonic, or as close to
-that ideal as we can.
-
-This series of articles is not an introduction to the "theory of
-refactoring."  You won't hear about the laws of SOLID or at least not
-too much.  But some "refactoring theory" may brush off anyway.  Sorry.
-
-It will hopefully be more focused on using Python in a Pythonic way
-compared to what will be the initial take, while along the way
-demonstrating some of what this author thinks is "good enough example
-software."
+thing I'll do after showing this is add unit tests and make it fit
+more closely to PEP 8 code formatting.  Following that I'll aim to
+make it coded with an eye towards extensibility and try to make it
+Pythonic, or as close to that ideal as I can.
 
 From the perspective of someone who can write Python but perhaps not
 Pythonically, it will be an endeavor to become aware of the ways of
 the Pythonic, and imitate them to write better code.
 
-The example application will be start as a simple "Music CD"
-collection and used a hand coded linked list for its data storage.
-Over this and the following entries we'll improve it to be well
+The example application will start as a simple "Music CD list
+application," and use a hand coded linked list for its data storage.
+During this and the following entries I'll improve it to be well
 factored and efficient Python code.  Hopefully.
 
-Before you ask, yes, the only reason I have so far for hard coding the
-linked list is a memory refresher and to use it as an example.
-Python's `list` is the "better" choice for all intents.
-
-Besides, everyone needs to know how to write a linked list from
-scratch with one hand tied behind their back on a half functioning
-white board while the egg timer clicks away for an interview.  Yes of
-course it has to work correctly too!
-
-Python is one of those great programming languages where it's
-incredibly easy to get started and hack away at some code.  It's
-also effective and highly useful.  I learned it a little over a year
-ago but then put it on the shelf a little.  The first take at this is
-a simple hacked together linked list to store some items. 
-
 The code that follows is a first take with my "rusty" Python skills
-which we'll refactor and learn some updated Python best practices
+which I'll refactor and learn some updated Python best practices
 with.
 
 This code is available at Github in the "CD List Refactoring Demo"
@@ -65,7 +57,9 @@ be cleaned up!  Check it out
 [here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1a).
 
 Without further delay, here is the initial version (all in one file
-linked in Github, the copy posted here removed some comments):
+linked in Github, the copy posted here removed some comments).
+
+### Initial "Music CD List":
 
 ```Python
 ###CodeSnippet-linked_list_snippet1a###
@@ -322,10 +316,12 @@ Realistically, it's screaming: TEST ME!!!!
 
 Or, at least test it better than it's being tested so far anyway.
 
-The repo at this tag is also begging to have some left over comments
-removed, so while you won't see them in this post, if you check out
-the repo there is some free flowing comments and ideas left in the
-file.  Those will be deleted in the next tag.
+It is also screaming for some type of system which allows the person
+to input their CDs without having to open a Python file to type them
+in (that will be in the repo at the end, and not covered in the post
+directly).
+
+### On Route to the Pythonic###
 
 So a long time ago, before the sample program was pasted into this
 blog post and to the point you would have to scroll to review what I
@@ -337,9 +333,9 @@ Well, unit tests are not that hard.  But what in the world is
 declares what is and what is not Pythonic?  Is it people who know
 Python on Twitter tweeting yay or nay?  
 
-Hmmmm, this just got complicated all of a sudden.  We have stumbled
+Hmmmm, this just got complicated all of a sudden.  I have stumbled
 into the world of Pythonic subjectivity and I'm not even an expert in
-all things Pythonic.  It is time to consult the scrolls of other
+all things Python.  It is time to consult the scrolls of other
 bloggers posted elsewhere to determine the proper definition.
 
 Here are some links to smarter folks who have written it down to be
@@ -358,12 +354,12 @@ shared:
   Python](https://www.python.org/dev/peps/pep-0020/)
 
 The previous list shows how the internet can lead you astray.  The
-Dictionary.com definitioni of 'Pythonic' is potentially right, at
+Dictionary.com definition of 'Pythonic' is potentially right, at
 least one of the definitions!  If all Python code was Pythonic and the
 definition of Pythonic is "Python like..."  I'll stop now.  The rest
-of the entries are just fine.
+of the links are fine.
 
-My person definition is that you should follow the best practices of
+My personal definition is that you should follow the best practices of
 software development as applied to the Python language.  Which to me,
 at this point, means following PEP 8 and respecting PEP 20, or, "The
 Zen of Python."  PEP 8 is more style guidelines for Python code, while
@@ -384,7 +380,7 @@ wouldn't be Pythonic.
 It's time to clean up this code, add some unit tests, and make it's
 second iteration on the whole better than the first.  The goal will be
 to test it well, and try to follow the idioms of Python as well as
-possible for now.  If we miss some, we'll pick them up later.
+possible for now.  If I miss some, I'll pick them up later.
 
 ### Refactor Take 1: Add Unit Tests, Basic Cleanup ###
 
@@ -394,79 +390,279 @@ module which is built-in.  There are other ways, but to get started,
 and have some potential automation, this is "good enough."  It will
 let us test the software.
 
+To get started cleaning the code up I've cleaned up the
+`linked_list.py` of the previous snippet, removing all of the test
+code which was of very little use there anyway.
 
+Then I created `test_linked_list.py` which is where the unit tests are
+stored.  The tests are simple to run from the command line:
 
+```
+python -m unittest
+```
 
+This scans the directory for all files that start with `test*` and
+runs the tests and reports the results.
 
+It's also possible to run them through an integrated test runner, such
+as is available and easily setup in a few clicks with Visual Studio
+Code.  In fact this is what I have been doing in general.
 
+The basics of the `unittest` module are extremely easy to get started
+with.  Import the module, and create a class which derives from
+`unittest.TestCase`.  The methods in that class which begin with
+`test_` will be executed by the runner.  Success or failure is handled
+by the `assert` statements which are used to check the results of the
+code being tested with the expected results.
 
+Here is the unit testing code:
 
+```Python
 
+###CodeSnippet-test_linked_list_snippet1a###
 
+import unittest
+from linked_list import LinkedList, Node
 
+class Item:
+    """ Default Item for Linked List Test """
+    def __init__(self, title):
+        self.title = title
 
+    def comparator(self, other):
+        """ Comparator for item """
+        if self.title.lower() == other.title.lower():
+            return 0
+        if self.title.lower() > other.title.lower():
+            return 1
+        return -1
 
-So this little program is fairly useless because there is no dynamic
-input, but that's actually okay for this.  It has a number of
-features, including sort, reverse, add and delete.  It "tests" them in
-a rudimentary fashion after the code for the `LinkedList`.
+class TestLinkedList(unittest.TestCase):
+    """ Linked List Unit Test Class """
+    @staticmethod
+    def _validate_list(linked_list, items = None):
+        for idx, val in enumerate(linked_list):
+            assert items[idx].title == val.item.title
 
-But it would be nice to be able to do the following:
+    @staticmethod
+    def _gen_tmp_list():
+        tmp = LinkedList(None)
+        item_1 = Item("a")
+        item_2 = Item("b")
+        item_3 = Item("c")
+        tmp.add_to_list(item_1)
+        tmp.add_to_list(item_2)
+        tmp.add_to_list(item_3)
+        return tmp, [item_1, item_2, item_3]
 
-* Read the CDs from a CSV file
+    @staticmethod
+    def test_iterator():
+        """ Test the iterator """
+        a, b, c = Item("a"), Item("b"), Item("c")
+        tmp = LinkedList(Node(a))
+        tmp.head.next = Node(b)
+        tmp.head.next.next = Node(c)
+        TestLinkedList._validate_list(tmp, [a, b, c])
+        assert len(tmp) == 3, "Expected 3"
+
+    @staticmethod
+    def test_get_last_node():
+        """ Test getting the last node """
+        a,b,c = Item("a"), Item("b"), Item("c")
+        tmp = LinkedList(None)
+        tmp.add_to_list(a)
+        assert tmp.get_last_node().item is a, "Expected last to be Item a"
+        tmp.add_to_list(b)
+        tmp.add_to_list(c)
+        assert tmp.get_last_node().item is c, "Expected last to be Item c"
+
+    @staticmethod
+    def test_sort():
+        """ Test sorting the linked list """
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        tmp.sort()
+        TestLinkedList._validate_list(tmp, [i1, i2, i3])
+        i4 = Item("d")
+        i5 = Item("e")
+        i6 = Item("f")
+        tmp.add_to_list(i5)
+        tmp.add_to_list(i6)
+        tmp.add_to_list(i4)
+        tmp.sort()
+        TestLinkedList._validate_list(tmp, [i1, i2, i3, i4, i5, i6])
+        tmp2 = LinkedList(None)
+        tmp2.add_to_list(i1)
+        tmp2.sort()
+        TestLinkedList._validate_list(tmp2, [i1])
+
+    @staticmethod
+    def test_reverse():
+        """ Test reversing the linked list"""
+        item_d = Item("d")
+        tmp = LinkedList(None)
+        tmp.add_to_list(item_d)
+        tmp.reverse()
+        TestLinkedList._validate_list(tmp, [item_d])
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        tmp.add_to_list(item_d)
+        tmp.reverse()
+        TestLinkedList._validate_list(tmp, [item_d, i3, i2, i1])
+
+    @staticmethod
+    def test_reverse_recur():
+        """ Test recursively reversing the linked list """
+        item_d = Item("d")
+        tmp = LinkedList(None)
+        tmp.add_to_list(item_d)
+        tmp.reverse_recur()
+        TestLinkedList._validate_list(tmp, [item_d])
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        tmp.add_to_list(item_d)
+        tmp.reverse_recur()
+        TestLinkedList._validate_list(tmp, [item_d, i3, i2, i1])
+
+    @staticmethod
+    def test_insert():
+        """ Test inserting an item into the linked list """
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        i4 = Item("d")
+        tmp.insert(i4, i2)
+        TestLinkedList._validate_list(tmp, [i1, i4, i2, i3])
+        i5 = Item("e")
+        tmp.insert(i5, i1)
+        TestLinkedList._validate_list(tmp, [i5, i1, i4, i2, i3])
+
+    @staticmethod
+    def test_count():
+        """ Test getting a count of items """
+        tmp, items = TestLinkedList._gen_tmp_list()
+        assert tmp.count() == len(items), "Expected equal lengths"
+        assert len(tmp) == len(items), "Expected equal lengths"
+
+    @staticmethod
+    def test_merge():
+        """ Test mergint the linked list """
+        letters = ["a", "c", "e", "g"]
+        letters2 = ["b", "d", "f", "h"]
+        items = []
+        l1, l2 = LinkedList(None), LinkedList(None)
+        for _, (i, i2) in enumerate(zip(letters, letters2)):
+            l1.add_to_list(Item(i))
+            items.append(Item(i))
+            l2.add_to_list(Item(i2))
+            items.append(Item(i2))
+        l1.merge(l2)
+        TestLinkedList._validate_list(l1, items)
+
+    @staticmethod
+    def test_add():
+        """ Test adding an item to the linked list """
+        tmp = LinkedList(None)
+        tmp.add_to_list(Item("a"))
+        assert tmp.count() == 1
+        tmp.add_to_list(Item("b"))
+        tmp.add_to_list(Item("c"))
+        assert tmp.count() == 3
+        titles_correct = ["a", "b", "c"]
+        for idx, val in enumerate(tmp):
+            assert titles_correct[idx] == val.item.title
+
+    @staticmethod
+    def test_delete():
+        """ Test deleting an item from the linked list """
+        tmp, items = TestLinkedList._gen_tmp_list()
+        tmp.delete(items[2])
+        items.remove(items[2])
+        TestLinkedList._validate_list(tmp, items)
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        tmp.delete(i2)
+        TestLinkedList._validate_list(tmp, [i1, i3])
+        tmp, [i1, i2, i3] = TestLinkedList._gen_tmp_list()
+        tmp.delete(i1)
+        TestLinkedList._validate_list(tmp, [i2, i3])
+
+if __name__ == "__main__":
+    unittest.main()
+###CodeSnippetEnd-test_linked_list_snippet1b###
+```
+
+So overall, very easy to add unit tests here, and easy to see that it
+offers a consolidated way to automate testing of the `LinkedList`
+class, and any other classes in a similar fashion.  It begs to work
+with Test Driven Development (TDD), or something similar in the
+future.  It makes it easier to modify the class later as well.
+
+Now it's possible that this code will need to be changed fairly
+drastically in the next post.  The LinkedList class has some
+modularity coming to it, so that pieces of its functionality can be
+implemented by different providers.  Nobody wants to use Bubble Sort
+all the time to sort their list like we are here.  Part of arguably
+making this more "Pythonic" will involve even further refactoring.
+
+Despite this, cleaning up the code and adding some tests is a good
+first step, and by the sole act of adding tests I can be confident
+that the list is working.  If I find a bug, I have a place to come and
+add a test to track it down or prevent it before shipping it next
+time.
+
+### Is it Pythonic? ###
+
+Um, maybe, slightly more?  Although definitely not if you follow along
+with a book like "Effective Python" by Brett Slatkin.  The `LinkedList`
+class definitely doesn't inherit from `collections.abc` or implement
+all that it should with regards to that.  I'm sure there are idioms
+that were missed as well.  Overall, I'd say it's more Pythonic than
+the first iteration, but it has a reasonable distance to go.  With the
+addition of running `pylint` and some configuration I have managed to
+get it to follow the PEP 8 guidelines for formatting the code.
+
+I'll continue to fix it up in the next two blog posts.
+
+I also improved it by moving the `MusicCD` class out of
+`LinkedList.py` since it's independent of it.
+
+You can see the code for with these changes
+[here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1b).
+It's tagged "linked_list_snippet1b."
+
+### Coming Up: ###
+
+This little program is still fairly useless because there is no
+dynamic input, but that's about to be remedied.  It has a number of
+features, including sort, reverse, add and delete.  After the first
+refactoring it has a nice suite of tests which can be easily
+automated.
+
+To add in an input method what I've done after the first refactoring
+is to add a basic user interface in the form of a SPA using React.  It
+allows the user to upload a CSV file with CDs which are then stored in
+a Linked List on the server, as well as add or delete entries in the
+Linked List, and then download them as a CSV.
+
+The web portion of the project isn't central to the theme of these
+posts, so besides making a few short appearances in the next two
+posts you'll only see it in the repo.  It will add in another layer to
+the program, and influence and encourage proper refactoring.
+
+It would be nice to be able to do the following:
+
 * Sort on any key
 * Change sorting algorithms
 * Store Video CDs (or other types of items)
-* Use standard Python coding styles
-* Have a nice output format -- maybe a web page?
-* Put the LinkedList class into a module all of its own for reuse.
+* Put the LinkedList class into a repo all of its own for reuse.
 * Put the Program that uses it in another repository and call this
-* code.
+code.
 * Many other things I'll think of later.
 
-However, before doing any of this, we are going to add the key thing
-which will help perform some of the refactorings we'll take on in this
-series of posts.
+In the next post we're going to start with a few of these. Starting
+with refactoring the Linked List class so that we can accomplish a few
+of these items, and of course, also -- be more Pythonic.  I'll also
+look at how it's connected to the web application.
 
-Can you guess what it is?
-
-Add unit tests!!!
-
-This code works ... at first glance.  But to be fair I haven't tested
-for every edge case, and I'm sure while it looks like it works like a
-linked list, I'm also guessing there is a bug or three.
-
-So adding unit tests will allow me to automate the testing to detect
-regressions, and also find any bugs I may have put in in the initial
-take.  I'm guessing a TDD purist would have objected already to this
-post, because I didn't write the tests first, and then write the
-linked list.  A note to my future self would agree.  That totally
-would have been the way to go.
-
-But this is a post on refactoring!  I can incorporate the TDD into the
-future posts once we learn how to add unit tests to this code.
+The tagged repo with the web interface support is available
+HERE[FIXME] and the README file has instructions for running it.  It's
+a basic Python Flask web application.  It has basic instructions for
+running it.
 
 
-
-
-
-
-
-
-What shall we do with the code?
-
-* Make it "Pythonic" (within reason of code formatting of this blog):
-at least with regards to Effective Python
-* What functions should it support: sorting, searching, insertion
-* Options for support functionality: class based or functional
-* Exception handling - where can there be an exception
-* Flow control, proper
-* An eye towards thread safety
-* What Python built-in types would function as a linked list?  For
-instance, python lists?
-* Python comparators how to extend?
-* collections.abc interface for classes - what is it? why use it?
-* Move MusicCD class out of linked_list!
-
-In <q> `def __next__` </q> what does this look like?
 

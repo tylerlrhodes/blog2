@@ -57,7 +57,8 @@
       <a href="/posts">All Posts</a>
       <header>
         <h1> {{ .Title }} </h1>
-        <b>Published: </b>{{ .Date.Format "January 2, 2006" }}
+        <b>Published: </b>{{ .Date.Format "January 2, 2006" }} <br />
+        <b>Last Updated: </b>{{ .Lastmod.Format "January 2, 2006" }} 
       </header>
       {{ .Content }}
 
