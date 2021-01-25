@@ -7,6 +7,8 @@ googleAnalytics = "UA-116483631-1"
 pygmentsCodeFences = true
 pygmentsStyle = "friendly"
 
+enableGitInfo = true 
+
 [taxonomies]
 tag = "tags"
 series = "series"

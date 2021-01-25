@@ -1,7 +1,7 @@
 ---
 title: "A Refactoring Project in Python: Music CD List, Part 1 of 3"
-date: 2021-01-23
-draft: true
+date: 2021-01-25
+draft: false
 series: tech
 
 description: "The first post in a series on code refactoring in
@@ -13,14 +13,14 @@ keywords: [python, queue, linked list, refactor]
 ---
 
 Sometimes, as a software developer, there's a little bit of code which
-could use a little bit of tweaking to make it just right.  Othertimes,
-there's a lot of code that could use a ton of rewriting to make it
-half-way decent.  And sometimes, it's not until months later when this
+could use some fixing up to make it just right.  Other times, there's a
+lot of code that could use a ton of rewriting to make it half-way
+decent.  And sometimes, it's not until months later when this
 realization occurs.
 
 What follows is a contrived example to demonstrate building, and in
 the process refactoring, a small Python application.  The only
-"requirement" at the start: store a list of cds using a linked list.
+"requirement" at the start: store a list of CDs using a linked list.
 And yes, inputting the CDs in the code is just fine (this will be
 fixed after unit tests are added, and not addressed in the post
 directly).
@@ -52,8 +52,10 @@ with.
 
 This code is available at Github in the "CD List Refactoring Demo"
 repo, and this version is tagged "linked_list_snippet1a."  It's even
-got some messy comments in the repo on this version!  Just waiting to
-be cleaned up!  Check it out
+got some messy comments in the repo on this version. Just waiting to
+be cleaned up!
+
+Check it out
 [here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1a).
 
 Without further delay, here is the initial version (all in one file
@@ -307,7 +309,7 @@ if __name__ == "__main__":
 ###CodeSnippetEnd-linked_list_snippet1a###
 ```
 
-This program is screaming profitable startup business, obviously.  I
+Obviously this program is screaming profitable startup business.  I
 always like to type my CDs into a Python file to add them to a list
 that I can't even save to disk.  Just imagine the sales.  Investors
 are probably looking for my email address after reading through it.
@@ -353,7 +355,7 @@ shared:
 * [PEP 20 -- The Zen of
   Python](https://www.python.org/dev/peps/pep-0020/)
 
-The previous list shows how the internet can lead you astray.  The
+The previous list shows how the Internet can lead you astray.  The
 Dictionary.com definition of 'Pythonic' is potentially right, at
 least one of the definitions!  If all Python code was Pythonic and the
 definition of Pythonic is "Python like..."  I'll stop now.  The rest
@@ -373,7 +375,7 @@ with pearls like:
 * Although never is often better that *right* now.
 * ...
 
-In essense, follow good practices and use the modern idioms of Python
+In essence, follow good practices and use the modern idioms of Python
 as best as possible.  Don't write C style code in Python.  That
 wouldn't be Pythonic.
 
@@ -414,6 +416,11 @@ with.  Import the module, and create a class which derives from
 `test_` will be executed by the runner.  Success or failure is handled
 by the `assert` statements which are used to check the results of the
 code being tested with the expected results.
+
+
+You can see the code for with these changes
+[here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1b).
+It's tagged "linked_list_snippet1b."
 
 Here is the unit testing code:
 
@@ -541,7 +548,7 @@ class TestLinkedList(unittest.TestCase):
 
     @staticmethod
     def test_merge():
-        """ Test mergint the linked list """
+        """ Test merging the linked list """
         letters = ["a", "c", "e", "g"]
         letters2 = ["b", "d", "f", "h"]
         items = []
@@ -590,14 +597,16 @@ So overall, very easy to add unit tests here, and easy to see that it
 offers a consolidated way to automate testing of the `LinkedList`
 class, and any other classes in a similar fashion.  It begs to work
 with Test Driven Development (TDD), or something similar in the
-future.  It makes it easier to modify the class later as well.
+future.  It makes it easier to modify the class later as well, because
+as soon as you change it, you can run the tests to see if any
+functionality has broken.
 
-Now it's possible that this code will need to be changed fairly
-drastically in the next post.  The LinkedList class has some
-modularity coming to it, so that pieces of its functionality can be
-implemented by different providers.  Nobody wants to use Bubble Sort
-all the time to sort their list like we are here.  Part of arguably
-making this more "Pythonic" will involve even further refactoring.
+Now it's possible that this code will be changed fairly drastically in
+the next post.  The LinkedList class has some modularity coming to it,
+so that pieces of its functionality can be implemented by different
+providers.  Nobody wants to use Bubble Sort all the time to sort their
+list like we are here.  Part of arguably making this more "Pythonic"
+will involve even further refactoring.
 
 Despite this, cleaning up the code and adding some tests is a good
 first step, and by the sole act of adding tests I can be confident
@@ -621,48 +630,73 @@ I'll continue to fix it up in the next two blog posts.
 I also improved it by moving the `MusicCD` class out of
 `LinkedList.py` since it's independent of it.
 
-You can see the code for with these changes
-[here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1b).
-It's tagged "linked_list_snippet1b."
+### Wrapping Up Part 1: ###
 
-### Coming Up: ###
+The Linked List has a number of features, including sort, reverse, add
+and delete.  After the first refactoring it has a nice suite of tests
+which can be easily automated.
 
-This little program is still fairly useless because there is no
-dynamic input, but that's about to be remedied.  It has a number of
-features, including sort, reverse, add and delete.  After the first
-refactoring it has a nice suite of tests which can be easily
-automated.
+This little program was (and I would argue still is) fairly useless
+because there was no dynamic input, but that has been resolved.
 
-To add in an input method what I've done after the first refactoring
-is to add a basic user interface in the form of a SPA using React.  It
-allows the user to upload a CSV file with CDs which are then stored in
-a Linked List on the server, as well as add or delete entries in the
-Linked List, and then download them as a CSV.
+To add input to the Music CD List, what I've done after the first
+refactoring, is to add a basic user interface in the form of a SPA
+using React.  It allows the user to upload a CSV file with CDs which
+are then stored in a Linked List on the server, or add a CD through a
+form on the website.  It also also has a download feature. 
 
-The web portion of the project isn't central to the theme of these
-posts, so besides making a few short appearances in the next two
-posts you'll only see it in the repo.  It will add in another layer to
-the program, and influence and encourage proper refactoring.
+It's not "feature complete," but at least with something to add
+features to I'll have something of an idea generator to push progress
+along.  It was also fun to fire up a Flask project and tie a React
+front end to it.  I'm also not a React expert, but it was pretty easy
+going to get it up and running in VS Code.  By the end of the third
+post I'm planning on having an Ansible and Terraform based deployment
+system for it.
 
-It would be nice to be able to do the following:
+That being said, so far the web site isn't really a core portion of
+this series and while it will drive some of the features, I don't plan
+on focusing on it's development or updates as much as the Linked List.
+
+The Music CD List program has a ways to go, but it's off to a decent
+start.
+
+Let's take a quick look at some of the features we may add in the
+second and third post (not an exhaustive list): 
 
 * Sort on any key
 * Change sorting algorithms
 * Store Video CDs (or other types of items)
+* Ability to page through the list 
 * Put the LinkedList class into a repo all of its own for reuse.
 * Put the Program that uses it in another repository and call this
 code.
+* Inherit from `collections.abc`
+* Be able to swap out the Linked List storage with some other data
+structure for performance.
 * Many other things I'll think of later.
 
 In the next post we're going to start with a few of these. Starting
 with refactoring the Linked List class so that we can accomplish a few
 of these items, and of course, also -- be more Pythonic.  I'll also
-look at how it's connected to the web application.
+look at how it's connected to the web application and how to improve this.
 
 The tagged repo with the web interface support is available
-HERE[FIXME] and the README file has instructions for running it.  It's
-a basic Python Flask web application.  It has basic instructions for
-running it.
+[here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/music_cd_list_web_app_1c).
 
-Test
+To run it you'll need to know how to launch the Flask application and
+also the SPA using npm and the create-react-app.  This information is
+available all over the Internet so I won't go into it here.
+
+
+#### Code Links (also in post): ####
+* [Main
+Repo](https://github.com/tylerlrhodes/cd-list-refactoring-demo/)
+* [First Cut - before refactoring and website](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1a)
+* [After first refactoring](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/linked_list_snippet1b)
+* [Website added in](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/music_cd_list_web_app_1c)
+
+
+
+
+
 
