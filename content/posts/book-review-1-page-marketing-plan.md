@@ -32,7 +32,7 @@ marketing that Mr. Dib is most likely responsible for.
 It's always nice to know that generally speaking, even if you have an
 excellent product, you still need marketing to let people know about
 it!  I hate this fact, but it seems like there is no way around it.
-Mr. Dibs drives this little message home throughout the book.
+Mr. Dib drives this little message home throughout the book.
 
 The 1-Page plan this book comes up with literally is 1-Page, and it
 does seem smart to me.  It's not just about acquiring leads and making
