@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The 1-Page Marketing Plan"
 date: 2021-01-26
-draft: true
+draft: false
 series: book-review
 
 description: "Book Review of 'The 1-Page Marketing Plan,' by Allan
@@ -15,13 +15,13 @@ Allan Dib's book, 'The 1-Page Marketing Plan,' is a book for
 entrepreneurs to up their marketing game with a simple strategic and
 tactical vision for making more money through marketing.
 
-Dib's one sentence summary of the book given in the introduction is,
-"the fastest path to money."  And he does lay it out in slightly north
-of 200 pages in this paperback which outlines the why and how of
-marketing for an entrepreneur.  Or at least according to him this is
-the fastest path.  I'm assuming bank robbery is not an acceptable
-method to compare here.  I'll go ahead and rule out counterfeit money
-too.  Hey, that's a bunch of Monopoly money!
+Dib's one sentence summary of the book, given in the introduction, is:
+*"the fastest path to money."* And this is what he lays out in
+slightly north of 200 pages in this paperback which outlines the why
+and how of marketing for an entrepreneur.  Or at least according to
+him this is the fastest path.  I'm assuming bank robbery is not an
+acceptable method to compare here.  I'll go ahead and rule out
+counterfeit money too.  Hey, that's a bunch of Monopoly money!
 
 In all seriousness despite not having a small business, I do have
 aspirations of writing a few E-Books and making an extra dollar on this
@@ -78,8 +78,9 @@ makes sense.
 One thing I appreciated about this book was that it wasn't just about
 quick marketing or cheap sales gimmicks.  It was about building a
 quality marketing plan for a potentially very small or medium sized
-business, and one of the messages was delivering value to customers
-more than just selling them something quickly.
+business. One of the messages was delivering value to customers
+more than just selling them something quickly, and this message seems
+to have been repeated a number of times.  It must be important.
 
 The book codifies a lot of marketing tactics and how to incorporate
 them into a strategy to market a business or product.  The author
