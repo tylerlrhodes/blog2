@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The 1-Page Marketing Plan"
-date: 2021-01-26
+date: 2021-01-30
 draft: false
 series: book-review
 
