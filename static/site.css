@@ -21,11 +21,12 @@ p,a,ul,li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: black
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 .fp-post-link {
     display: inline-block;

@@ -53,8 +53,9 @@
   <body>
     <article>
       <div id="post-container" style="text-align:left">
-      <a href="/">Home</a> | <a href="/series/tech/">Technical Posts </a> | <a href="/series/book-review">Book Reviews</a> | <a href="/series/personal"> Other/Personal </a> |
-      <a href="/posts">All Posts</a>
+
+        {{ partial "head/top-nav.html" }}
+
       <header>
         <h1> {{ .Title }} </h1>
         <b>Published: </b>{{ .Date.Format "January 2, 2006" }} <br />
@@ -62,6 +63,8 @@
       </header>
       {{ .Content }}
 
+      {{ partial "footer/bottom-signup.html" }}
+      
       <hr />
        &copy; Copyright 2021, Tyler Rhodes
       </div>

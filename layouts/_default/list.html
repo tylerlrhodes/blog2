@@ -13,7 +13,11 @@
 
     <div id="main-container">
 
-    <a href="/">Home</a> | <a href="/series/tech/">Technical Posts </a> | <a href="/series/book-review">Book Reviews</a> | <a href="/series/personal"> Other/Personal </a>
+    <!-- <a href="/">Home</a> | <a href="/series/tech/">Technical Posts </a> | <a href="/series/book-review">Book Reviews</a> | <a href="/series/personal"> Other/Personal </a> -->
+
+    {{ partial "head/top-nav.html" }}
+    
+    <h1>All Posts</h1>
 
     {{ range .Pages.GroupByDate "January 2006" }}
 

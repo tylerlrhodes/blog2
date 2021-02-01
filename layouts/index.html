@@ -41,6 +41,19 @@
   <body>
     <div id="main-container"> 
 
+      <!-- <div style="text-align: left;">
+        <h4>
+          <a href="/series/tech/">Technical Posts</a> |
+          <a href="/series/book-review/">Book Reviews</a> |
+          <a href="/series/personal/">Other / Personal</a> |
+          <a href="/posts/">All Posts</a> |
+          <a href="/">Home</a> 
+          <br />
+         </h4>
+        </div> -->
+
+        {{ partial "head/top-nav.html" }}
+
       <div style="text-align:justify; text-justify:inter-word">
       <h1>Tyler Rhodes</h1>
       <img id="mypic" style="float:left; margin:0px 15px 15px 2px;" src="mypic.jpg" /> 
@@ -49,10 +62,31 @@
 	  Welcome to my blog.
     </p> -->
       <p>
-        I'm a Software Developer located in Norwalk, CT. This is my blog where I write
-        about technology, books, and a variety of other topics that spark my interest.
+        I'm a Software Developer located in Norwalk, CT. This is my blog.
       </p>
       <p>
+        While I occasionally publish a book review or personal post, this blog is 
+        going to focus in on: Flask (Python), Pedestal (Clojure), ASP.NET Core (C#/F#) and 
+        React (JavaScript).
+      </p>
+      <p>
+        To follow along and be alerted when I publish a new post or update a project 
+        subscribe to my
+        newsletter!  No spam and I won't give out your email address!
+      </p>
+        <iframe src="https://tylerrhodes.substack.com/embed" height="180" width="100%"
+          style="" frameborder="0" scrolling="no"></iframe>
+
+          <!-- <div style="text-align: center;">
+          <h4>
+            <a href="/series/tech/">Technical Posts</a> |
+            <a href="/series/book-review/">Book Reviews</a> |
+            <a href="/series/personal/">Other / Personal</a> |
+            <a href="/posts/">All Posts</a> <br />
+           </h4>
+          </div> -->
+        
+      <!-- <p>
         I have over 15 years of professional experience in the IT field, having worked in a variety of roles from desktop support
         to network consultant until most recently working as a software engineer.  
   </p>
@@ -63,18 +97,12 @@
       <p>
         Currently I'm in the market for a Software Engineering / IT position near Stamford, CT; the 
         NYC area; or remote. 
-      </p>
+      </p> -->
 
-      <p></p><a href="mailto:tylerlrhodes@gmail.com">Email me</a>.  <a href="/Tyler Rhodes 1-12-2021 Resume.pdf">View my resume</a>.</p>
+      <!-- <p></p><a href="mailto:tylerlrhodes@gmail.com">Email me</a>.  <a href="/Tyler Rhodes 1-12-2021 Resume.pdf">View my resume</a>.</p> -->
 </div>      
 
-      <h4>
-        Categories:
-        <a href="/series/tech/">Technical Posts</a> |
-        <a href="/series/book-review/">Book Reviews</a> |
-        <a href="/series/personal/">Other / Personal</a> |
-        <a href="/posts/">All Posts</a> <br />
-       </h4>
+
 
 	<h2>
 	  Recent Technical Posts:
@@ -90,6 +118,7 @@
        </div></a>
      </div>
   {{ end }} <br />
+
 
 	   <!--a href="{{ .RSSLink }}">RSS Feed</a --> 
        <!-- ShareThis BEGIN -->
