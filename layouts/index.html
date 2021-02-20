@@ -41,102 +41,54 @@
   <body>
     <div id="main-container"> 
 
-      <!-- <div style="text-align: left;">
-        <h4>
-          <a href="/series/tech/">Technical Posts</a> |
-          <a href="/series/book-review/">Book Reviews</a> |
-          <a href="/series/personal/">Other / Personal</a> |
-          <a href="/posts/">All Posts</a> |
-          <a href="/">Home</a> 
-          <br />
-         </h4>
-        </div> -->
-
         {{ partial "head/top-nav.html" }}
 
       <div style="text-align:justify; text-justify:inter-word">
-      <h1>Tyler Rhodes</h1>
-      <img id="mypic" style="float:left; margin:0px 15px 15px 2px;" src="mypic.jpg" /> 
+        <h1>Tyler Rhodes</h1>
+        <img id="mypic" style="float:left; margin:0px 15px 15px 2px;" src="mypic.jpg" /> 
+        <p>
+          I'm a Software Developer located in Norwalk, CT. This is my blog. You can email me 
+          at <a href="mailto:tylerlrhodes@gmail.com">tylerlrhodes@gmail.com.</a>
+        </p>
+        <p>
+          This blog is going to focus on developing Web Applications on AWS, using modern development 
+          practices and addressing fundamental concerns and basic knowledge.  Developing modern
+          Web Applications is complicated and entails many factors of software development.
+        </p>
+        <p>
+          You can follow it using <a href="{{ .RSSLink }}">RSS</a> or subscribe to my newsletter where 
+          I'll send out news and updates for new entries and updates!
+        </p>
+          <iframe src="https://tylerrhodes.substack.com/embed" height="180" width="95%"
+            style="" frameborder="0" scrolling="no"></iframe>
 
-	<!-- <p>
-	  Welcome to my blog.
-    </p> -->
-      <p>
-        I'm a Software Developer located in Norwalk, CT. This is my blog.
-      </p>
-      <p>
-        This blog is going to focus on developing Web Applications on AWS, using modern development 
-        practices and addressing fundamental concerns and basic knowledge.  Developing modern
-        Web Applications is complicated and entails many factors of software development.
-      </p>
-      <p>
-        You can follow it using <a href="{{ .RSSLink }}">RSS</a> or subscribe to my newsletter where 
-        I'll send out news and updates for new entries and updates!
-      </p>
-        <iframe src="https://tylerrhodes.substack.com/embed" height="180" width="95%"
-          style="" frameborder="0" scrolling="no"></iframe>
-
-          <!-- <div style="text-align: center;">
-          <h4>
-            <a href="/series/tech/">Technical Posts</a> |
-            <a href="/series/book-review/">Book Reviews</a> |
-            <a href="/series/personal/">Other / Personal</a> |
-            <a href="/posts/">All Posts</a> <br />
-           </h4>
-          </div> -->
-        
-      <!-- <p>
-        I have over 15 years of professional experience in the IT field, having worked in a variety of roles from desktop support
-        to network consultant until most recently working as a software engineer.  
-  </p>
-  <p>
-    I have expertise in the Microsoft stack including C#, ASP.NET MVC, JavaScript,
-    TSQL, SQL Server, Visual Studio, and other technologies.
-  </p>
-      <p>
-        Currently I'm in the market for a Software Engineering / IT position near Stamford, CT; the 
-        NYC area; or remote. 
-      </p> -->
-
-      <!-- <p></p><a href="mailto:tylerlrhodes@gmail.com">Email me</a>.  <a href="/Tyler Rhodes 1-12-2021 Resume.pdf">View my resume</a>.</p> -->
-</div>      
+      </div>      
 
 
 
-	<h2>
-	  Recent Technical Posts:
-	</h2>
-  {{ $t := slice "book-review" }}
-	{{ range first 5 (where .Data.Pages ".Params.series" "==" "tech") }}
-	   <div class="card">
-      <a class="fp-card-link" href="{{ .Permalink }}">
-       <div class="container">
-         <div class="fp-link-title">{{ .Title }}</div>
-         <div class="fp-link-description">{{ .Params.Description }}</div>
-         <div class="fp-link-published">Published: {{ .PublishDate.Format "January 2, 2006" }}</div>
-       </div></a>
-     </div>
-  {{ end }} <br />
+      <h2>
+        Recent Technical Posts:
+      </h2>
+      {{ $t := slice "book-review" }}
+      {{ range first 5 (where .Data.Pages ".Params.series" "==" "tech") }}
+        <div class="card">
+          <a class="fp-card-link" href="{{ .Permalink }}">
+          <div class="container">
+            <div class="fp-link-title">{{ .Title }}</div>
+            <div class="fp-link-description">{{ .Params.Description }}</div>
+            <div class="fp-link-published">Published: {{ .PublishDate.Format "January 2, 2006" }}</div>
+          </div></a>
+        </div>
+      {{ end }} <br />
 
-
-	   <!--a href="{{ .RSSLink }}">RSS Feed</a --> 
-       <!-- ShareThis BEGIN -->
-       <h3>Follow me on Social Media:</h3>
-       <div class="sharethis-inline-follow-buttons"></div>
-       <br />
-       &copy; Copyright 2021, Tyler Rhodes
-  </div>
-       <!-- ShareThis END -->
+      <h3>Follow me on Social Media:</h3>
+      <div class="sharethis-inline-follow-buttons"></div>
+      <br />
+      &copy; Copyright 2021, Tyler Rhodes
+    </div>
+      <!-- ShareThis END -->
 <!--End mc_embed_signup-->
-<!-- <h2>Links and Social Media:</h2>
-  <a href="/Tyler Rhodes 1-12-2021 Resume.pdf">Resume</a> <br />
-  <a href="mailto:tylerlrhodes@gmail.com">Email Me</a> <br />
-  <a href="https://linkedin.com/in/rhodest">Linkedin</a> <br />
-	<a href="https://github.com/tylerlrhodes/">Github</a> <br />
-	<a href="https://twitter.com/itcheeze">Twitter</a> <br />
-	<a href="https://www.facebook.com/tyler.rhodes.5648">Facebook</a> <br />
-  <a href="https://stackoverflow.com/users/4372254/tyler-rhodes?tab=profile">StackOverflow</a> <br />     -->
-  <!-- a href="/pictures">Some Pictures</a -->
+
     <script type="application/javascript">
       var doNotTrack = false;
       if (!doNotTrack) {
