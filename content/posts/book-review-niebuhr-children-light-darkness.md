@@ -1,6 +1,6 @@
 ---
 title: "Book Review: The Children of Light and The Children of Darkness"
-date: 2021-02-20T14:41:41-05:00
+date: 2021-02-20
 draft: false
 description: "My review of Reinhold Niebuhr's book, 'The Children of
 Light and The Children of Darkness.'"
