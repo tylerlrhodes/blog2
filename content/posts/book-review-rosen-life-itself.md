@@ -1,6 +1,6 @@
 ---
 title: "Book Review: Life Itself"
-date: 2021-02-25T08:49:08-05:00
+date: 2021-02-28T08:49:08-05:00
 draft: false
 series: book-review
 tags: [biology, science, philosophy]
@@ -36,7 +36,7 @@ notation and models that Rosen builds are key to his answer.
 
 The book was really something I enjoyed reading even though it was a
 hard read.  While I may not have gotten the math as well as possible,
-I feel like I understood 90% or it or so.  There is one chapter on
+I feel like I understood 90% of it or so.  There is one chapter on
 "state" and recursivity, which I thought was trickier than the others,
 but mostly because of the derivative analogies.  It's been too long
 since I have thought about a derivative, and differential equations
