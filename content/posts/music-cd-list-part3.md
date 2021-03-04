@@ -1,6 +1,6 @@
 ---
 title: "A Refactoring Project in Python: Music CD List, Part 3 of 3"
-date: 2021-02-19T19:11:10-05:00
+date: 2021-03-05T19:11:10-05:00
 draft: true
 series: tech
 
@@ -10,13 +10,12 @@ tags: [programming]
 keywords: [python, unittest, linked list, refactor]
 ---
 
-Where I left the Music CD List at the end of [part
-2](/posts/music-cd-list-part2) was as a simple application (which it
-remains) that allows you to maintain a list of CDs and save it in CSV
-format.  What started as a poorly contrived example to work on
-building a Linked List "Pythonically" has grown to provide a
-thread-safe `ListStore` based upon Python's `MutableSequence`
-abstraction, which I use to store the list of CDs.
+At the end of [part 2](/posts/music-cd-list-part2) the Music CD List
+was left off as a simple application that allows you to maintain a
+list of CDs and save it in CSV format.  It started as an example
+program making use of a hand-coded Linked List to demonstrate
+refactoring to the Pythonic, and it has grown to a web application
+with a thread safe 'ListStore.'
 
 At this point it's slightly ridiculous, and I made it more so between
 posts by adding in server-side pagination and sorting.  It's gotten to
@@ -30,10 +29,18 @@ the API Gateway.  With the `ListStore` abstraction, while it could be
 messy, it may be possible to introduce server side storage utilizing
 something like S3 or DynamoDB depending upon how crazy the design
 gets.  It will also need some authentication, otherwise anybody on the
-internet would be able to add and see CDs.
+internet would be able to add and see CDs.  But this project is
+will be another series of posts if I ever get around to it.
 
-But, before that evolves into another post, or posts, I'm going to
-finish up this Pythonic refactoring project.
+I had said towards the end of the last post that this post would focus
+on the deployment and wrapping up this litle project, doing things
+like making the web interface nice.  I'd say the web interface is
+about as baked as it's going to get for this, and you can check out
+the React/Bootstrap front-end and the pagination in the Github repo.
+
+Before I finish it off with a Ansible and Terraform deployment to
+my EC2 instance, let's take a brief look back at trying to make it
+"Pythonic."
 
 ### The Quest for the Pythonic ###
 
@@ -69,11 +76,45 @@ the Pythonic way).  I'll also incorporate advice from the book
 
 Then, to finish it off I'll write up a summary reflecting on PEP 20,
 and how I setup my VS Code project using linting and unit testing to
-help me get to the point where I didn't think this was too terrible to
-write a series of blog posts about.
+help me get to the point where I didn't think this was too embarassing
+to put on the internet.
 
 ### Reviewing Music CD List for the "Un-Pythonic" ###
 
+1) Search for obviously Un-Pythonic code:
 
+Somehow I can't find any obvious examples right away in the sample
+program.  If only I was reviewing the JavaScript!  I'll let this slide
+for now, there are a few variable names I could change, but that would
+be boring.  So much for a few obvious examplee.
+
+2) Consider PEP 20 - The Zen of Python
+
+With the code relatively fresh in my mind I read through the aphorisms
+contained in PEP 20 and picked out a few to focus on.
+
+* Beautiful is better than ugly
+
+Without going to extremes, this is a straightforward thing to
+evaluate and I think here I've done okay.  None of the code in
+Music CD List is terrible to look at, and overall it has a simple
+design, I think.  I'll leave it to the reader to easily disagree.
+Hey, it could have been C# or Clojure!
+
+* Errors should never pass silently.
+
+Hmmm, I kind of took a flyer on this one.  Not only do errors not
+silently pass, they take a crash and burn approach.  I could probably
+pick up a few points on this code by adding in better exception
+handling.  I've seen idomatic Python that uses exception handling as a
+course of normal code flow and program control, more so than I'd say
+is typical in other languages, and it has thrown me for a loop on
+occasion.
+
+I actually ran into this when implementing support for mutable
+sequences.  During the iteration there is a "stop condition" that
+apparently expects and Exception to be thrown to stop the iteration!
+
+* Readability counts.
 
 
