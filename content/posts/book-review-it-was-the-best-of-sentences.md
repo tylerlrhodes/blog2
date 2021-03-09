@@ -2,7 +2,7 @@
 title: "Book Review: It was the best of sentences, it was the worst of
 sentences."
 date: 2021-03-03T07:29:09-05:00
-draft: true
+draft: false
 description: "Book review of June Casagrande's 'It was the best of
 sentences, it was the worst of sentences.  A short book detailing how
 to write better sentences."
@@ -11,9 +11,10 @@ keywords: [grammar, writing]
 tags: [grammar, writing]
 ---
 
-Well, here I am, surely, about to violate June's recommendations for
-writing from her book, 'It was the best of sentences, it was the worst of
-sentences.'  I hope not too badly anyway.
+Well, here I am, surely, about to violate June Casagrande's
+recommendations for writing from her book, 'It was the best of
+sentences, it was the worst of sentences.'  I hope not too badly
+anyway.
 
 June's book is a short work on writing better sentences.  It was
 especially useful for me, because I am not great at grammar per se.
