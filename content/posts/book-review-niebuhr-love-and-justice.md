@@ -1,6 +1,6 @@
 ---
 title: "Book Review: Love and Justice"
-date: 2021-03-13T09:32:09-05:00
+date: 2021-03-28T09:32:09-05:00
 draft: false
 series: book-review
 description: "My book review of Rienhold Niebuhr's Love and Justice, a
