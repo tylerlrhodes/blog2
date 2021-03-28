@@ -2,11 +2,11 @@
 <html lang="en">
   {{ $title := "Posts" }}
     {{ if eq .Title "tech" }}
-      {{ $title = "Technology Posts" }}
+      {{ $title := "Technology Posts" }}
     {{ else if eq .Title "book-review" }}
-      {{ $title = "Book Reviews"}}
+      {{ $title := "Book Reviews"}}
     {{ else }}
-      {{ $title = "Other / Personal" }}
+      {{ $title := "Other / Personal" }}
     {{ end }}
   <head>
     <meta charset="utf-8" />

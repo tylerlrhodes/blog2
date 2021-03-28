@@ -29,8 +29,8 @@ the API Gateway.  With the `ListStore` abstraction, while it could be
 messy, it may be possible to introduce server side storage utilizing
 something like S3 or DynamoDB depending upon how crazy the design
 gets.  It will also need some authentication, otherwise anybody on the
-internet would be able to add and see CDs.  But this project is
-will be another series of posts if I ever get around to it.
+internet would be able to add and see CDs.  But that project will be
+another series of posts if I ever get around to it.
 
 I had said towards the end of the last post that this post would focus
 on the deployment and wrapping up this litle project, doing things
@@ -38,9 +38,8 @@ like making the web interface nice.  I'd say the web interface is
 about as baked as it's going to get for this, and you can check out
 the React/Bootstrap front-end and the pagination in the Github repo.
 
-Before I finish it off with a Ansible and Terraform deployment to
-my EC2 instance, let's take a brief look back at trying to make it
-"Pythonic."
+Before I go over packaging it up into a Docker based build and image
+which can run the application, I'll go over the refactoring.
 
 ### The Quest for the Pythonic ###
 
@@ -55,8 +54,8 @@ In between posts I added a Flask Web API and also a simple React based
 front-end application to make it easier to actually use the CD List.
 As it stands now, you can add CDs through the GUI, upload or download
 the list as a CSV, and sort and paginate the results.  It's a simple
-interface that works reasonably well so far, if unfinished because you
-can't edit or delete CDs through the web interface yet.
+interface that works reasonably well so far -- if yet unfinished
+because you can't edit or delete CDs through the web interface yet.
 
 But returning to the original task of the series of posts, and not
 getting drawn into continually developing it, it's time to offer some
@@ -93,7 +92,7 @@ be boring.  So much for a few obvious examplee.
 With the code relatively fresh in my mind I read through the aphorisms
 contained in PEP 20 and picked out a few to focus on.
 
-* Beautiful is better than ugly
+*Beautiful is better than ugly*
 
 Without going to extremes, this is a straightforward thing to
 evaluate and I think here I've done okay.  None of the code in
@@ -101,7 +100,7 @@ Music CD List is terrible to look at, and overall it has a simple
 design, I think.  I'll leave it to the reader to easily disagree.
 Hey, it could have been C# or Clojure!
 
-* Errors should never pass silently.
+*Errors should never pass silently.*
 
 Hmmm, I kind of took a flyer on this one.  Not only do errors not
 silently pass, they take a crash and burn approach.  I could probably
@@ -113,8 +112,44 @@ occasion.
 
 I actually ran into this when implementing support for mutable
 sequences.  During the iteration there is a "stop condition" that
-apparently expects and Exception to be thrown to stop the iteration!
+apparently expects an Exception to be thrown to stop the iteration!
 
-* Readability counts.
+*Readability counts.*
+
+Readability definitely counts, and I like to think that in general I
+can write code that is readable.  It's not always a given, but I try
+to write things out well, and that means sometimes not writing code
+in the shortest, or contraversly, longest way possible.
+
+After having experience I've also found different code bases become
+more or less readable after spending more time with them, and
+sometimes readability becomes intertwined with the architecture and
+layout of the code.  I think the readability increases the more one
+becomes familiar with the idioms and style of the author -- hence,
+here, the Pythonic.  Following the Pythonic style (and a somewhat
+standard layout) in general adds to the readability for potential new
+contributors right away.
+
+*Now is better than never.*
+
+<i>Although never is often better than *right* now.</i>
+
+These two are the reason the Music CD List exists basically.  I could
+have waited and studied the "Pythonic" and everything written on it
+for months before diving into this.  That said, I wouldn't have a
+half-baked Music CD List if I didn't (hey, wait a second).  Although
+that's more due to not having a great idea to start with more than
+striving for the Pythonic.
+
+I read these two aphorisms as contradictions.  I could be wrong, but I
+don't think the second one is meant to be taken seriously.  I'm great
+at procrastinating myself, and know how the second one works for me.
+But they are fungible enough to fit many situations equally well.
+
+### Deployment ###
+
+
+
+
 
 

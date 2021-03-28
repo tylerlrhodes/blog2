@@ -5,7 +5,7 @@ Import-Module AWSPowerShell.NetCore
         
 Remove-Item "public" -Recurse -Force
 
-git checkout cloudfront
+#git checkout cloudfront
 
 hugo 
 
