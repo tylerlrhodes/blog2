@@ -10,49 +10,46 @@ tags: [programming]
 keywords: [python, unittest, linked list, refactor]
 ---
 
-At the end of [part 2](/posts/music-cd-list-part2) the Music CD List
-was left off as a simple application that allows you to maintain a
-list of CDs and save it in CSV format.  It started as an example
-program making use of a hand-coded Linked List to demonstrate
-refactoring to the Pythonic, and it has grown to a web application
-with a thread safe 'ListStore.'
+The Music CD List started as an example program making use of a
+hand-coded Linked List to demonstrate refactoring to the Pythonic, and
+it has grown to a web application with a thread safe 'ListStore.'  By
+the end of [part 2](/posts/music-cd-list-part2) it had a functional
+web front-end with a number of features.
 
-At this point it's slightly ridiculous, and I made it more so between
-posts by adding in server-side pagination and sorting.  It's gotten to
-the point where after this third post's final attempt to make it more
-Pythonic, I actually want to use it!  I frequently hear a song or CD
-and forget what it is later, why not use this to write it down!
+Now it's time to wrap up this blog series and review a little bit.  In
+addition to talking about the refactoring and Pythonic I'll also go
+over the packaging I did between blog posts to dump the application
+into a Docker image.
 
-It will turn into a reasonably fun project to make the SPA and API
-driven design of the application into a AWS Lambda project utilzing
-the API Gateway.  With the `ListStore` abstraction, while it could be
-messy, it may be possible to introduce server side storage utilizing
-something like S3 or DynamoDB depending upon how crazy the design
-gets.  It will also need some authentication, otherwise anybody on the
-internet would be able to add and see CDs.  But that project will be
-another series of posts if I ever get around to it.
+It's left in a state where it could be taken further in a number of
+different directions.  One option, would be to turn it into a
+Serverless application on AWS.  Another option, though arguably less
+fun, would be to make it a more traditional server based application.
+The utility of the existing `ListStore` abstraction that came about in
+the second post would depend upon the required persistence model the
+future version would require.  The Serverless edition would likely
+favor changing the `ListStore`, or replacing it.
 
-I had said towards the end of the last post that this post would focus
-on the deployment and wrapping up this litle project, doing things
-like making the web interface nice.  I'd say the web interface is
-about as baked as it's going to get for this, and you can check out
-the React/Bootstrap front-end and the pagination in the Github repo.
+For now the application is as baked as it's going to be for the near
+future.  The future of the Music CD List is most likely for it to sit,
+unadmired, gathering internet dust on the shelves of useless example
+repositories gathered on GitHub.
 
-Before I go over packaging it up into a Docker based build and image
+But anyway, before I go over packaging it up into a Docker based build and image
 which can run the application, I'll go over the refactoring.
 
 ### The Quest for the Pythonic ###
 
 I started this series of posts with a simple Linked List storing a
 list of CDs that was entered directly in the code.  Then, I added in
-some unit tests, and finally an abstraction to allow for any data
-store to be used to back the CD list.  In actuality, the abstraction
-ended up just being Python's `MutableSequence`, but hey, it works.  So
-far I've yet to use anything besides the Linked List.
+some unit tests, and finally an abstraction with the idea of allowing
+any data structure to be used to back the CD list.  In the end, the
+abstraction ended up using Python's `MutableSequence`, but hey, it
+works.  So far I've yet to use anything besides the Linked List.
 
 In between posts I added a Flask Web API and also a simple React based
 front-end application to make it easier to actually use the CD List.
-As it stands now, you can add CDs through the GUI, upload or download
+Now, you can add CDs through the GUI, upload or download
 the list as a CSV, and sort and paginate the results.  It's a simple
 interface that works reasonably well so far -- if yet unfinished
 because you can't edit or delete CDs through the web interface yet.
@@ -147,6 +144,57 @@ at procrastinating myself, and know how the second one works for me.
 But they are fungible enough to fit many situations equally well.
 
 ### Deployment ###
+
+I developed the Music CD List basically as a demo app, and while I may
+grow it to use as an AWS example, for now I'm going to keep the
+"deployment" fairly simple.  The end state of this series of posts is
+the application capable of being built into a Docker container and
+run.
+
+While I was developing it I switched from VS Code to PyCharm, and
+found debugging both the SPA portion and the Python portion simple
+within both of these environments.  I tend to lean a little bit
+towards liking PyCharm better at this moment, but either is fine and
+easy to setup as is.
+
+To run it locally and not in the Docker container, you simply launch
+the Python Flask application after installing the requirements (from
+"requirements.txt" -- I setup a Virtual Environment) and then run the
+React frontend.  The frontend was setup simply using the "Create React
+App" tool provided with Ract and can be launched for debugging with
+"npm start" from the command line after setting an environment
+variable for the host and port the Flask application is listening on.
+If you look through the Dockerfile you can see the environment
+variable to set.
+
+After the first time of running the application it becomes very easy,
+and easy to also integrate with VS Code or PyCharm, and I switch
+around between IDEs enough not to be totally a "super expert" in any
+(as I write this in Emacs).
+
+To finish it off and leave this series of posts with a somewhat
+"finished" product I packaged it up into a Docker container which
+serves the static front end using nginx while proxying the API calls
+to the Flask app using the standard uwsgi.
+
+I was able to make use of the multistage Docker build, where I use a
+node Docker image to build the SPA, and then copy the build output to
+the Python Docker image where nginx and uwsgi are setup along with the
+Python app.  I customized the uwsgi and nginx configurations a little
+from what may be considered the norm because this application supports
+multiple threads, but not multiple processes.  With multiple processes
+you start to see inconsistent results because the state is stored in
+process and not shared between the proccesses.
+
+I certainly wouldn't consider the current Docker setup ready for
+production, as there are a few best practices I'm not following.
+Starting with what would probably be considered the questionable use
+of a shell script to launch multiple processes instead of supervisor
+or something like that.  But for a cheap, fast, locally runnable
+"finsihed" product I think it's fine.
+
+
+
 
 
 
