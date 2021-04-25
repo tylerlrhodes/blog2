@@ -89,7 +89,7 @@
         Recent Technical Posts:
       </h2>
       {{ $t := slice "book-review" }}
-      {{ range first 5 (where .Data.Pages ".Params.series" "==" "tech") }}
+      {{ range first 5 (where .Site.RegularPages ".Params.series" "==" "tech") }}
         <div class="card">
           <a class="fp-card-link" href="{{ .Permalink }}">
           <div class="container">

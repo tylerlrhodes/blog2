@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Stranger"
-date: 2021-04-10T13:55:02-04:00
-draft: true
+date: 2021-04-24
+draft: false
 series: book-review
 description: "My book review of The Stranger by Albert Camus.  I
 thought it was good, I think?"

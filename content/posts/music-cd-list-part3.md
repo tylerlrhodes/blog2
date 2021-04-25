@@ -5,7 +5,9 @@ draft: true
 series: tech
 
 description: "The third and final entry about refactoring a simple
-Python program to be more 'Pythonic.'"
+Python program to be more Pythonic.  Mostly a review and no code is
+shown."
+
 tags: [programming]
 keywords: [python, unittest, linked list, refactor]
 ---
@@ -51,7 +53,7 @@ In between posts I added a Flask Web API and also a simple React based
 front-end application to make it easier to actually use the CD List.
 Now, you can add CDs through the GUI, upload or download
 the list as a CSV, and sort and paginate the results.  It's a simple
-interface that works reasonably well so far -- if yet unfinished
+interface that works reasonably well so far -- if unfinished
 because you can't edit or delete CDs through the web interface yet.
 
 But returning to the original task of the series of posts, and not
@@ -72,7 +74,7 @@ the Pythonic way).  I'll also incorporate advice from the book
 
 Then, to finish it off I'll write up a summary reflecting on PEP 20,
 and how I setup my VS Code project using linting and unit testing to
-help me get to the point where I didn't think this was too embarassing
+help me get to the point where I didn't think this was too embarrassing
 to put on the internet.
 
 ### Reviewing Music CD List for the "Un-Pythonic" ###
@@ -82,7 +84,7 @@ to put on the internet.
 Somehow I can't find any obvious examples right away in the sample
 program.  If only I was reviewing the JavaScript!  I'll let this slide
 for now, there are a few variable names I could change, but that would
-be boring.  So much for a few obvious examplee.
+be boring.  So much for a few obvious example.
 
 2) Consider PEP 20 - The Zen of Python
 
@@ -99,10 +101,10 @@ Hey, it could have been C# or Clojure!
 
 *Errors should never pass silently.*
 
-Hmmm, I kind of took a flyer on this one.  Not only do errors not
+Hmm, I kind of took a flier on this one.  Not only do errors not
 silently pass, they take a crash and burn approach.  I could probably
 pick up a few points on this code by adding in better exception
-handling.  I've seen idomatic Python that uses exception handling as a
+handling.  I've seen idiomatic Python that uses exception handling as a
 course of normal code flow and program control, more so than I'd say
 is typical in other languages, and it has thrown me for a loop on
 occasion.
@@ -116,7 +118,7 @@ apparently expects an Exception to be thrown to stop the iteration!
 Readability definitely counts, and I like to think that in general I
 can write code that is readable.  It's not always a given, but I try
 to write things out well, and that means sometimes not writing code
-in the shortest, or contraversly, longest way possible.
+in the shortest, or, also, the longest way possible.
 
 After having experience I've also found different code bases become
 more or less readable after spending more time with them, and
@@ -134,7 +136,7 @@ contributors right away.
 These two are the reason the Music CD List exists basically.  I could
 have waited and studied the "Pythonic" and everything written on it
 for months before diving into this.  That said, I wouldn't have a
-half-baked Music CD List if I didn't (hey, wait a second).  Although
+half-baked Music CD List if I did that (hey, wait a second).  Although
 that's more due to not having a great idea to start with more than
 striving for the Pythonic.
 
@@ -160,8 +162,8 @@ easy to setup as is.
 To run it locally and not in the Docker container, you simply launch
 the Python Flask application after installing the requirements (from
 "requirements.txt" -- I setup a Virtual Environment) and then run the
-React frontend.  The frontend was setup simply using the "Create React
-App" tool provided with Ract and can be launched for debugging with
+React front-end.  The front-end was setup simply using the "Create React
+App" tool provided with React and can be launched for debugging with
 "npm start" from the command line after setting an environment
 variable for the host and port the Flask application is listening on.
 If you look through the Dockerfile you can see the environment
@@ -184,14 +186,33 @@ Python app.  I customized the uwsgi and nginx configurations a little
 from what may be considered the norm because this application supports
 multiple threads, but not multiple processes.  With multiple processes
 you start to see inconsistent results because the state is stored in
-process and not shared between the proccesses.
+process and not shared between the processes.
 
 I certainly wouldn't consider the current Docker setup ready for
 production, as there are a few best practices I'm not following.
 Starting with what would probably be considered the questionable use
 of a shell script to launch multiple processes instead of supervisor
 or something like that.  But for a cheap, fast, locally runnable
-"finsihed" product I think it's fine.
+"finished" product I think it's fine.
+
+### To Wrap It Up ###
+
+The Music CD List is by no means a perfect project, but considering it
+started as just a link list with no aim or requirements, I think it's
+turned out decent to show working towards the Pythonic.
+
+Perhaps a better scenario would have been a more fully featured mess
+of code which could have been refactored, as this more or less started
+small and was kind-of "refactored" along the way.  I also skimped on
+talking about "Effective Python" and changes based upon
+recommendations from that book like I said I would do in this post,
+but oh well.
+
+The project is left off
+[here](https://github.com/tylerlrhodes/cd-list-refactoring-demo/tree/music_cd_list_post3a)
+and tagged with 'music_cd_list_post3a.'  Any additions or updates will
+show up in the main branch, but pretty much this repo is finished as
+is this series of entries.
 
 
 

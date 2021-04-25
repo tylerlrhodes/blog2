@@ -1,7 +1,7 @@
 ---
 title: "Book Review: Violence and the Sacred"
-date: 2021-05-01
-draft: true
+date: 2021-04-24
+draft: false
 series: book-review
 description: "A book review of Rene Girard's Violence and The Sacred"
 tags: [book-review]
@@ -21,14 +21,13 @@ culture is quite a large claim.  To back it up, Girard takes the time
 to demonstrate the inner workings of mimetic theory, here, more or
 less called the "surrogate victim theory," and shows how it fully
 illuminates the nature of ritual and sacrifice.  By applying his
-theory to myth and tragedy Girard shows how his theory of the
-surrogate victim reveals the hidden founding mechanism that leads to
-ritual and the sacred.
+theory to myth and tragedy Girard shows how it reveals the hidden
+founding mechanism that leads to ritual and the sacred.
 
 Girard's theory is that an original murder committed by a community
 saves the community from itself.  Through the murder of a scapegoat,
 or, surrogate victim, the community experiences a catharsis of sorts,
-freeing itself from the destructive reciprical violence which had
+freeing itself from the destructive reciprocal violence which had
 threatened its continued existence.
 
 This "founding murder" is purported to be such a powerful event
@@ -43,7 +42,7 @@ violence.  The natural growth of violence directed by members of the
 community towards each other continues to grow and eventually there
 are two potential outcomes. Either the violence ultimately destroys
 the community it had enveloped, or, through the process of a unanimous
-murder, an event which directs the reciprical violence towards a
+murder, an event which directs the reciprocal violence towards a
 scapegoat, the community is saved from destroying itself.  This
 scapegoat bears all of the ills of the society, and being unable to
 reciprocate, the escalation of violence goes into remission.
@@ -69,7 +68,7 @@ The theory is built up and demonstrated by an examination of myth,
 tragedy, and ethnological studies which reveal the function of
 sacrifice.  Girard draws heavily on Greek tragedy, both *Oedipus*, and
 *The Bacchae*, in revealing the inner workings of the surrogate victim
-and something he calls the "sacrifical crisis."  The most in depth
+and something he calls the "sacrificial crisis."  The most in depth
 demonstration of the surrogate victim is taken from these plays,
 however, Girard also relates the same mechanism to other cultures and
 myths throughout the book. 
@@ -77,8 +76,8 @@ myths throughout the book.
 The Oedipus plays are used as the prime example in the text.  From
 these plays, and also The Bacchae, Girard demonstrates how the poets
 succeed in "demystifying" myth by revealing the symmetrical quality of
-tragedy, and the nature of reciprical violence.  Girard develops and
-displays what he calls the "sacrifical crisis," wherein the rituals no
+tragedy, and the nature of reciprocal violence.  Girard develops and
+displays the notion of a "sacrificial crisis," wherein the rituals no
 longer function in warding off escalating violence, before then
 displaying how a unanimous action of violence towards a surrogate
 victim bring order back to the community.
@@ -105,7 +104,7 @@ and Taboo*, Girard again shows Freud being "almost right."  While in
 his text Freud even talks about an original murder, he misses the
 function of the surrogate victim.
 
-The strongest portraly of the accuracy of Girard's mimetic theory, in
+The strongest portrayal of the accuracy of Girard's mimetic theory, in
 my opinion, is when he clearly portrays it's function in myth and
 studies of primitive cultures which he brings into the book.
 
@@ -117,30 +116,30 @@ and institution, and more modern forms of ritual, all descend from the
 same origins.  He does back this leap up with example and analysis,
 but not as thoroughly as he does with primitive culture.  Tracing the
 link through ritual in this book does not seem to be it's primary aim,
-although with his comparisons of Frued and also kinship and marriage
+although with his comparisons of Freud and also kinship and marriage
 structures, Girard makes it possible to continue in this vain.
 
 The functional aspect of mimetic theory is that through the sacrifice
 of a surrogate victim, the violence which threatens to engulf a
 society is warded off.  By this mechanism, where society attempts to
-shut down the reciprical nature of "bad" violence by "good" violence,
+shut down the reciprocal nature of "bad" violence by "good" violence,
 society is able maintain its social order.  The core function of
 ritual sacrifice for primitive man is to control violence and maintain
 order.
 
-Modern society, of course, has other means to ward off reciprical
+Modern society, of course, has other means to ward off reciprocal
 violence.  The judicial system gives society the means of preventing
 retribution from spreading too far as it has a monopoly on the use of
 violence.  Although for Girard the function of the judiciary is in
 essence the same as sacrifice in a way, that is, by preventing
 violence from growing, it is hard to clearly link the progression from
-ritual sacrificee to the judiciary.  For me it is anyway.
+ritual sacrifice to the judiciary.  For me it is anyway.
 
 However, Girard makes an excellent case throughout the book that modern
 society itself is derived from the mechanism of the surrogate victim.
 Later in the book he discusses the "unity of all rites" and shows how
 the maintenance of social order, or, the necessity of difference
-amongst people, is critical in the functioning of society.  This, to
+among people, is critical in the functioning of society.  This, to
 modern society, according to Girard, is hard to grasp.  In modern
 society it is more common to play down differences.  The modern person
 is less likely to fear the unknown, or the similar, and Girard
@@ -148,14 +147,12 @@ attributes this to the judiciary and state power.  Modern society,
 while nowhere near immune to violence, is less aware and fearful of it
 than the primitive.
 
-
-
 From the beginning of the book:
 
 >> Because the victim is sacred, it is criminal to kill him -- but the
    victim is sacred only because he is to be killed.
 
-Girard posits that myth and sacrfice must and indeed do stem from a
+Girard posits that myth and sacrifice must and indeed do stem from a
 real original event -- a founding murder that saves the community from
 the violence that engulfs it.  The community then seeks through
 reproducing this event in the form of ritual sacrifice to ward off
@@ -168,12 +165,26 @@ how to prevent it from spreading.  He calls out the fact that
 violence, once stirred up, must find an outlet.  Even if the outlet
 isn't in fact the original source that instigated it.  Through this,
 the surrogate victim mechanism is discovered, the founding murder is
-commited, and the ritual of sacrifice is born.
+committed, and the ritual of sacrifice is born.
 
-Violence is the only mechanism which can end violence.
+Violence is the only mechanism which can end violence, and the ability
+of a community to prevent violence through sacrifice results in the
+ritual and culture which develop in primitive groups.  This ritual
+eventually loses sight of the original murder it was founded upon,
+containing only vestiges of its founding mechanism.
 
-Sacrifice and ritual become the communities methodology to ward off
-violence, to keep it at bay, so that the community can endure.
+The book, *Violence and The Sacred,* of course, goes much further than I
+have in this review in explaining how all of this works, and the
+implications it has upon the founding of culture.
+
+It is an immensely interesting read, and written convincingly in a way
+that kept me following along and even highlighting and taking notes.
+Girard makes an excellent case for his theory, both in this book, and
+in other books of his.
+
+
+
+
 
 
 

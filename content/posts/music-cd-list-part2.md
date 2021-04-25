@@ -350,3 +350,7 @@ I'll also give the whole project a once over looking at it from the
 perspective of the book 'Effective Python' by Brett Slatkin to see if
 there aren't some additional changes to make it even more Pythonic.
 
+*(Note, the third post doesn't actually end up covering the custom sort
+method, and is more of a review.  However, the GitHub repo does show
+pagination and sorting from the React based web application, and
+ultimately pacakges it up into a docker container.)*
