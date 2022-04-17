@@ -1,7 +1,7 @@
 ---
 title: "A Refactoring Project in Python: Music CD List, Part 3 of 3"
 date: 2021-03-05T19:11:10-05:00
-draft: true
+draft: false
 series: tech
 
 description: "The third and final entry about refactoring a simple
@@ -214,4 +214,3 @@ and tagged with 'music_cd_list_post3a.'  Any additions or updates will
 show up in the main branch, but pretty much this repo is finished as
 is this series of entries.
 
-abc

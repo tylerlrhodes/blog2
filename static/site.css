@@ -5,11 +5,11 @@
 
 html {
     font-size: 16px;
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(FF,FF,FF);
 }
 
 * {
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Times New Roman', arial, sans-serif;
 }
                      
 body, input, button {
